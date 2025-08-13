@@ -1,4 +1,4 @@
-
+import { randomKeywordsObj, HomeWhyUsSlidesData } from "../HomePageData";
 import KeywordsSlider from "./KeywordsSlider";
 import WhyUsSlide from "./WhyUsSlide";
 
@@ -26,10 +26,10 @@ const HomeWhyUs = () => {
           </p>
         </div>
         <div className="z-[4]">
-          <WhyUsSlide />
+          <WhyUsSlide data={HomeWhyUsSlidesData}/>
         </div>
       </div>
-      <KeywordsSlider/>
+      <KeywordsSlider data={randomKeywordsObj}/>
     </div>
   );
 };

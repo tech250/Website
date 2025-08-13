@@ -3,9 +3,8 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 import { FreeMode, Autoplay } from "swiper/modules";
-import { HomeWhyUsSlidesData } from "./SlidesData.js";
 
-export default function WhyUsSlide() {
+export default function WhyUsSlide({data}) {
   return (
     <Swiper
       breakpoints={{
@@ -33,7 +32,7 @@ export default function WhyUsSlide() {
       modules={[FreeMode, Autoplay]}
       className="w-full"
     >
-      {HomeWhyUsSlidesData.map((obj) => (
+      {data.map((obj) => (
         <SwiperSlide key={obj.heading}>
           <div className="flex flex-col gap-6">
             <div className="p-6 rounded-full border w-fit"></div>
