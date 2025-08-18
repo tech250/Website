@@ -177,43 +177,86 @@ export const productSlidesData = [
 
 export const testimonialCards = [
   {
-    starcolor: "",
-    description: "",
-    name: "",
-    designation: "",
-    textcolor: "",
-    bgColor: "",
+    starcolor: "yellow-600",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
+    name: "Myank Behl",
+    designation: "Software developer",
+    textcolor: "text-white/80",
+    bgColor: "bg-slate-700",
+    specificCss:
+      "relative md:translate-x-[20%] z-[2] rotate-[-8deg] mt-[80px] sm:mt-[60px] md:mt-[120px]",
+    lineColor: "white/80",
   },
   {
-    starcolor: "",
-    description: "",
-    name: "",
-    designation: "",
-    textcolor: "",
-    bgColor: "",
+    starcolor: "white",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
+    name: "Myank Behl",
+    designation: "Software developer",
+    textcolor: "text-white/80",
+    bgColor: "bg-blue-500",
+    specificCss:
+      "z-[4] rotate-[-9deg] mt-[20px] -translate-x-[20%] sm:-translate-x-[40%] md:translate-x-0",
+    lineColor: "white/80",
   },
   {
-    starcolor: "",
-    description: "",
-    name: "",
-    designation: "",
-    textcolor: "",
-    bgColor: "",
+    starcolor: "yellow-600",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
+    name: "Myank Behl",
+    designation: "Software developer",
+    textcolor: "text-black/80",
+    bgColor: "bg-slate-100",
+    specificCss:
+      "z-[3] rotate-[12deg] -translate-x-[60%] md:translate-x-[-20%]",
+    lineColor: "black/80",
   },
   {
-    starcolor: "",
-    description: "",
-    name: "",
-    designation: "",
-    textcolor: "",
-    bgColor: "",
+    starcolor: "yellow-600",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
+    name: "Myank Behl",
+    designation: "Software developer",
+    textcolor: "text-black/80",
+    bgColor: "bg-green-200",
+    specificCss:
+      "z-[5] md:translate-x-[80%] rotate-[5deg] -mt-[60px] md:-mt-[120px]",
+    lineColor: "black/80",
   },
   {
-    starcolor: "",
-    description: "",
-    name: "",
-    designation: "",
-    textcolor: "",
-    bgColor: "",
+    starcolor: "yellow-600",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
+    name: "Myank Behl",
+    designation: "Software developer",
+    textcolor: "text-white/80",
+    bgColor: "bg-black",
+    specificCss:
+      "z-[6] rotate-[10deg] -mt-[120px] md:-mt-[150px] -translate-x-[80px] md:translate-x-[40%]",
+    lineColor: "white/80",
+  },
+];
+
+export const faqData = [
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
   },
 ];

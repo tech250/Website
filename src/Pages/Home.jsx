@@ -1,3 +1,6 @@
+import Cta from "../components/common/CTA/Cta";
+import FAQSection from "../components/common/Faq/FAQSection";
+import Footer from "../components/common/Footer";
 import HomeAboutUs from "../components/Home/AboutUsSection/HomeAboutUs";
 import HeroSection from "../components/Home/HeroSection/HeroSection";
 import HomeWhyUs from "../components/Home/HomeWhyUs/HomeWhyUs";
@@ -9,13 +12,14 @@ const Home = () => {
   return (
     <div className="layout-container">
       <HeroSection />
-      <HomeAboutUs/>
-      <HomeWhyUs/>
-      <OurProducts/>
+      <HomeAboutUs />
+      <HomeWhyUs />
+      <OurProducts />
       {/* <OurProcess/> */}
-      <TestimonialsSection/>
-      <div className="min-h-screen">
-      </div>
+      <TestimonialsSection />
+      <FAQSection />
+      <Cta/>
+      <Footer/>
     </div>
   );
 };

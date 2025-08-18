@@ -1,0 +1,9 @@
+.ratingCard {
+  transition: transform 0.5s ease, z-index 0s;
+  transform-style: preserve-3d;
+}
+
+.ratingCard:hover {
+  transform: translateZ(50px) scale(1.01);
+  z-index: 12;
+}
