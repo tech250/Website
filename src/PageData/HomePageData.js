@@ -260,3 +260,36 @@ export const faqData = [
     ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
   },
 ];
+
+export const ourProcessData = [
+  {
+    imgSrc:"/d",
+    imgAlt:"abc",
+    heading:"Heading",
+    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+  },
+  {
+    imgSrc:"/d",
+    imgAlt:"abc",
+    heading:"Heading",
+    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+  },
+  {
+    imgSrc:"/d",
+    imgAlt:"abc",
+    heading:"Heading",
+    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+  },
+  {
+    imgSrc:"/d",
+    imgAlt:"abc",
+    heading:"Heading",
+    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+  },
+  {
+    imgSrc:"/d",
+    imgAlt:"abc",
+    heading:"Heading",
+    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+  },
+]

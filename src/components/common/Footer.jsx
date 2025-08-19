@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <div className="bg-slate-100">
       <div className="custom-container py-4 md:py-6 flex flex-col gap-6">
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex flex-col gap-4">
             <img src="/d" alt="Vardaan Farms Logo" />
             <p className="text-black/80">
@@ -22,14 +22,46 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-4 items-center">
-            <h4 className="text-yellow-500 text-lg font-semibold drop-shadow-">Quick Links</h4>
+          <div className="flex flex-col gap-4">
+            <h4 className="text-yellow-500 text-lg font-semibold">
+              Contact Info
+            </h4>
+            <div className="flex flex-col grow justify-between gap-4">
+              <a
+                href=""
+                className="flex gap-2 items-center text-black/50 hover:text-black transition"
+              >
+                <i className="fa-solid fa-location-dot"></i>
+                <p className="text-sm">
+                  Office No-19 Star Tower Sec 30 Gurugram Jhajjar
+                </p>
+              </a>
+              <a
+                href=""
+                className="flex gap-2 items-center text-black/50 hover:text-black transition"
+              >
+                <i className="fa-solid fa-phone"></i>
+                <p className="text-sm">(+91) 8816000082</p>
+              </a>
+              <a
+                href=""
+                className="flex gap-2 items-center text-black/50 hover:text-black transition"
+              >
+                <i className="fa-solid fa-location-dot"></i>
+                <p className="text-sm">hello@vardaanfarms.com</p>
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 lg:items-center">
+            <h4 className="text-yellow-500 text-lg font-semibold drop-shadow-">
+              Quick Links
+            </h4>
             <div className="flex flex-col gap-2">
               <NavLink
                 to="/"
                 className={({ isActive }) => {
                   return `flex items-center gap-2 ${
-                    isActive ? "tex-black" : "text-black/50"
+                    isActive ? "text-black" : "text-black/50"
                   }`;
                 }}
               >
@@ -46,14 +78,14 @@ const Footer = () => {
                 <i className="fa-solid fa-chevron-right"></i>About Us
               </NavLink>
               <NavLink
-                to="/contact-us"
+                to="/products"
                 className={({ isActive }) => {
                   return `flex items-center gap-2 ${
                     isActive ? "tex-black" : "text-black/50"
                   }`;
                 }}
               >
-                <i className="fa-solid fa-chevron-right"></i>Contact Us
+                <i className="fa-solid fa-chevron-right"></i>Our Products
               </NavLink>
               <NavLink
                 to="/blogs"
@@ -67,11 +99,37 @@ const Footer = () => {
               </NavLink>
             </div>
           </div>
-          <div className="flex flex-col gap-4">
-            <h4 className="text-black/50 text-lg font-semibold">Contact Info</h4>
+          <div className="flex flex-col gap-2 justify-end">
+            <h2 className="font-semibold text-2xl bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit text-transparent bg-clip-text drop-shadow-[1px_1px_1px_black]">
+              VardaanFarms
+            </h2>
+            <p className="text-sm text-black/50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              repellendus nemo id rerum eius autem minima error quia officia
+              beatae.
+            </p>
           </div>
         </div>
-        <p className="text-center pt-6 border-t-1 border-black/40 text-black/50">&copy; 2025 Vardaan Farms | All rights Reserved | <NavLink to="/privacy-policy">Privacy Policy</NavLink> | <NavLink to="/terms-and-conditions">Terms & conditions</NavLink></p>
+        <p className="text-center pt-6 border-t-1 border-black/40  text-black/50">
+          &copy; 2025 Vardaan Farms | All rights Reserved |{" "}
+          <NavLink
+            to="/privacy-policy"
+            className={({ isActive }) => {
+              return `${isActive ? "text-black" : "text-black/50"} `;
+            }}
+          >
+            Privacy Policy
+          </NavLink>{" "}
+          |{" "}
+          <NavLink
+            to="/terms-and-conditions"
+            className={({ isActive }) => {
+              return `${isActive ? "text-black" : "text-black/50"}`;
+            }}
+          >
+            Terms & conditions
+          </NavLink>
+        </p>
       </div>
     </div>
   );

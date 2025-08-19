@@ -1,4 +1,4 @@
-import { productSlidesData } from "../HomePageData";
+import { productSlidesData } from "../../../PageData/HomePageData";
 import Products from "../ProductsSection/Products";
 
 const OurProducts = () => {

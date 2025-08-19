@@ -1,4 +1,4 @@
-import { randomKeywordsObj, HomeWhyUsSlidesData } from "../HomePageData";
+import { randomKeywordsObj, HomeWhyUsSlidesData } from "../../../PageData/HomePageData";
 import KeywordsSlider from "./KeywordsSlider";
 import WhyUsSlide from "./WhyUsSlide";
 

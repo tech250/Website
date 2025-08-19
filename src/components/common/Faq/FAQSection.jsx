@@ -1,4 +1,4 @@
-import { faqData } from "../../Home/HomePageData";
+import { faqData } from "../../../PageData/HomePageData";
 import FAQ from "./FAQ";
 const FAQSection = () => {
   return (

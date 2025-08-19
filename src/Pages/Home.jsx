@@ -1,6 +1,5 @@
 import Cta from "../components/common/CTA/Cta";
 import FAQSection from "../components/common/Faq/FAQSection";
-import Footer from "../components/common/Footer";
 import HomeAboutUs from "../components/Home/AboutUsSection/HomeAboutUs";
 import HeroSection from "../components/Home/HeroSection/HeroSection";
 import HomeWhyUs from "../components/Home/HomeWhyUs/HomeWhyUs";
@@ -15,11 +14,10 @@ const Home = () => {
       <HomeAboutUs />
       <HomeWhyUs />
       <OurProducts />
-      {/* <OurProcess/> */}
+      <OurProcess/>
       <TestimonialsSection />
       <FAQSection />
       <Cta/>
-      <Footer/>
     </div>
   );
 };

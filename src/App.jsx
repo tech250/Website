@@ -7,20 +7,26 @@ import Blogs from "./Pages/Blogs";
 import Products from "./Pages/Products";
 import PageNotFound from "./Pages/PageNotFound";
 import NavStrip from "./components/common/NavStrip";
+import Footer from "./components/common/Footer";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import TermsAndConditions from "./Pages/TermsAndConditions";
 
 const App = () => {
   return (
     <div>
-      <NavStrip/>
-      <Navbar/>
+      <NavStrip />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

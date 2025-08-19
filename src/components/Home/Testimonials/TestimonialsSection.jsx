@@ -1,5 +1,5 @@
 import RatingCard from "../../common/RatingCard";
-import { testimonialCards } from "../HomePageData";
+import { testimonialCards } from "../../../PageData/HomePageData";
 
 const TestimonialsSection = () => {
   return (

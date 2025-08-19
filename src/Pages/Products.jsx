@@ -1,8 +1,14 @@
+import Product from "../components/Products/Product";
+import { productsData } from "../PageData/ProductsPageData";
 
 const Products = () => {
   return (
-    <div>Products</div>
-  )
-}
+    <div className="layout-container">
+      {productsData.map((productData, id) => (
+        <Product key={id} data={{ ...productData, side:`${id%2==0 ? "right" :"left"}` }} />
+      ))}
+    </div>
+  );
+};
 
-export default Products
+export default Products;
