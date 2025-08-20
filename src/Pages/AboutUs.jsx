@@ -1,7 +1,10 @@
+import AboutUsHeroSection from "../components/AboutUs/AboutUsHeroSection"
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <div className="layout-container">
+      <AboutUsHeroSection/>
+    </div>
   )
 }
 

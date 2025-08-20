@@ -102,76 +102,108 @@ export const randomKeywordsObj = {
 
 export const productSlidesData = [
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
+    imgSrc: "/a2-desi-cow-milk-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms A2 Desi Cow Milk",
     productName: "A2 Desi Cow Milk",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
+    imgSrc: "/natural-cow-milk-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Natural Cow Milk",
+    productName: "Natural Cow Milk",
+    productDescription:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+    pageLink: "/product/a2-desi-cow-milk",
+  },
+  {
+    imgSrc: "/family-pack-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Family Pack",
+    productName: "Family Pack",
+    productDescription:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+    pageLink: "/product/a2-desi-cow-milk",
+  },
+  {
+    imgSrc: "/toned-milk-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Toned Milk",
+    productName: "Toned Milk",
+    productDescription:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+    pageLink: "/product/a2-desi-cow-milk",
+  },
+  {
+    imgSrc: "/full-cream-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Full Cream Milk",
+    productName: "Full Cream",
+    productDescription:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+    pageLink: "/product/a2-desi-cow-milk",
+  },
+  {
+    imgSrc: "/curd-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Curd",
     productName: "A2 Desi Cow Milk",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/buffalo-a2-gold-milk-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Buffalo Milk",
+    productName: "Buffalo Milk",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/masala-chach-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Masala Chach",
+    productName: "Masala Chach",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/butter-milk-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Butter Milk",
+    productName: "Butter Milk",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/double-toned-milk-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Double Toned Milk",
+    productName: "Double Toned Milk",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+    pageLink: "/product/double-toned-milk",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/buffalo-ghee-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Buffalo Ghee",
+    productName: "Buffalo Ghee",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+    pageLink: "/product/buffalo-ghee",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/a2-desi-cow-ghee-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms A2 Desi Cow Ghee",
+    productName: "A2 Desi Cow Ghee",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+    pageLink: "/product/",
   },
   {
-    imgSrc: "/cow-grasing-and-milking.png",
-    imgAlt: "Milking Cow",
-    productName: "A2 Desi Cow Milk",
+    imgSrc: "/malai-paneer-vardaanFarms-products.png",
+    imgAlt: "Vardaan Farms Malai Paneer",
+    productName: "Malai Paneer",
     productDescription:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+    pageLink: "/product/malai-paneer",
   },
 ];
 

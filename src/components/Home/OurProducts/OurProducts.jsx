@@ -3,7 +3,7 @@ import Products from "../ProductsSection/Products";
 
 const OurProducts = () => {
   return (
-    <div className="">
+    <div className="relative">
       <div className="custom-container flex flex-col gap-6 md:gap-8">
         <h2 className="text-center text-4xl font-bold p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto">
           Our Products

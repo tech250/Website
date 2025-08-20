@@ -66,12 +66,17 @@ const Products = ({ data }) => {
     >
       {data.map((obj, i) => (
         <SwiperSlide>
-          <div className="relative w-[320px] aspect-[3/4] rounded-[14px] border border-[rgba(177,177,177,0.4)] overflow-hidden">
-            <img
-              src={obj.imgSrc}
-              alt={obj.imgAlt}
-              className="w-full h-full rounded-[14px] object-cover select-none bg-black/80"
-            />
+          <div className="relative w-[320px] aspect-[3/4] rounded-[14px] border border-[rgba(177,177,177,0.4)] overflow-hidden z-[1]">
+            <div className="w-full h-full relative">
+              <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0)_0%,_rgba(0,0,0,0.4)_100%)] z-10 rounded-[14px]"></div>
+              <img
+                src={obj.imgSrc}
+                alt={obj.imgAlt}
+                width="320px"
+                height="425px"
+                className="w-full h-full rounded-[14px] object-cover select-none"
+              />
+            </div>
             <div
               className="absolute bottom-[5px] left-1/2 -translate-x-1/2 text-center px-2 py-1 md:px-4 md:py-2 rounded-[8px] bg-[rgba(46,39,39,0.3)] border border-[rgba(177,177,177,0.4)] backdrop-blur-md"
               id={`${obj.productName}${i}Div`}
@@ -90,7 +95,12 @@ const Products = ({ data }) => {
             >
               <h4 className="text-xl">{obj.productName}</h4>
               <p className="grow">{obj.productDescription}</p>
-              <Link to={obj.productLink} className="w-full text-center bg-white py-2 rounded-[14px] shadow-[5px_5px_1px_black] hover:scale-95 transition text-sm">View Description</Link>
+              <Link
+                to={obj.productLink}
+                className="w-full text-center bg-white py-2 rounded-[14px] shadow-[5px_5px_1px_black] hover:scale-95 transition text-sm"
+              >
+                View Description
+              </Link>
             </div>
           </div>
         </SwiperSlide>
