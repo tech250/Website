@@ -10,6 +10,7 @@ import NavStrip from "./components/common/NavStrip";
 import Footer from "./components/common/Footer";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndConditions from "./Pages/TermsAndConditions";
+import SpecificProductPage from "./Pages/SpecificProductPage";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/product/:name" element={<SpecificProductPage/>}/>
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<PageNotFound />} />

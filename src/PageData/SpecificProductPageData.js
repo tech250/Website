@@ -1,0 +1,15 @@
+export const specificProductData = {
+  "a2-desi-cow-milk": {},
+  "full-cream-milk": {},
+  "toned-milk": {},
+  "double-toned-milk": {},
+  "natural-cow-milk": {},
+  "buffalo-milk": {},
+  "family-pack": {},
+  "butter-milk": {},
+  "masala-chach": {},
+  "slim-curd": {},
+  "curd": {},
+  "a2-desi-cow-ghee": {},
+  "a2-desi-buffalo-ghee": {},
+};
