@@ -4,7 +4,7 @@ import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 import { FreeMode, Autoplay } from "swiper/modules";
 
-export default function WhyUsSlide({data}) {
+export default function WhyUsSlide({data , imgCss}) {
   return (
     <Swiper
       breakpoints={{
@@ -35,7 +35,7 @@ export default function WhyUsSlide({data}) {
       {data.map((obj) => (
         <SwiperSlide key={obj.heading}>
           <div className="flex flex-col gap-6">
-            <div className="p-6 rounded-full border w-fit"></div>
+            <img src={obj.imgSrc} alt={obj.imgAlt} className={`${imgCss}`}/>
             <div className="flex flex-col gap-2">
               <h3 className="font-bold">{obj.heading}</h3>
               <p className="text-sm text-black/50">{obj.pera}</p>
