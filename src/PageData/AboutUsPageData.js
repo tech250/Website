@@ -36,3 +36,78 @@ export const ourServicesCardaData = [
     pera: "Our pasteurization process preserves the natural goodness of grass-fed milk commercial, removing harmful bacteria while keeping it fresh and safe.",
   },
 ];
+
+export const faqData = [
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+  {
+    ques: "Lorem ipsum dolor sit amet.",
+    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+  },
+];
+
+export const testimonialData = [
+  {
+    imgSrc:"",
+    imgAlt:"",
+    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    signature:"",
+    signatureAlt:"",
+    designation:""
+  },
+  {
+    imgSrc:"",
+    imgAlt:"",
+    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    signature:"",
+    signatureAlt:"",
+    designation:""
+  },
+  {
+    imgSrc:"",
+    imgAlt:"",
+    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    signature:"",
+    signatureAlt:"",
+    designation:""
+  },
+  {
+    imgSrc:"",
+    imgAlt:"",
+    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    signature:"",
+    signatureAlt:"",
+    designation:""
+  },
+  {
+    imgSrc:"",
+    imgAlt:"",
+    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    signature:"",
+    signatureAlt:"",
+    designation:""
+  },
+  {
+    imgSrc:"",
+    imgAlt:"",
+    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    signature:"",
+    signatureAlt:"",
+    designation:""
+  },
+
+]

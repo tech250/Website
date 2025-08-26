@@ -2,25 +2,12 @@ const AboutUsSection = () => {
   return (
     <div>
       <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 md:items-center">
-        <div className="w-full md:w-1/2 flex flex-col z-[1]">
-          <img
-            src=""
-            alt=""
-            className="z-[3] border w-1/2 aspect-[16/9] right-0 top-0 rounded-2xl rotate-[8deg] self-end translate-y-1/2"
-          />
-          <img 
-            src="" 
-            alt="" 
-            className="border z-[2] w-3/4  h-[450px] rounded-2xl" />
-          <img
-            src=""
-            alt=""
-            className="w-1/2 border rounded-2xl rotate-[8deg] h-full z-[4] self-end -translate-y-1/2"
-          />
+        <div className="w-full md:w-1/2 flex flex-col z-[1] relative">
+          <img src="" alt="" className="w-4/5 aspect-square" />
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <h4>ABOUT US</h4>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 p-1 w-fit">
             Crafting Dairy Excellence
           </h2>
           <div className="flex flex-col gap-2 text-black/50">

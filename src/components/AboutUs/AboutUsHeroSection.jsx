@@ -4,7 +4,7 @@ const AboutUsHeroSection = () => {
     <div>
       <div className="custom-container flex gap-6 md:gap-8 lg:gap-12 items-center flex-col md:flex-row">
         <div className="w-full md:w-1/2 flex flex-col gap-4 order-2 md:order-1">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 p-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h1>
           <p className="text-black/50">
