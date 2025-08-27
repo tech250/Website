@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
         {/* for mobile nav */}
         <div
-          className="min-h-screen bg-white/80 fixed top-0 overflow-y-auto min-w-[300px] max-w-[400px] w-4/5 transition -translate-x-full flex md:hidden border-r-1 border-[#ccc] p-4 flex-col gap-6"
+          className="min-h-screen bg-white fixed top-0 overflow-y-auto min-w-[300px] max-w-[400px] w-4/5 transition -translate-x-full flex md:hidden border-r-1 border-[#ccc] p-4 flex-col gap-6"
           ref={mobileNav}
         >
           <i

@@ -14,22 +14,27 @@ import SpecificProductPage from "./Pages/SpecificProductPage";
 
 const App = () => {
   return (
-    <div>
+    <>
       <NavStrip />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/product/:name" element={<SpecificProductPage/>}/>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
+      <div className="overflow-x-hidden">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/product/:name" element={<SpecificProductPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route
+            path="/terms-and-conditions"
+            element={<TermsAndConditions />}
+          />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
