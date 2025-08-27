@@ -15,7 +15,6 @@ const SpecificProductPage = () => {
   ) : (
     <div
       className={`relative min-h-screen flex justify-center items-center z-[1]`}
-      style={{ backgroundColor: `${pageData.bgColor}` }}
     >
       <div className="top-0 w-full  md:custom-container absolute">
         <div className="w-1/2 sm:w-2/5 rounded-2xl rounded-t-none h-[300px] sm:h-[400px] md:h-[500px] bg-transparent shadow-2xl z-[2]"></div>
@@ -38,8 +37,7 @@ const SpecificProductPage = () => {
             {pageData.heading}
           </h1>
           <p
-            className={`leading-normal`}
-            style={{ color: `${pageData.textColor}` }}
+            className={`leading-normal text-black`}
           >
             {pageData.info}
           </p>
