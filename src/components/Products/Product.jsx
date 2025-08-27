@@ -30,9 +30,9 @@ const Product = ({ data }) => {
           <img
             src={data.imgSrc}
             alt={data.imgAlt}
-            className={`w-[250px] h-[250px] sm:w-1/2 md:w-3/4 aspect-square sm:h-fit transition hover:scale-95 cursor-pointer drop-shadow-2xl drop-shadow-black `}
-            height="600px"
-            width="600px"
+            className={`w-fit h-[250px] sm:w-1/2 md:w-[60%] sm:h-fit transition hover:scale-95 cursor-pointer drop-shadow-2xl drop-shadow-black `}
+            height="550px"
+            width="550px"
           />
         </div>
         <div

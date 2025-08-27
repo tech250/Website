@@ -102,7 +102,7 @@ export const randomKeywordsObj = {
 
 export const productSlidesData = [
   {
-    imgSrc: "/a2-desi-cow-milk-vardaanFarms-products.png",
+    imgSrc: "/a2-desi-cow-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms A2 Desi Cow Milk",
     productName: "A2 Desi Cow Milk",
     productDescription:
@@ -110,7 +110,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/natural-cow-milk-vardaanFarms-products.png",
+    imgSrc: "/natural-cow-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Natural Cow Milk",
     productName: "Natural Cow Milk",
     productDescription:
@@ -118,7 +118,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/family-pack-vardaanFarms-products.png",
+    imgSrc: "/family-pack-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Family Pack",
     productName: "Family Pack",
     productDescription:
@@ -126,7 +126,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/toned-milk-vardaanFarms-products.png",
+    imgSrc: "/toned-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Toned Milk",
     productName: "Toned Milk",
     productDescription:
@@ -134,7 +134,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/full-cream-vardaanFarms-products.png",
+    imgSrc: "/full-cream-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Full Cream Milk",
     productName: "Full Cream",
     productDescription:
@@ -142,7 +142,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/curd-vardaanFarms-products.png",
+    imgSrc: "/curd-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Curd",
     productName: "A2 Desi Cow Milk",
     productDescription:
@@ -150,7 +150,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/buffalo-a2-gold-milk-vardaanFarms-products.png",
+    imgSrc: "/buffalo-a2-gold-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Buffalo Milk",
     productName: "Buffalo Milk",
     productDescription:
@@ -158,7 +158,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/masala-chach-vardaanFarms-products.png",
+    imgSrc: "/masala-chach-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Masala Chach",
     productName: "Masala Chach",
     productDescription:
@@ -166,7 +166,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/butter-milk-vardaanFarms-products.png",
+    imgSrc: "/butter-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Butter Milk",
     productName: "Butter Milk",
     productDescription:
@@ -174,7 +174,7 @@ export const productSlidesData = [
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
-    imgSrc: "/double-toned-milk-vardaanFarms-products.png",
+    imgSrc: "/double-toned-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Double Toned Milk",
     productName: "Double Toned Milk",
     productDescription:
@@ -182,7 +182,7 @@ export const productSlidesData = [
     pageLink: "/product/double-toned-milk",
   },
   {
-    imgSrc: "/buffalo-ghee-vardaanFarms-products.png",
+    imgSrc: "/buffalo-ghee-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Buffalo Ghee",
     productName: "Buffalo Ghee",
     productDescription:
@@ -190,7 +190,7 @@ export const productSlidesData = [
     pageLink: "/product/buffalo-ghee",
   },
   {
-    imgSrc: "/a2-desi-cow-ghee-vardaanFarms-products.png",
+    imgSrc: "/a2-desi-cow-ghee-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms A2 Desi Cow Ghee",
     productName: "A2 Desi Cow Ghee",
     productDescription:
@@ -198,7 +198,7 @@ export const productSlidesData = [
     pageLink: "/product/",
   },
   {
-    imgSrc: "/malai-paneer-vardaanFarms-products.png",
+    imgSrc: "/malai-paneer-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Malai Paneer",
     productName: "Malai Paneer",
     productDescription:
