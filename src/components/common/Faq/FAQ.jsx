@@ -20,7 +20,7 @@ const FAQ = ({ data }) => {
     <div className="flex flex-col gap-4">
       {data.map((obj, id) => (
         <div
-          className="flex flex-col gap-2 bg-slate-100 p-3 sm:p-4 rounded-lg cursor-pointer"
+          className="flex flex-col gap-2 bg-[#78746e]/3 p-3 sm:p-4 rounded-lg cursor-pointer"
           key={id}
           id={`FaqQuestion-${id}`}
           onClick={() => {

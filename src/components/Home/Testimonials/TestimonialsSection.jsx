@@ -3,7 +3,7 @@ import { testimonialCards } from "../../../PageData/HomePageData";
 
 const TestimonialsSection = () => {
   return (
-    <div className="">
+    <div className="relative">
       <div className="custom-container flex flex-col gap-6 cursor-pointer select-none">
         <h2 className="text-4xl font-bold p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto">
           Testimonials
