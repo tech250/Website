@@ -5,6 +5,7 @@ const Product = ({ data }) => {
       className={`min-h-screen flex relative snap-start ${
         data.side == "left" ? "flex-row-reverse" : ""
       }`}
+      id={data.productPageLink?.split("/")[1]}
     >
       <div
         className={`w-1/3 flex items-center justify-center`}

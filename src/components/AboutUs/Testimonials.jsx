@@ -9,7 +9,7 @@ const Testimonials = () => {
           <CardSwiper data={testimonialData}/>
         </div>
         <div className="flex flex-col gap-4 w-full md:w-1/2 order-1 md:order-2">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl flex flex-col ">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl flex flex-col font-semibold">
             <span>Don't take our words for it! </span>
             <span>hear it from our partners</span>
           </h2>

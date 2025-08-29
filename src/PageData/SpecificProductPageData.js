@@ -25,9 +25,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "rgba(167, 101, 58, 1)",
-    textColor: "rgba(255, 255, 255)",
-    nutritionbgColor: "#D5B8A6",
-    nutritionTextColor: "#1A1A1A",
     // seoData: {
     //   title: "A2 Desi Cow Milk - Vardaan Farms",
     //   description:
@@ -77,9 +74,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#8F1E1E",
-    textColor: "#F8F5F2",
-    nutritionbgColor: "rgba(217,184,160,1)",
-    nutritionTextColor: "rgba(43,29,22,1)",
     // seoData: {
     //   title: "Full Cream Milk - Vardaan Farms",
     //   description:
@@ -124,9 +118,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#4A7A87",
-    textColor: "white",
-    nutritionbgColor: "#F4E6E5",
-    nutritionTextColor: "#1A1A1A",
     // seoData: {
     //   title: "Toned Milk - Vardaan Farms",
     //   description:
@@ -176,9 +167,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#2F1D5D",
-    textColor: "white",
-    nutritionbgColor: "rgba(74,122,135,1)",
-    nutritionTextColor: "rgba(255,255,255,1)",
     // seoData: {
     //   title: "Double Toned Milk - Vardaan Farms",
     //   description:
@@ -228,9 +216,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#184E77",
-    textColor: "white",
-    nutritionbgColor: "#7DB7DC",
-    nutritionTextColor: "#1A1A1A",
     // seoData: {
     //   title: "Natural Cow Milk - Vardaan Farms",
     //   description:
@@ -280,9 +265,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#0A0A0A",
-    textColor: "white",
-    nutritionbgColor: "#2B2B2B",
-    nutritionTextColor: "#F5F5F0",
     // seoData: {
     //   title: "Buffalo Milk - Vardaan Farms",
     //   description:
@@ -332,9 +314,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#9A0010",
-    textColor: "white",
-    nutritionbgColor: "#E64D5B",
-    nutritionTextColor: "#1A1A1A",
     // seoData: {
     //   title: "Family Pack - Vardaan Farms",
     //   description:
@@ -379,9 +358,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#01321A",
-    textColor: "",
-    nutritionbgColor: "",
-    nutritionTextColor: "",
     // seoData: {
     //   title: "Butter Milk - Refreshing and Tangy Drink | Vardaan Farms",
     //   description:
@@ -426,9 +402,6 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#3B7210",
-    textColor: "",
-    nutritionbgColor: "",
-    nutritionTextColor: "",
     // seoData: {
     //   title: "Masala Chach - Spiced Buttermilk | Vardaan Farms",
     //   description:
@@ -473,9 +446,6 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#6BAAB7",
-    textColor: "",
-    nutritionbgColor: "",
-    nutritionTextColor: "",
     // seoData: {
     //   title: "Slim Curd - Low-Fat Nutritious Curd | Vardaan Farms",
     //   description:
@@ -520,9 +490,6 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#B73700",
-    textColor: "",
-    nutritionbgColor: "",
-    nutritionTextColor: "",
     // seoData: {
     //   title: "Curd - Rich and Creamy | Vardaan Farms",
     //   description:
@@ -571,9 +538,6 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#B38E28",
-    textColor: "",
-    nutritionbgColor: "",
-    nutritionTextColor: "",
     // seoData: {
     //   title:
     //     "A2 Desi Cow Ghee - Traditional Flavor and Health Benefits | Vardaan Farms",
@@ -623,9 +587,6 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#3A291A",
-    textColor: "",
-    nutritionbgColor: "",
-    nutritionTextColor: "",
     // seoData: {
     //   title: "Buffalo Ghee - Rich and Flavorful | Vardaan Farms",
     //   description:

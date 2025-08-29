@@ -11,12 +11,14 @@ import Footer from "./components/common/Footer";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndConditions from "./Pages/TermsAndConditions";
 import SpecificProductPage from "./Pages/SpecificProductPage";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <NavStrip />
       <Navbar />
+      <ScrollToTop behaviour="smooth" />
       <div className="overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
