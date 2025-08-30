@@ -9,9 +9,12 @@ const ContactUsHero = () => {
     gsap.fromTo(
       imgBlackDiv.current,
       { width: "800px" },
-      { width: "0px", scrollTrigger: {
-        trigger:"body",
-      } }
+      {
+        width: "0px",
+        scrollTrigger: {
+          trigger: "body",
+        },
+      }
     );
   }, []);
 
@@ -32,9 +35,10 @@ const ContactUsHero = () => {
           <div className="w-3/5 h-[400px] z-[1] relative overflow-hidden">
             <div
               ref={imgBlackDiv}
-              className="h-full bg-slate-100/70 z-[3] absolute transition-all duration-1000 w-full"
+              className="h-full bg-slate-100/70 z-[3] absolute transition-all duration-1000 w-full "
             ></div>
-            <img src="/cows-grazzing-and-looking-in-camera.png" alt="" className="z-[2]" />
+            <div className="w-full h-full bg-[url('/cows-grazzing-and-looking-in-camera.png')] bg-right sm:bg-center bg-cover bg-no-repeat"></div>
+            {/* <img src="/cows-grazzing-and-looking-in-camera.png" alt="" className="z-[2] h-full object-contain" /> */}
           </div>
 
           <div className="flex flex-col-reverse gap-6 w-2/5 pb-6">
