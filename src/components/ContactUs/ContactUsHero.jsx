@@ -32,9 +32,9 @@ const ContactUsHero = () => {
           <div className="w-3/5 h-[400px] z-[1] relative overflow-hidden">
             <div
               ref={imgBlackDiv}
-              className="h-full bg-black/5 z-[3] absolute transition-all duration-1000 w-full"
+              className="h-full bg-slate-100/70 z-[3] absolute transition-all duration-1000 w-full"
             ></div>
-            <img src="" alt="" className="z-[2]" />
+            <img src="/cows-grazzing-and-looking-in-camera.png" alt="" className="z-[2]" />
           </div>
 
           <div className="flex flex-col-reverse gap-6 w-2/5 pb-6">

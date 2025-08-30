@@ -3,7 +3,7 @@ import CircleBg from "./CircleBg";
 const Footer = () => {
   return (
     <div className="relative border-slate-200 overflow-hidden z-[1]">
-      <CircleBg zindex={-1}/>
+      <CircleBg zindex={-10}/>
       <img src="/cow-eating-grass-pencil-sketch.png" alt="" className="absolute bottom-0 left-0 w-3/4 sm:w-[60%] md:w-[40%] lg:w-[20%] xl:w-[20%] z-[-2]"/>
       <div className="custom-container py-4 md:py-6 flex flex-col gap-6 z-[3]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

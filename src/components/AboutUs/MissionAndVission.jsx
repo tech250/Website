@@ -1,13 +1,13 @@
 const MissionAndVission = () => {
   return (
     <div className="flex flex-col gap-6">
-      <div className="custom-container flex flex-col gap-6 md:gap-8 lg:gap-12 md:flex-row md:items-center">
+      <div className="custom-container flex flex-col gap-8 lg:gap-12 md:flex-row md:items-center">
         <div className="w-full md:w-1/2 relative z-[1] flex ">
           <div className="absolute aspect-square bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 -translate-y-[30px] -translate-x-[30px] z-[2] w-full md:w-4/5"></div>
           <img
-            src=""
+            src="/Our-mission-2.png"
             alt="Our Mission Img"
-            className="w-full md:w-4/5 aspect-square z-[3] border"
+            className="w-full md:w-4/5 z-[3] aspect-squar object-contain"
           />
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-4 relative">
@@ -32,7 +32,7 @@ const MissionAndVission = () => {
           </div>
         </div>
       </div>
-      <div className="custom-container flex flex-col gap-6 md:gap-8 lg:gap-12 md:flex-row md:items-center">
+      <div className="custom-container flex flex-col gap-8 lg:gap-12 md:flex-row md:items-center">
         <div className="w-full md:w-1/2 flex flex-col gap-4 relative">
           <i className="fa-solid fa-quote-left text-6xl absolute text-black/20 -translate-y-1/2 left-0"></i>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
@@ -56,9 +56,9 @@ const MissionAndVission = () => {
         <div className="w-full md:w-1/2 relative z-[1] flex justify-end">
           <div className="absolute aspect-square bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 -translate-y-[30px] translate-x-[30px] z-[2] w-full md:w-4/5"></div>
           <img
-            src=""
+            src="/Our-farm.png"
             alt="Our Mission Img"
-            className="border w-full md:w-4/5 aspect-square z-[3]"
+            className="w-full md:w-4/5 aspect-square z-[3]"
           />
         </div>
       </div>
