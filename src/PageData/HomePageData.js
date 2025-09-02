@@ -1,102 +1,104 @@
 export const HomeWhyUsSlidesData = [
   {
-    imgSrc: "",
-    imgAlt: "",
-    heading: "Lorem Ipsum 1",
-    pera: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eos? Nisi, provident repellendus quasi molestias doloribus cupiditate illo perferendis voluptates reiciendis aut sint nemo culpa, magni quibusdam, consectetur quam suscipit sapiente vel. Dicta repellendus minima doloremque facilis. Fugit, neque aliquid..",
+    imgSrc: "/home-why-us-1.png",
+    imgAlt: "Cow Eating Grass Hand Draw",
+    heading: "Pure and Organic",
+    pera: "Our milk is pure and organic, like at home. No mixing, no shortcuts. Cows eat clean feed, roam free. You get honest doodh with taste, straight from farm to kitchen.",
   },
   {
-    imgSrc: "",
+    imgSrc: "/home-why-us-2.png",
     imgAlt: "",
-    heading: "Lorem Ipsum 2",
-    pera: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eos? Nisi, provident repellendus quasi molestias doloribus cupiditate illo perferendis voluptates reiciendis aut sint nemo culpa, magni quibusdam, consectetur quam suscipit sapiente vel. Dicta repellendus minima doloremque facilis. Fugit, neque aliquid..",
+    heading: "Fresh Daily",
+    pera: "We deliver fresh milk morning, the way families prefer. Chilling and transport stay tight. No old stock. From udder to bottle quickly, so tea, dahi, and paneer taste better daily.",
   },
   {
-    imgSrc: "",
+    imgSrc: "/home-why-us-3.png",
     imgAlt: "",
-    heading: "Lorem Ipsum 3",
-    pera: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eos? Nisi, provident repellendus quasi molestias doloribus cupiditate illo perferendis voluptates reiciendis aut sint nemo culpa, magni quibusdam, consectetur quam suscipit sapiente vel. Dicta repellendus minima doloremque facilis. Fugit, neque aliquid..",
+    heading: "Supports Farmers",
+    pera: "We work with local farmers and pay fair rates on time. Training, vet care, and support given. When farmers grow, villages grow. Your purchase brings steady income to families nearby.",
   },
   {
-    imgSrc: "",
+    imgSrc: "/home-why-us-4.png",
     imgAlt: "",
-    heading: "Lorem Ipsum 4",
-    pera: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eos? Nisi, provident repellendus quasi molestias doloribus cupiditate illo perferendis voluptates reiciendis aut sint nemo culpa, magni quibusdam, consectetur quam suscipit sapiente vel. Dicta repellendus minima doloremque facilis. Fugit, neque aliquid..",
+    heading: "Safe for Family",
+    pera: "Every batch is tested. No antibiotics, no hormones, no powder, no water. Clean process, clean packing. Kids, elders can drink without worry. Taste reminds you of nani's home every day.",
   },
   {
-    imgSrc: "",
+    imgSrc: "/home-why-us-5.png",
     imgAlt: "",
-    heading: "Lorem Ipsum 5",
-    pera: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eos? Nisi, provident repellendus quasi molestias doloribus cupiditate illo perferendis voluptates reiciendis aut sint nemo culpa, magni quibusdam, consectetur quam suscipit sapiente vel. Dicta repellendus minima doloremque facilis. Fugit, neque aliquid..",
+    heading: "Simple, Honest Service",
+    pera: "We are easy to reach and fix issues. Simple subscription, pause anytime. Transparent pricing. We speak straight, keep promises, and treat customers like family. Service matters more than slogans here.",
   },
 ];
 
 export const randomKeywordsObj = {
   set1: [
-    "ocean",
-    "🌊",
-    "galaxy",
-    "🚀",
-    "vintage",
-    "twilight",
-    "breeze",
-    "🌌",
-    "ember",
-    "🔥",
-    "wander",
-    "mosaic",
-    "🎨",
-    "aurora",
-    "zenith",
-    "🌟",
-    "solstice",
-    "cascade",
-    "luminous",
-    "✨",
+    "desiCow",
+    "🐄",
+    "a2Milk",
+    "🥛",
+    "pureGhee",
+    "🪔",
+    "farmFresh",
+    "🌾",
+    "organic",
+    "🍃",
+    "wholesome",
+    "💛",
+    "healthyLiving",
+    "🏡",
+    "naturalTaste",
+    "🌿",
+    "nutrients",
+    "⚡",
+    "freshStart",
+    "🌅",
   ],
   set2: [
-    "haven",
-    "🏝️",
-    "odyssey",
-    "🌍",
-    "horizon",
-    "serenity",
-    "harvest",
-    "🌾",
-    "pioneer",
-    "🧭",
-    "blossom",
-    "🌸",
-    "meadow",
-    "🌿",
-    "canyon",
-    "🏞️",
-    "summit",
-    "🏔️",
-    "ripple",
-    "💧",
+    "vardaanFarms",
+    "🚜",
+    "buffaloMilk",
+    "🥛",
+    "handChurned",
+    "🌀",
+    "grassFed",
+    "🌱",
+    "villageTradition",
+    "🏠",
+    "homemade",
+    "🍲",
+    "ayurvedic",
+    "🌼",
+    "desiGoodness",
+    "🤲",
+    "dailyFresh",
+    "☀️",
+    "farmToTable",
+    "🍽️",
   ],
   set3: [
-    "frost",
-    "❄️",
-    "emberlight",
-    "🔥",
-    "starlit",
-    "🌠",
-    "sunrise",
-    "🌅",
-    "mist",
-    "💨",
-    "glimmer",
+    "goldenGhee",
     "✨",
-    "echo",
-    "🔊",
-    "voyage",
-    "⛵",
-    "whisper",
-    "💬",
-    "dusk",
-    "🌇",
+    "curdCulture",
+    "🍶",
+    "slowCooked",
+    "🔥",
+    "healthyBones",
+    "🦴",
+    "energyBoost",
+    "💪",
+    "pureTaste",
+    "🤍",
+    "heritage",
+    "📜",
+    "cowCare",
+    "❤️",
+    "freshButter",
+    "🧈",
+    "nutritious",
+    "🥗",
+    "authentic",
+    "✔️",
   ],
 };
 
@@ -106,7 +108,7 @@ export const productSlidesData = [
     imgAlt: "Vardaan Farms A2 Desi Cow Milk",
     productName: "A2 Desi Cow Milk",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+      "Sourced from pure desi cows, our A2 milk is rich in nutrients and easier to digest. Fresh, wholesome, and untouched by additives, it delivers the authentic taste of traditional dairy.",
     pageLink: "/product/a2-desi-cow-milk",
   },
   {
@@ -114,71 +116,71 @@ export const productSlidesData = [
     imgAlt: "Vardaan Farms Natural Cow Milk",
     productName: "Natural Cow Milk",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "Our natural cow milk is free from artificial processing, offering you the full-bodied flavor and nutrition that comes straight from the farm to your glass.",
+    pageLink: "/product/natural-cow-milk",
   },
   {
     imgSrc: "/family-pack-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Family Pack",
     productName: "Family Pack",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "A convenient pack designed for the entire family, ensuring there’s always enough farm-fresh milk for tea, coffee, and daily meals.",
+    pageLink: "/product/family-pack",
   },
   {
     imgSrc: "/toned-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Toned Milk",
     productName: "Toned Milk",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "Light yet nourishing, our toned milk balances creaminess with health. Perfect for everyday use without compromising on quality or taste.",
+    pageLink: "/product/toned-milk",
   },
   {
     imgSrc: "/full-cream-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Full Cream Milk",
     productName: "Full Cream",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "Thick, creamy, and packed with goodness, our full cream milk is ideal for making rich desserts, wholesome tea, and hearty breakfasts.",
+    pageLink: "/product/full-cream-milk",
   },
   {
     imgSrc: "/curd-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Curd",
-    productName: "A2 Desi Cow Milk",
+    productName: "Curd",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "Made from fresh farm milk, our curd is naturally set, smooth, and refreshing. A perfect addition to meals for better digestion and taste.",
+    pageLink: "/product/curd",
   },
   {
     imgSrc: "/buffalo-a2-gold-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Buffalo Milk",
     productName: "Buffalo Milk",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "Creamy and nutrient-rich, our buffalo milk is a natural source of strength. Its high calcium content makes it ideal for growing children and healthy bones.",
+    pageLink: "/product/buffalo-milk",
   },
   {
     imgSrc: "/masala-chach-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Masala Chach",
     productName: "Masala Chach",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "A refreshing blend of buttermilk and traditional spices, our masala chach cools the body and enhances digestion—perfect for hot days and hearty meals.",
+    pageLink: "/product/masala-chach",
   },
   {
     imgSrc: "/butter-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Butter Milk",
     productName: "Butter Milk",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/a2-desi-cow-milk",
+      "Our buttermilk is light, refreshing, and probiotic-rich. A natural drink to keep you hydrated and your stomach happy.",
+    pageLink: "/product/butter-milk",
   },
   {
     imgSrc: "/double-toned-milk-vardaanFarms-products.jpeg",
     imgAlt: "Vardaan Farms Double Toned Milk",
     productName: "Double Toned Milk",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+      "With reduced fat and maintained nutrition, our double toned milk is the healthier choice for fitness-focused families without giving up on freshness.",
     pageLink: "/product/double-toned-milk",
   },
   {
@@ -186,7 +188,7 @@ export const productSlidesData = [
     imgAlt: "Vardaan Farms Buffalo Ghee",
     productName: "Buffalo Ghee",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
+      "Slow-cooked from fresh buffalo milk, this ghee has a rich aroma and deep flavor. Perfect for traditional cooking and everyday nourishment.",
     pageLink: "/product/buffalo-ghee",
   },
   {
@@ -194,26 +196,26 @@ export const productSlidesData = [
     imgAlt: "Vardaan Farms A2 Desi Cow Ghee",
     productName: "A2 Desi Cow Ghee",
     productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/",
+      "Handcrafted from A2 milk, our desi cow ghee carries the golden taste of tradition. Pure, aromatic, and filled with health benefits.",
+    pageLink: "/product/a2-desi-buffalo-ghee",
   },
-  {
-    imgSrc: "/malai-paneer-vardaanFarms-products.jpeg",
-    imgAlt: "Vardaan Farms Malai Paneer",
-    productName: "Malai Paneer",
-    productDescription:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores provident minima quas ea architecto placeat! Soluta asperiores cumque totam nemo aliquam, veniam officia illo repellat quod. Perspiciatis ab enim incidunt architecto repellat esse, libero qui dicta in aliquid eius iure!",
-    pageLink: "/product/malai-paneer",
-  },
+  // {
+  //   imgSrc: "/malai-paneer-vardaanFarms-products.jpeg",
+  //   imgAlt: "Vardaan Farms Malai Paneer",
+  //   productName: "Malai Paneer",
+  //   productDescription:
+  //     "Soft, creamy, and melt-in-mouth, our malai paneer is made from farm-fresh milk. Perfect for curries, snacks, and wholesome meals.",
+  //   pageLink: "/product/malai-paneer",
+  // },
 ];
 
 export const testimonialCards = [
   {
     starcolor: "yellow-600",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
-    name: "Myank Behl",
-    designation: "Software developer",
+      "I have been purchasing from Vardaan Farms for months now, and the freshness of their dairy products always reminds me of home. The ghee tastes pure, and the milk feels natural every single day.",
+    name: "Ramesh Kumar",
+    designation: "Business Owner",
     textcolor: "text-white/80",
     bgColor: "bg-slate-700",
     specificCss:
@@ -223,9 +225,9 @@ export const testimonialCards = [
   {
     starcolor: "white",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
-    name: "Myank Behl",
-    designation: "Software developer",
+      "As a mother, I always worry about giving my children safe food. Vardaan Farms delivers milk and ghee that I can trust completely. Their service is timely, and the taste never disappoints us.",
+    name: "Anita Sharma",
+    designation: "Homemaker",
     textcolor: "text-white/80",
     bgColor: "bg-blue-500",
     specificCss:
@@ -235,9 +237,9 @@ export const testimonialCards = [
   {
     starcolor: "yellow-600",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
-    name: "Myank Behl",
-    designation: "Software developer",
+      "From packaging to taste, Vardaan Farms maintains excellent quality. I no longer worry about artificial additives in dairy. Their products bring back the authentic village flavor I grew up with.",
+    name: "Vikas Mehta",
+    designation: "Software Engineer",
     textcolor: "text-black/80",
     bgColor: "bg-slate-100",
     specificCss:
@@ -247,9 +249,9 @@ export const testimonialCards = [
   {
     starcolor: "yellow-600",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
-    name: "Myank Behl",
-    designation: "Software developer",
+      "I love cooking with their desi cow ghee. The aroma fills my kitchen, and my family notices the authentic taste in every meal. Truly feels like traditional homemade goodness in every spoonful.",
+    name: "Priya Nair",
+    designation: "Teacher",
     textcolor: "text-black/80",
     bgColor: "bg-green-200",
     specificCss:
@@ -259,9 +261,9 @@ export const testimonialCards = [
   {
     starcolor: "yellow-600",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro enim a quibusdam quam libero tempora, odio, aut excepturi fugiat at similique vero illo! Accusamus quisquam ducimus eveniet impedit repudiandae.",
-    name: "Myank Behl",
-    designation: "Software developer",
+      "Being in fitness, I always seek natural nutrition. Vardaan Farms’ buffalo ghee and fresh milk keep me energized. I recommend them to anyone looking for authentic, chemical-free dairy products every day.",
+    name: "Sandeep Singh",
+    designation: "Fitness Trainer",
     textcolor: "text-white/80",
     bgColor: "bg-black",
     specificCss:
@@ -272,24 +274,24 @@ export const testimonialCards = [
 
 export const faqData = [
   {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    ques: "What makes Vardaan Farms’ milk the best organic milk?",
+    ans: "Our best organic milk comes from grass-fed cows, free from artificial hormones and preservatives. It’s 100% natural, ensuring maximum nutrition and purity for your family.",
   },
   {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    ques: "Is Vardaan Farms' fresh milk pasteurized?",
+    ans: "Yes, our fresh milk is gently pasteurized to maintain safety while preserving its natural taste and nutrients—no preservatives, no chemicals, just pure dairy goodness.",
   },
   {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    ques: "Who should drink high-protein milk?",
+    ans: "Our high-protein milk is ideal for athletes, gym-goers, growing children, and health-conscious individuals. It provides essential proteins & nutrients to support an active lifestyle.",
   },
   {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    ques: "What are the benefits of cultured milk?",
+    ans: "Our cultured milk is rich in probiotics, which help with digestion, gut health, and immunity. It’s a great choice for anyone looking for a natural source of healthy bacteria.",
   },
   {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
+    ques: "Do you offer bulk orders for businesses?",
+    ans: "Yes, we specialize in bulk dairy supply for retailers, distributors, and businesses. Contact us for customized pricing and delivery options.",
   },
 ];
 
@@ -297,31 +299,25 @@ export const ourProcessData = [
   {
     imgSrc:"/d",
     imgAlt:"abc",
-    heading:"Heading",
-    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+    heading:"Healthy Cows",
+    pera:"Our cows are fed natural fodder and cared for in open, stress-free spaces. Healthy cows give pure, rich milk that carries natural goodness to your family."
   },
   {
     imgSrc:"/d",
     imgAlt:"abc",
-    heading:"Heading",
-    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+    heading:"Fresh Milking",
+    pera:"We follow clean, hygienic milking every day to keep the milk fresh and full of natural flavor, so every sip brings nutrition and purity."
   },
   {
     imgSrc:"/d",
     imgAlt:"abc",
-    heading:"Heading",
-    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+    heading:"Safe Processing",
+    pera:"Milk is gently handled without chemicals or preservatives. This keeps it pure, wholesome, and as close to nature as possible."
   },
   {
     imgSrc:"/d",
     imgAlt:"abc",
-    heading:"Heading",
-    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
-  },
-  {
-    imgSrc:"/d",
-    imgAlt:"abc",
-    heading:"Heading",
-    pera:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, error adipisci. Ipsum animi incidunt aliquid tenetur deserunt ab totam facere."
+    heading:"Quality Testing",
+    pera:"Every batch is checked for purity, freshness, and safety, so you always get dairy you can trust without compromise."
   },
 ]

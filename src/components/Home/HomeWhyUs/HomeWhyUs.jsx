@@ -16,11 +16,13 @@ const HomeWhyUs = () => {
             Why Vardaan Farms ?
           </h2>
           <p className="w-full md:w-[70%] text-black/50">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
-            molestiae aspernatur quo nihil repellat iste esse eveniet libero,
-            illum magnam quibusdam tempora eos, delectus possimus, iure
-            reiciendis omnis facilis. Sequi, totam iure. Vitae at laboriosam,
-            aliquid unde deleniti porro sit?
+            <span className="text-black font-bold">
+              Delivering organic integrity to everyone, everywhere.
+            </span>{" "}
+            We are committed to delivering organic integrity to everyone,
+            everywhere. Our dairy products are pure, natural, and responsibly
+            sourced, ensuring every home receives honest nutrition, trusted
+            quality, and the goodness of nature in every drop.
           </p>
         </div>
         <div className="z-[4]">

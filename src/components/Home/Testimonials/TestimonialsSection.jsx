@@ -9,11 +9,10 @@ const TestimonialsSection = () => {
           Testimonials
         </h2>
         <p className="text-center text-black/50">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eos,
-          quia molestias eius voluptate architecto doloremque porro voluptates
-          cupiditate eligendi necessitatibus illo consequatur labore ea corporis
-          sit quaerat aut quo quisquam iusto error. Non corporis quisquam
-          ducimus delectus officia iste.
+          Our customers are the heart of Vardaan Farms. Their words reflect the
+          trust and love they have for our pure milk and ghee. Each testimonial
+          inspires us to continue delivering farm-fresh, authentic, and
+          wholesome goodness every single day.
         </p>
         <div className="overflow-visible flex items-center justify-center">
           <div

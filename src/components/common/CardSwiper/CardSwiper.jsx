@@ -13,19 +13,27 @@ export default function CardSwiper({ data }) {
         className="mySwiper w-[70%] md:w-4/5 xl:w-[70%] 2xl:w-1/2 h-fit"
       >
         {data.map((obj, id) => (
-          <SwiperSlide key={id} className="rounded-2xl bg-black/10 p-4 flex flex-col  gap-6">
-            <img
-              src={obj.imgSrc}
-              alt={obj.imgAlt}
-              width="50px"
-              height="50px"
-              className="rounded-full"
-            />
-            <p className="text-sm h-[250px]">
-             {obj.pera}
-            </p>
-            <img src={data.signature} alt={obj.signatureAlt} />
-            <p className="text-xs">{obj.designation}</p>
+          <SwiperSlide key={id} className="rounded-2xl p-4 bg-white shadow-2xl">
+            <div className="flex flex-col gap-4">
+              <img
+                src={obj.imgSrc}
+                alt={obj.imgAlt}
+                width="50px"
+                height="50px"
+                className="rounded-full aspect-square"
+              />
+              <p className="text-sm h-[200px] text-black/70">
+                {obj.pera}
+              </p>
+              <div className="flex flex-col gap-1">
+                <img
+                  src={obj.signature}
+                  alt={obj.signatureAlt}
+                  className="w-2/5"
+                />
+                <p className="text-xs font-bold text-black/50">{obj.designation}</p>
+              </div>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

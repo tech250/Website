@@ -62,52 +62,51 @@ export const faqData = [
 
 export const testimonialData = [
   {
-    imgSrc:"",
+    imgSrc:"/boy-1.jpg",
     imgAlt:"",
     pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"",
+    signature:"/mayank-behl-signature.png",
     signatureAlt:"",
-    designation:""
+    designation:"With Us Since 4 years"
   },
   {
-    imgSrc:"",
+    imgSrc:"/boy-1.jpg",
     imgAlt:"",
     pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"",
+    signature:"/mayank-behl-signature.png",
     signatureAlt:"",
-    designation:""
+    designation:"With Us Since 4 years"
   },
-  {
-    imgSrc:"",
+    {
+    imgSrc:"/boy-1.jpg",
     imgAlt:"",
     pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"",
+    signature:"/mayank-behl-signature.png",
     signatureAlt:"",
-    designation:""
+    designation:"With Us Since 4 years"
   },
-  {
-    imgSrc:"",
+    {
+    imgSrc:"/boy-1.jpg",
     imgAlt:"",
     pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"",
+    signature:"/mayank-behl-signature.png",
     signatureAlt:"",
-    designation:""
+    designation:"With Us Since 4 years"
   },
-  {
-    imgSrc:"",
+    {
+    imgSrc:"/boy-1.jpg",
     imgAlt:"",
     pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"",
+    signature:"/mayank-behl-signature.png",
     signatureAlt:"",
-    designation:""
+    designation:"With Us Since 4 years"
   },
-  {
-    imgSrc:"",
+    {
+    imgSrc:"/boy-1.jpg",
     imgAlt:"",
     pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"",
+    signature:"/mayank-behl-signature.png",
     signatureAlt:"",
-    designation:""
-  },
-
+    designation:"With Us Since 4 years"
+  }
 ]

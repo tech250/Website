@@ -12,18 +12,7 @@ const OurProcess = () => {
           <div className="w-full md:-w-1/2 flex flex-col gap-4">
             <h3 className="text-2xl">From Farm To Your Table</h3>
             <p className="text-black/50">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
-              rerum officiis, est molestias sapiente ab harum quibusdam magnam
-              aut optio explicabo repellat perspiciatis placeat adipisci
-              laboriosam! Cumque amet officia quas inventore repudiandae quos
-              voluptatibus! Voluptates atque molestias sed. Nisi, voluptatum
-              quas distinctio, illo repudiandae dolor tempore inventore unde
-              molestias, ad nihil. Et repellendus ratione nesciunt accusantium
-              nulla ipsa voluptatum atque, dolor debitis doloremque, maxime
-              voluptates dignissimos, modi tempore? In cum unde debitis quasi,
-              nam ea vero at minima quaerat dicta sequi corrupti et! Cum commodi
-              necessitatibus, quia eum odit rerum, impedit nobis alias
-              consequatur pariatur consequuntur ducimus ea vero sunt?
+              From farm to your table, we keep milk as real as it should be. Our cows graze naturally, without stress, giving pure milk the traditional way. No shortcuts, no mixing — only natural goodness carried forward. Each drop reflects the bond between farmer and cattle, nurtured with care and honesty. When you make tea, set dahi, or prepare sweets, the taste stays fuller, richer, and more rooted in desi tradition. This is not just milk; it’s a promise of purity, a reminder of how real food connects families to their soil, culture, and health every single day.
             </p>
             <Link
               to="/contact-us"

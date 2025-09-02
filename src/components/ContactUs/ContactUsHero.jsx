@@ -38,9 +38,7 @@ const ContactUsHero = () => {
               className="h-full bg-slate-100/70 z-[3] absolute transition-all duration-1000 w-full "
             ></div>
             <div className="w-full h-full bg-[url('/cows-grazzing-and-looking-in-camera.png')] bg-right sm:bg-center bg-cover bg-no-repeat"></div>
-            {/* <img src="/cows-grazzing-and-looking-in-camera.png" alt="" className="z-[2] h-full object-contain" /> */}
           </div>
-
           <div className="flex flex-col-reverse gap-6 w-2/5 pb-6">
             <div className="flex flex-col gap-1 md:gap-2">
               <h3 className="text-xl font-semibold">Social</h3>

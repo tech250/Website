@@ -15,21 +15,19 @@ const HomeAboutUs = () => {
             ABOUT VARDAAN FARMS ?
           </h2>
           <p className="text-black/50">
-            {" "}
-            Lorem ipsum dolor sit amet{" "}
-            <span className="text-black font-semibold">consectetur</span>{" "}
-            adipisicing elit. Vitae, error!
+            Farm-Fresh Dairy,{" "}
+            <span className="text-black font-semibold">
+              Trusted by Families & Businesses{" "}
+            </span>
           </p>
           <p className="text-black/50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa
-            officia incidunt qui non voluptatum adipisci numquam, itaque totam
-            molestias in assumenda iusto sapiente sequi quidem odio quibusdam
-            porro! Ducimus.
-          </p>
-          <p className="text-black/50">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-            expedita deserunt illum minus magni culpa saepe atque! Numquam dolor
-            explicabo nulla veritatis laborum culpa assumenda?
+            At Vardaan Farms, we bring you the best organic milk and fresh milk,
+            sourced from healthy, grass-fed cows. With no preservatives or
+            additives, our fresh milk retains its natural purity and
+            nutrition—just as nature intended. Whether you're looking for a
+            nutritious choice for your family or a reliable supplier for your
+            business, we ensure quality in every drop. Our high-protein milk and
+            cultured milk provide additional health benefits for all ages.
           </p>
         </div>
       </div>

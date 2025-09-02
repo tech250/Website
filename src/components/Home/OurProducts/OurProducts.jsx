@@ -12,18 +12,15 @@ const OurProducts = () => {
           <Products data={productSlidesData} />
         </div>
         <p className="text-black/50 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta modi et
-          itaque harum eligendi, quibusdam ut odio quos corrupti omnis aliquid
-          facilis, nulla magni laboriosam necessitatibus optio illum pariatur
-          nemo natus minus qui voluptatem cum atque numquam! Repellendus
-          assumenda sunt ad dolor, ducimus sequi eius asperiores ut, voluptas
-          dicta unde modi pariatur recusandae nostrum tenetur corrupti iste
-          tempora illum aspernatur. Corporis soluta eveniet fugit necessitatibus
-          debitis itaque nulla dignissimos quam unde tempore deleniti animi
-          voluptas dolore, pariatur repellat, accusamus doloremque autem,
-          deserunt ipsam qui. Tempora, excepturi? Officiis exercitationem harum
-          possimus iste illo labore cumque placeat commodi aliquam ducimus, et
-          consequatur!
+          At Vardaan Farms, we believe good food starts with honesty. Every
+          morning, our cows and buffaloes give us fresh, pure milk that carries
+          the richness of desi tradition. From this natural base, we craft
+          golden ghee, thick and creamy curd, and soft, fresh paneer—each
+          product made without shortcuts or chemicals. Our process is simple,
+          close to the roots, and focused on keeping nutrition and taste intact.
+          Whether it’s the milk in your glass, the ghee in your rotis, or the
+          paneer in your curries, we ensure you get farm-fresh goodness that
+          connects you to the purity of village life.
         </p>
       </div>
     </div>

@@ -88,7 +88,7 @@ const Products = ({ data }) => {
             </div>
             <div
               id={`${obj.productName}${i}DataSlide`}
-              className="p-4 flex flex-col gap-4 inset-0 bg-red-600/50 absolute rounded-[14px] translate-y-full transition w-[320px] aspect-[3/4] duration-1000"
+              className="p-4 flex flex-col gap-4 inset-0 bg-[#bb9d35]/90 absolute rounded-[14px] translate-y-full transition w-[320px] aspect-[3/4] duration-1000"
               onMouseLeave={() => {
                 closeSlide(obj.productName, i);
               }}
@@ -96,10 +96,10 @@ const Products = ({ data }) => {
               <h4 className="text-xl">{obj.productName}</h4>
               <p className="grow">{obj.productDescription}</p>
               <Link
-                to={obj.productLink}
+                to={obj.pageLink}
                 className="w-full text-center bg-white py-2 rounded-[14px] shadow-[5px_5px_1px_black] hover:scale-95 transition text-sm"
               >
-                View Description
+                {`View Description`}
               </Link>
             </div>
           </div>

@@ -3,7 +3,7 @@ import FAQ from "./FAQ";
 const FAQSection = () => {
   return (
     <div className="relative">
-      <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 items-center">
+      <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12">
         <div className="w-full md:w-1/2">
           <img src="/women-pouring-milk-pencil-sketch.png" alt="" className="w-full" />
         </div>
