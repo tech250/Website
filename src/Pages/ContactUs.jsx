@@ -3,7 +3,7 @@ import MapAndForm from "../components/ContactUs/MapAndForm";
 
 const ContactUs = () => {
   return (
-    <div className="layout-container pb-6">
+    <div className="layout-container pb-6 bg-[url('/crumbled-paper.png')]">
       <ContactUsHero />
       <p className="custom-container text-black/50 text-center sm:text-lg">
         We’d love to hear from you! Whether you have a question about our
