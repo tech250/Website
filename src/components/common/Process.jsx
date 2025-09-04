@@ -13,7 +13,9 @@ const Process = ({ data }) => {
             <img
               src={obj.imgSrc}
               alt={obj.imgAlt}
-              className="aspect-square h-full w-full"
+              className="aspect-square "
+              width="150"
+              height="150"
             />
           </div>
           <div className="flex flex-col gap-1">

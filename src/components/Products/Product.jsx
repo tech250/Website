@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Product = ({ data }) => {
   return (
     <div
-      className={`min-h-[700px] h-screen flex relative snap-start ${
+      className={`min-h-[600px] h-screen flex relative snap-start ${
         data.side == "left" ? "flex-row-reverse" : ""
       }`}
       id={data.productPageLink?.split("/")[1]}

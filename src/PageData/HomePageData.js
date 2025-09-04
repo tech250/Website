@@ -214,61 +214,66 @@ export const testimonialCards = [
     starcolor: "yellow-600",
     description:
       "I have been purchasing from Vardaan Farms for months now, and the freshness of their dairy products always reminds me of home. The ghee tastes pure, and the milk feels natural every single day.",
-    name: "Ramesh Kumar",
+    name: "Amit Joshi",
     designation: "Business Owner",
     textcolor: "text-white/80",
     bgColor: "bg-slate-700",
     specificCss:
       "relative md:translate-x-[20%] z-[2] rotate-[-8deg] mt-[80px] sm:mt-[60px] md:mt-[120px]",
     lineColor: "white/80",
+    imgSrc: "/amitJoshi.jpeg",
   },
   {
     starcolor: "white",
     description:
       "As a mother, I always worry about giving my children safe food. Vardaan Farms delivers milk and ghee that I can trust completely. Their service is timely, and the taste never disappoints us.",
-    name: "Anita Sharma",
+    name: "Anil Kumar",
     designation: "Homemaker",
     textcolor: "text-white/80",
     bgColor: "bg-blue-500",
     specificCss:
       "z-[4] rotate-[-9deg] mt-[20px] -translate-x-[20%] sm:-translate-x-[40%] md:translate-x-0",
     lineColor: "white/80",
+    imgSrc: "/anilKumar.jpeg",
   },
   {
     starcolor: "yellow-600",
     description:
       "From packaging to taste, Vardaan Farms maintains excellent quality. I no longer worry about artificial additives in dairy. Their products bring back the authentic village flavor I grew up with.",
-    name: "Vikas Mehta",
+    name: "Pooja Singh",
     designation: "Software Engineer",
     textcolor: "text-black/80",
     bgColor: "bg-slate-100",
     specificCss:
       "z-[3] rotate-[12deg] -translate-x-[60%] md:translate-x-[-20%]",
     lineColor: "black/80",
+    imgSrc: "/poojaSingh.jpg",
   },
   {
     starcolor: "yellow-600",
     description:
       "I love cooking with their desi cow ghee. The aroma fills my kitchen, and my family notices the authentic taste in every meal. Truly feels like traditional homemade goodness in every spoonful.",
-    name: "Priya Nair",
+    name: "Rahul Mehta",
     designation: "Teacher",
     textcolor: "text-black/80",
     bgColor: "bg-green-200",
     specificCss:
       "z-[5] md:translate-x-[80%] rotate-[5deg] -mt-[60px] md:-mt-[120px]",
     lineColor: "black/80",
+    imgSrc: "/rahulMehta.jpg",
   },
   {
     starcolor: "yellow-600",
     description:
       "Being in fitness, I always seek natural nutrition. Vardaan Farms’ buffalo ghee and fresh milk keep me energized. I recommend them to anyone looking for authentic, chemical-free dairy products every day.",
-    name: "Sandeep Singh",
+    name: "Priya Sharma",
     designation: "Fitness Trainer",
     textcolor: "text-white/80",
     bgColor: "bg-black",
     specificCss:
       "z-[6] rotate-[10deg] -mt-[120px] md:-mt-[150px] -translate-x-[80px] md:translate-x-[40%]",
     lineColor: "white/80",
+    imgSrc: "/priyaSharma.jpg",
   },
 ];
 
@@ -297,27 +302,66 @@ export const faqData = [
 
 export const ourProcessData = [
   {
-    imgSrc:"/d",
-    imgAlt:"abc",
-    heading:"Healthy Cows",
-    pera:"Our cows are fed natural fodder and cared for in open, stress-free spaces. Healthy cows give pure, rich milk that carries natural goodness to your family."
+    imgSrc: "/healthy-cow.png",
+    imgAlt: "Cow Grazing pencil Sketch",
+    heading: "Healthy Cows",
+    pera: "Our cows are fed natural fodder and cared for in open, stress-free spaces. Healthy cows give pure, rich milk that carries natural goodness to your family.",
   },
   {
-    imgSrc:"/d",
-    imgAlt:"abc",
-    heading:"Fresh Milking",
-    pera:"We follow clean, hygienic milking every day to keep the milk fresh and full of natural flavor, so every sip brings nutrition and purity."
+    imgSrc: "/fresh-milking.png",
+    imgAlt: "Cow Milking Pencil Sketch",
+    heading: "Fresh Milking",
+    pera: "We follow clean, hygienic milking every day to keep the milk fresh and full of natural flavor, so every sip brings nutrition and purity.",
   },
   {
-    imgSrc:"/d",
-    imgAlt:"abc",
-    heading:"Safe Processing",
-    pera:"Milk is gently handled without chemicals or preservatives. This keeps it pure, wholesome, and as close to nature as possible."
+    imgSrc: "/safe-processing.png",
+    imgAlt: "Milk Pouring Black and White",
+    heading: "Safe Processing",
+    pera: "Milk is gently handled without chemicals or preservatives. This keeps it pure, wholesome, and as close to nature as possible.",
   },
   {
-    imgSrc:"/d",
-    imgAlt:"abc",
-    heading:"Quality Testing",
-    pera:"Every batch is checked for purity, freshness, and safety, so you always get dairy you can trust without compromise."
+    imgSrc: "/quality-testing.png",
+    imgAlt: "Milk Glass Black and White",
+    heading: "Quality Testing",
+    pera: "Every batch is checked for purity, freshness, and safety, so you always get dairy you can trust without compromise.",
   },
-]
+];
+
+export const HeroSectionSlidesData = [
+  {
+    heading: "Pure Desi Goodness",
+    leftBoxes: [
+      { number: "5000+", text: "Daily Customers" },
+      { number: "100%", text: "Natural Feed" },
+    ],
+    pera: "Experience authentic A2 milk straight from our farms. No mixing, no shortcuts—just pure, nutrient-rich goodness you can trust for your family’s health, delivered fresh every single day.",
+    buttonText: "See Products",
+    buttonLInk:"/products",
+    imgSrc:"/hero-section-1.png",
+    imgAlt:""
+  },
+  {
+    heading: "Fresh Daily Delivery",
+    leftBoxes: [
+      { number: "250+", text: "Local Villages" },
+      { number: "12", text: "Hours Freshness" },
+    ],
+    pera: "From udder to packets within hours, our cold-chain system ensures unmatched freshness. No old stock—just wholesome milk that makes tea richer, dahi thicker, and paneer softer daily.",
+    buttonText: "Lets Connect",
+    buttonLInk:"/contact-us",
+    imgSrc:"/hero-section-2.png",
+    imgAlt:""
+  },
+    {
+    heading: "Trust That Lasts",
+    leftBoxes: [
+      { number: "5000+", text: "Partner Farmers" },
+      { number: "100%", text: "Natural Feed" },
+    ],
+    pera: "We empower farmers with fair pay, vet support, and training while delivering chemical-free milk to your kitchen. Every drop reflects honesty, care, and tradition—just like at nani’s home.",
+    buttonText: "See Products",
+    buttonLInk:"/products",
+    imgSrc:"/hero-section-3.png",
+    imgAlt:""
+  }
+];

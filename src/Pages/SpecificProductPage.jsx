@@ -13,14 +13,13 @@ const SpecificProductPage = () => {
   }, [pageData]);
 
   return pageData == null ? (
-    ""
+    <div className="min-h-screen"></div>
   ) : (
-    <div className="layout-container">
-      <ProductHeroSection data={pageData}/>
-      <ProductTestimonials/>
+    <div className="layout-container bg-[url('/about-us-our-aproach-bg.jpg')]">
+      <ProductHeroSection data={pageData} />
+      <ProductTestimonials />
     </div>
   );
 };
 
 export default SpecificProductPage;
-

@@ -23,7 +23,7 @@ const ProductHeroSection = ({ data }) => {
   return (
     <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 py-6 md:py-8 lg:py-12 items-center justify-between">
       <div className="w-full md:w-1/2 lg:w-[40%] 2xl:w-[35%] self-start aspect-square">
-        <SwiperWithImagePreviewsAtBottom />
+        <SwiperWithImagePreviewsAtBottom data={data.img}/>
       </div>
       <div className="w-full md:w-1/2 flex flex-col gap-4 self-center">
         {/* plus icom */}

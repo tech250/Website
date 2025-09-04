@@ -6,11 +6,12 @@ import HomeWhyUs from "../components/Home/HomeWhyUs/HomeWhyUs";
 import OurProcess from "../components/Home/OurProcess/OurProcess";
 import OurProducts from "../components/Home/OurProducts/OurProducts";
 import TestimonialsSection from "../components/Home/Testimonials/TestimonialsSection";
+import { HeroSectionSlidesData } from "../PageData/HomePageData";
 
 const Home = () => {
   return (
     <div className="layout-container">
-      <HeroSection />
+      <HeroSection data={HeroSectionSlidesData}/>
       <HomeAboutUs />
       <HomeWhyUs />
       <OurProducts />

@@ -3,7 +3,7 @@ import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import HeroSectionSlide from "./HeroSectionSlide";
 
-const HeroSection = () => {
+const HeroSection = ({ data }) => {
   return (
     <div className="layout-container bg-center bg-[url(/home-hero-bg.jpg)]">
       <div className="bg-white/40 backdrop-blur-sm">
@@ -17,15 +17,11 @@ const HeroSection = () => {
           }}
           speed={1500}
         >
-          <SwiperSlide className="w-full flex justify-center">
-            <HeroSectionSlide />
-          </SwiperSlide>
-          <SwiperSlide>
-            <HeroSectionSlide />
-          </SwiperSlide>
-          <SwiperSlide>
-            <HeroSectionSlide />
-          </SwiperSlide>
+          {data.map((data,index) => (
+            <SwiperSlide key={index}>
+              <HeroSectionSlide data={data}/>
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>

@@ -30,6 +30,7 @@ const TestimonialsSection = () => {
                 bgColor={obj.bgColor}
                 specificCss={obj.specificCss}
                 lineColor={obj.lineColor}
+                imgSrc={obj.imgSrc}
               />
             ))}
           </div>
