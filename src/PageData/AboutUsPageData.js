@@ -62,51 +62,51 @@ export const faqData = [
 
 export const testimonialData = [
   {
-    imgSrc:"/boy-1.jpg",
-    imgAlt:"",
-    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"/mayank-behl-signature.png",
-    signatureAlt:"",
-    designation:"With Us Since 4 years"
+    imgSrc: "/aarav-singh-image.jpeg",
+    imgAlt: "Aarav Singh Image",
+    pera: "The milk from Vardaan Farms is so fresh and pure. Every glass reminds me of the natural taste from villages, and my family truly trusts the quality. Nothing else compares to it!",
+    signature: "/aarav-singh-signature.png",
+    signatureAlt: "Aarav Singh Signature",
+    designation: "With Us Since 2 years"
   },
   {
-    imgSrc:"/boy-1.jpg",
-    imgAlt:"",
-    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"/mayank-behl-signature.png",
-    signatureAlt:"",
-    designation:"With Us Since 4 years"
+    imgSrc: "/ananya-verma-image.jpeg",
+    imgAlt: "Ananya Verma Image",
+    pera: "Finding chemical-free milk in the city felt impossible until I tried Vardaan Farms. Their dairy is consistently creamy, safe for kids, and feels like real farm-fresh goodness delivered daily.",
+    signature: "/ananya-verma-signature.png",
+    signatureAlt: "Ananya Verma Signature",
+    designation: "With Us Since 5 years"
   },
-    {
-    imgSrc:"/boy-1.jpg",
-    imgAlt:"",
-    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"/mayank-behl-signature.png",
-    signatureAlt:"",
-    designation:"With Us Since 4 years"
+  {
+    imgSrc: "/mayank-behl-image.jpg",
+    imgAlt: "Mayank Behl Image",
+    pera: "The quality has been excellent since day one. Whether it is milk, curd, or ghee, everything tastes authentic and natural. Vardaan Farms has become a part of our family routine now.",
+    signature: "/mayank-behl-signature.png",
+    signatureAlt: "Mayank Behl Signature",
+    designation: "With Us Since 3 years"
   },
-    {
-    imgSrc:"/boy-1.jpg",
-    imgAlt:"",
-    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"/mayank-behl-signature.png",
-    signatureAlt:"",
-    designation:"With Us Since 4 years"
+  {
+    imgSrc: "/riya-kapoor-image.jpeg",
+    imgAlt: "Riya Kapoor Image",
+    pera: "We never thought fresh farm milk could taste this pure in Gurgaon. Vardaan Farms truly stands out with their quality and dedication to keeping milk natural and full of goodness.",
+    signature: "/riya-kapoor-signature.png",
+    signatureAlt: "Riya Kapoor Signature",
+    designation: "With Us Since 6 years"
   },
-    {
-    imgSrc:"/boy-1.jpg",
-    imgAlt:"",
-    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"/mayank-behl-signature.png",
-    signatureAlt:"",
-    designation:"With Us Since 4 years"
+  {
+    imgSrc: "/vihan-malhotra-image.webp",
+    imgAlt: "Vihan Malhotra Image",
+    pera: "I recommend Vardaan Farms to anyone looking for trustworthy milk. The difference in taste is clear, and it feels so good to know we are drinking pure, organic, desi cow milk daily.",
+    signature: "/vihan-malhotra-signature.png",
+    signatureAlt: "Vihan Malhotra Signature",
+    designation: "With Us Since 1 year"
   },
-    {
-    imgSrc:"/boy-1.jpg",
-    imgAlt:"",
-    pera:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-    signature:"/mayank-behl-signature.png",
-    signatureAlt:"",
-    designation:"With Us Since 4 years"
+  {
+    imgSrc: "/kavya-mehta-image.jpeg",
+    imgAlt: "Kavya Mehta Image",
+    pera: "Ghee from Vardaan Farms is the closest thing to homemade. Its aroma, taste, and quality are unmatched. Once you switch, you won’t ever feel like buying from any other brands again.",
+    signature: "/kavya-mehta-signature.png",
+    signatureAlt: "Kavya Mehta Signature",
+    designation: "With Us Since 7 years"
   }
-]
+];

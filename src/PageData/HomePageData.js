@@ -355,7 +355,7 @@ export const HeroSectionSlidesData = [
     {
     heading: "Trust That Lasts",
     leftBoxes: [
-      { number: "5000+", text: "Partner Farmers" },
+      { number: "3300+", text: "Partner Farmers" },
       { number: "100%", text: "Natural Feed" },
     ],
     pera: "We empower farmers with fair pay, vet support, and training while delivering chemical-free milk to your kitchen. Every drop reflects honesty, care, and tradition—just like at nani’s home.",

@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
-import { FreeMode, Autoplay } from "swiper/modules";
+import {  Autoplay } from "swiper/modules";
 
 export default function WhyUsSlide({data , imgCss}) {
   return (
@@ -22,14 +22,13 @@ export default function WhyUsSlide({data , imgCss}) {
         },
       }}
       spaceBetween={30}
-      freeMode={true}
       grabCursor={true}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
       }}
       loop={true}
-      modules={[FreeMode, Autoplay]}
+      modules={[Autoplay]}
       className="w-full"
     >
       {data.map((obj) => (

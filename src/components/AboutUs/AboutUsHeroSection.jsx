@@ -5,13 +5,10 @@ const AboutUsHeroSection = () => {
       <div className="custom-container flex gap-6 md:gap-8 lg:gap-12 items-center flex-col md:flex-row">
         <div className="w-full md:w-1/2 flex flex-col gap-4 order-2 md:order-1">
           <h1 className="w-fit text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black/80 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Honest Milk, Straight from the Source
           </h1>
           <p className="text-black/50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-            aliquam molestiae non, eius velit consectetur ipsum molestias eaque
-            quo qui id iure dolore repellat fugiat facilis quasi beatae, magnam
-            nam.
+            At Vardaan Farms, we care for our cows and buffaloes like family. They eat clean, roam free, and give fresh, natural milk. Every bottle we deliver is pure, safe, and filled with honesty.
           </p>
           <span className="flex items-center gap-2">
             <i className="fa-solid fa-heart text-yellow-600"></i>

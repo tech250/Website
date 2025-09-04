@@ -13,8 +13,8 @@ const OurBestVardaanServices = () => {
           sustainability, and freshness, our dairy products stand out in both
           taste and health benefits.
         </p>
-        <div className="p-4 flex flex-col justify-end h-[270px] md:h-[350px] rounded-2xl relative z-[1]">
-          <div className="inset-0 bg-black/10 absolute rounded-2xl"></div>
+        <div className="p-4 flex flex-col justify-end h-[270px] md:h-[350px] rounded-2xl relative z-[1] bg-[url('/our-goal-bg-image.png')] bg-center bg-cover">
+          <div className="inset-0  absolute rounded-2xl"></div>
           <img
             src="/tape_top.png"
             alt="Tape Top"
@@ -24,9 +24,8 @@ const OurBestVardaanServices = () => {
             <h4 className="flex items-center gap-2">
               <i className="fa-solid fa-star text-yellow-600"></i>OUR GOALS
             </h4>
-            <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
-              aliquid.
+            <p className="text-black/80">
+              Delivering pure, fresh milk with honesty, care, health, and trust.
             </p>
           </div>
           <img
@@ -36,7 +35,7 @@ const OurBestVardaanServices = () => {
           />
         </div>
         <div className="">
-          <WhyUsSlide data={ourServicesCardaData} imgCss={"h-[150px] w-fit"}/>
+          <WhyUsSlide data={ourServicesCardaData} imgCss={"h-[150px] w-fit"} />
         </div>
       </div>
     </div>

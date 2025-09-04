@@ -11,9 +11,9 @@ const Testimonials = () => {
         <div className="flex flex-col gap-4 w-full md:w-1/2 order-1 md:order-2">
           <h2 className="text-2xl md:text-3xl lg:text-4xl flex flex-col font-semibold">
             <span>Don't take our words for it! </span>
-            <span>hear it from our partners</span>
+            <span>hear it from our Customers</span>
           </h2>
-          <p className="text-black/50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam possimus cum sed facere reprehenderit veniam beatae, iure quia sequi. Dolorem illo delectus eligendi illum, quidem molestias doloremque magni totam, dolores ratione blanditiis quos atque neque animi! Doloremque molestiae reprehenderit ratione impedit earum animi porro hic veniam, dolores exercitationem mollitia culpa!</p>
+          <p className="text-black/50">We believe trust is earned, not claimed. That’s why our customers speak for us. Families, businesses, and daily buyers share their experiences of freshness, purity, and service that makes a difference. From morning milk deliveries to special dairy needs, we stay committed to quality that never compromises. Their words reflect our honesty, care, and promise to bring only the best to your table. Hear the stories that inspire us to keep growing every day.</p>
         </div>
       </div>
     </div>

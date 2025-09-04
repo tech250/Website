@@ -9,11 +9,11 @@ const Process = ({ data }) => {
           } ${id % 2 == 0 ? "border-r-0" : " border-l-0 pl-12"}`}
         >
           <img src="/play-button-yellow.png" height="30px" width="30px" alt="" className={`absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 ${id%2==0? "rotate-[180deg]":""}`}/>
-          <div className="h-full aspect-square">
+          <div className="aspect-square w-full md:w-auto">
             <img
               src={obj.imgSrc}
               alt={obj.imgAlt}
-              className="aspect-square "
+              className="aspect-square h-full"
               width="150"
               height="150"
             />
