@@ -14,8 +14,9 @@ const KeywordSlide = ({ array, cssProperties, endposition }) => {
         transform: endposition,
         scrollTrigger: {
           trigger: document.querySelector(".pinDiv"),
-          scrub: 1,
-          end:"top 50%",
+          scrub: 3,
+          end:"top 80%",
+          markers:true,
         },
       });
     },
