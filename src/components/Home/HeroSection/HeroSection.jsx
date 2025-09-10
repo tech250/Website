@@ -19,7 +19,7 @@ const HeroSection = ({ data }) => {
         >
           {data.map((data,index) => (
             <SwiperSlide key={index}>
-              <HeroSectionSlide data={data}/>
+              <HeroSectionSlide data={data} slideIndex={index}/>
             </SwiperSlide>
           ))}
         </Swiper>

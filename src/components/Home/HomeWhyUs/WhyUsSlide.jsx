@@ -34,7 +34,7 @@ export default function WhyUsSlide({data , imgCss}) {
       {data.map((obj) => (
         <SwiperSlide key={obj.heading}>
           <div className="flex flex-col gap-6">
-            <img src={obj.imgSrc} alt={obj.imgAlt} className={`${imgCss}`}/>
+            <img src={obj.imgSrc} alt={obj.imgAlt} className={`${imgCss}`} loading="lazy"/>
             <div className="flex flex-col gap-2">
               <h3 className="font-bold">{obj.heading}</h3>
               <p className="text-sm text-black/50">{obj.pera}</p>

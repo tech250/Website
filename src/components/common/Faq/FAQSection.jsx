@@ -5,7 +5,7 @@ const FAQSection = () => {
     <div className="relative">
       <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12">
         <div className="w-full md:w-1/2">
-          <img src="/women-pouring-milk-pencil-sketch.png" alt="" className="w-full" />
+          <img src="/women-pouring-milk-pencil-sketch.png" alt="" className="w-full" loading="lazy"/>
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <h2 className="text-2xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit p-1">

@@ -75,6 +75,7 @@ const Products = ({ data }) => {
                 width="320px"
                 height="425px"
                 className="w-full h-full rounded-[14px] object-cover select-none"
+                loading="lazy"
               />
             </div>
             <div
@@ -84,7 +85,7 @@ const Products = ({ data }) => {
                 openSlide(obj.productName, i);
               }}
             >
-              <span className="text-xs">{obj.productName}</span>
+              <span className="text-sm text-black/80">{obj.productName}</span>
             </div>
             <div
               id={`${obj.productName}${i}DataSlide`}

@@ -14,7 +14,7 @@ const RatingCard = ({starcolor, description, name, designation, textcolor, bgCol
       </p>
       <span className={`h-[1px] w-1/2 bg-${lineColor}`}></span>
       <div className="flex gap-2 items-center">
-        <img src={imgSrc} alt="img" className="rounded-lg brightness-85" width="50" height="50"/>
+        <img src={imgSrc} alt="img" className="rounded-lg brightness-85" width="50" height="50" loading="lazy"/>
         <div className="flex flex-col gap-0 justify-center">
           <h4 className="text-sm">{name}</h4>
           <h5 className="text-xs">{designation}</h5>

@@ -1,4 +1,4 @@
-const HeroSectionSlide = ({data}) => {
+const HeroSectionSlide = ({data,slideIndex}) => {
   console.log(data);
   return (
     <div className="flex flex-col gap-6 w-full custom-container pb-6 md:pb-8 lg:pb-12">
@@ -24,6 +24,7 @@ const HeroSectionSlide = ({data}) => {
             className="w-full md:w-[90%]  mx-auto rounded-2xl"
             height="500"
             width="445"
+            loading={slideIndex ==0 ? "eager" : "lazy"}
           />
         </div>
         <div className="self-center text-center md:max-w-[300px] flex flex-col gap-4 order-3">
