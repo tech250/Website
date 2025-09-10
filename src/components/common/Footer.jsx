@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="custom-container py-4 md:py-6 flex flex-col gap-6 z-[3]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex flex-col gap-4">
-            <img src="/d" alt="Vardaan Farms Logo" />
+            <img src="/vardaan-farms-logo-pencil-sketch-dark.png" alt="Vardaan Farms Logo" className="h-[30px] w-fit" height="30px"/>
             <p className="text-black/70">
               Delivering fresh, pure, and natural dairy products directly from
-              our farm to your home, every day with love and care.
+              our farm to your home.
             </p>
             <div className="flex gap-2">
               <a

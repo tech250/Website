@@ -15,7 +15,7 @@ import ScrollToTop from "./components/common/ScrollToTop";
 
 const App = () => {
   return (
-    <>
+    <div>
       <NavStrip />
       <Navbar />
       <ScrollToTop behaviour="smooth" />
@@ -36,7 +36,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

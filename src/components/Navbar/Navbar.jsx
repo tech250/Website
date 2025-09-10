@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="sticky top-[0px] z-[1000] bg-white/40">
         <div className="backdrop-blur-md">
           <div className="custom-container flex justify-between items-center">
-            <img src="./" alt="Vardaan Farms Logo" />
+            <img src="/vardaan-farms-logo-pencil-sketch-dark.png" alt="Vardaan Farms Logo" className="h-[40px]"/>
             <div className="hidden md:flex gap-3 md:gap-4">
               <NavLink
                 to="/"
