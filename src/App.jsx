@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/common/ScrollToTop";
 import { Suspense, lazy } from "react";
 import NavStrip from "./components/common/NavStrip";
+import MoveUpArrow from "./components/common/MoveUpArrow";
+import Whatsapp from "./components/common/Whatsapp";
 const  Home= lazy(()=> import("./Pages/Home"));
 const  AboutUs= lazy(()=> import("./Pages/AboutUs"));
 const  ContactUs= lazy(()=> import("./Pages/ContactUs"));
@@ -16,9 +18,10 @@ const  SpecificProductPage= lazy(()=> import("./Pages/SpecificProductPage"));
 
 const App = () => {
   return (
-    <div>
+    <div className="relative">
       <NavStrip />
       <Navbar />
+      <Whatsapp/>
       <ScrollToTop behaviour="smooth" />
       <div className="overflow-x-hidden">
         <Suspense fallback={<div className="min-h-screen"></div>}>
@@ -38,6 +41,7 @@ const App = () => {
           </Routes>
         </Suspense>
       </div>
+      <MoveUpArrow/>
       <Footer />
     </div>
   );

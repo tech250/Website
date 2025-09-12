@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
     <>
       <div className="w-full aspect-[16/13] sm:aspect-[16/8] lg:aspect-[16/6] overflow-hidden relative">
         <img
-          src="/privacy-policy-banner.png"
+          src="/privacy-policy-banner.webp"
           alt=""
           className="h-full w-full object-cover"
         />

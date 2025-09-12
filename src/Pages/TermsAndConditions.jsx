@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
     <>
       <div className="w-full aspect-[16/13] sm:aspect-[16/8] lg:aspect-[16/6] overflow-hidden relative">
         <img
-          src="/terms-and-condtion.png"
+          src="/terms-and-condtion.webp"
           alt=""
           className="h-full w-full object-cover"
         />
