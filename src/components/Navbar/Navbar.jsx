@@ -24,8 +24,8 @@ const Navbar = () => {
                 className={({ isActive }) => {
                   return `transition ${
                     isActive
-                      ? "text-green-600 font-bold"
-                      : "hover:scale-105 text-black"
+                      ? "text-black/80 font-bold"
+                      : "hover:scale-105 text-black/50"
                   }`;
                 }}
               >
@@ -36,8 +36,8 @@ const Navbar = () => {
                 className={({ isActive }) => {
                   return `transition ${
                     isActive
-                      ? "text-green-600 font-bold"
-                      : "text-black hover:scale-105"
+                      ? "text-black/80 font-bold"
+                      : "hover:scale-105 text-black/50"
                   }`;
                 }}
               >
@@ -48,8 +48,8 @@ const Navbar = () => {
                 className={({ isActive }) => {
                   return `transition ${
                     isActive
-                      ? "text-green-600 font-bold"
-                      : "text-black hover:scale-105"
+                      ? "text-black/80 font-bold"
+                      : "hover:scale-105 text-black/50"
                   }`;
                 }}
               >
@@ -60,8 +60,8 @@ const Navbar = () => {
                 className={({ isActive }) => {
                   return `transition ${
                     isActive
-                      ? "text-green-600 font-bold"
-                      : "text-black hover:scale-105"
+                      ? "text-black/80 font-bold"
+                      : "hover:scale-105 text-black/50"
                   }`;
                 }}
               >
@@ -72,8 +72,8 @@ const Navbar = () => {
                 className={({ isActive }) => {
                   return `transition ${
                     isActive
-                      ? "text-green-600 font-bold"
-                      : "text-black hover:scale-105"
+                      ? "text-black/80 font-bold"
+                      : "hover:scale-105 text-black/50"
                   }`;
                 }}
               >
@@ -109,8 +109,8 @@ const Navbar = () => {
               className={({ isActive }) => {
                 return `p-2 border border-dashed rounded-md flex gap-2 items-center ${
                   isActive
-                    ? "border-green-600 text-green-600"
-                    : "text-black border-black"
+                    ? "border-black/80 text-black/80"
+                    : "text-black/50 border-black/50"
                 }`;
               }}
               onClick={closeMobileNav}
@@ -123,8 +123,8 @@ const Navbar = () => {
               className={({ isActive }) => {
                 return `p-2 border border-dashed rounded-md flex gap-2 items-center ${
                   isActive
-                    ? "border-green-600 text-green-600"
-                    : "text-black border-black"
+                    ? "border-black/80 text-black/80"
+                    : "text-black/50 border-black/50"
                 }`;
               }}
               onClick={closeMobileNav}
@@ -137,8 +137,8 @@ const Navbar = () => {
               className={({ isActive }) => {
                 return `p-2 border border-dashed rounded-md flex gap-2 items-center ${
                   isActive
-                    ? "border-green-600 text-green-600"
-                    : "text-black border-black"
+                    ? "border-black/80 text-black/80"
+                    : "text-black/50 border-black/50"
                 }`;
               }}
               onClick={closeMobileNav}
@@ -151,8 +151,8 @@ const Navbar = () => {
               className={({ isActive }) => {
                 return `p-2 border border-dashed rounded-md flex gap-2 items-center ${
                   isActive
-                    ? "border-green-600 text-green-600"
-                    : "text-black border-black"
+                    ? "border-black/80 text-black/80"
+                    : "text-black/50 border-black/50"
                 }`;
               }}
               onClick={closeMobileNav}
@@ -165,8 +165,8 @@ const Navbar = () => {
               className={({ isActive }) => {
                 return `p-2 border border-dashed rounded-md flex gap-2 items-center ${
                   isActive
-                    ? "border-green-600 text-green-600"
-                    : "text-black border-black"
+                    ? "border-black/80 text-black/80"
+                    : "text-black/50 border-black/50"
                 }`;
               }}
               onClick={closeMobileNav}
