@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const PageNotFound = () => {
   return (
-    <div className="bg-[url('/about-us-our-aproach-bg.jpg')] relative z-[1]">
+    <div className="min-h-screen sm:min-h-auto bg-[url('/about-us-our-aproach-bg.jpg')] relative z-[1] flex items-center">
       <div className="py-12 md:py-8 custom-container flex flex-col">
         <div className="flex flex-col items-center gap-6">
           <h1 className="bg-black/30 text-transparent text-[80px] font-bold bg-clip-text drop-shadow-[1px_1px_1px_black] leading-none">
