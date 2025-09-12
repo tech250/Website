@@ -2,16 +2,20 @@ import { Link } from "react-router-dom";
 const PageNotFound = () => {
   return (
     <div className="bg-[url('/about-us-our-aproach-bg.jpg')] relative z-[1]">
-      <div className="py-6 md:py-8 custom-container flex flex-col">
-        <div className="flex flex-col items-center">
+      <div className="py-12 md:py-8 custom-container flex flex-col">
+        <div className="flex flex-col items-center gap-6">
           <h1 className="bg-black/30 text-transparent text-[80px] font-bold bg-clip-text drop-shadow-[1px_1px_1px_black] leading-none">
             404
           </h1>
-          <img
-            src="/cow-eating-grass.gif"
-            alt="Cow Eating Grass"
-            width="400px"
-          />
+          <div className="w-[400px] aspect-[16/6]">
+            <img
+              src="/tractor-pencil-sketch.webp"
+              alt="Cow Eating Grass"
+              width="400px"
+              className=""
+            />
+          </div>
+
           <div className="flex flex-col gap-2 items-center">
             <h2 className="text-4xl text-black/80">Page Not Found !</h2>
             <p className="text-black/50 text-center">
