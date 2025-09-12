@@ -37,7 +37,7 @@ const ContactUsHero = () => {
               ref={imgBlackDiv}
               className="h-full bg-slate-100/70 z-[3] absolute transition-all duration-1000 w-full "
             ></div>
-            <div className="w-full h-full bg-[url('/cows-grazzing-and-looking-in-camera.png')] bg-right sm:bg-center bg-cover bg-no-repeat"></div>
+            <div className="w-full h-full bg-[url('/cows-grazzing-and-looking-in-camera.webp')] bg-right sm:bg-center bg-cover bg-no-repeat"></div>
           </div>
           <div className="flex flex-col-reverse gap-6 w-2/5 pb-6">
             <div className="flex flex-col gap-1 md:gap-2">

@@ -5,7 +5,7 @@ const MissionAndVission = () => {
         <div className="w-full md:w-1/2 relative z-[1] flex ">
           <div className="absolute aspect-square bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 -translate-y-[30px] -translate-x-[30px] z-[2] w-full md:w-4/5"></div>
           <img
-            src="/Our-mission-2.png"
+            src="/Our-mission-2.jpeg"
             alt="Our Mission Img"
             className="w-full md:w-4/5 z-[3] aspect-squar object-contain"
           />
@@ -56,7 +56,7 @@ const MissionAndVission = () => {
         <div className="w-full md:w-1/2 relative z-[1] flex justify-end">
           <div className="absolute aspect-square bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 -translate-y-[30px] translate-x-[30px] z-[2] w-full md:w-4/5"></div>
           <img
-            src="/Our-farm.png"
+            src="/Our-farm.jpeg"
             alt="Our Mission Img"
             className="w-full md:w-4/5 aspect-square z-[3]"
           />

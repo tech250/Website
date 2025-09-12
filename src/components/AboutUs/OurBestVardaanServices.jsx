@@ -13,7 +13,7 @@ const OurBestVardaanServices = () => {
           sustainability, and freshness, our dairy products stand out in both
           taste and health benefits.
         </p>
-        <div className="p-4 flex flex-col justify-end h-[270px] md:h-[350px] rounded-2xl relative z-[1] bg-[url('/our-goal-bg-image.png')] bg-center bg-cover">
+        <div className="p-4 flex flex-col justify-end h-[270px] md:h-[350px] rounded-2xl relative z-[1] bg-[url('/our-goal-bg-image.webp')] bg-center bg-cover">
           <div className="inset-0  absolute rounded-2xl"></div>
           <img
             src="/tape_top.png"

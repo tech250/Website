@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavStrip = () => {
   return (
     <div className="hidden bg-black/80 md:block text-white/80 text-sm">

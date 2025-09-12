@@ -3,12 +3,12 @@ import CircleBg from "./CircleBg";
 const Footer = () => {
   return (
     <div className="relative border-slate-200 overflow-hidden z-[1]">
-      <CircleBg zindex={-10}/>
-      <img src="/cow-eating-grass-pencil-sketch.png" alt="" className="absolute bottom-0 left-0 w-3/4 sm:w-[60%] md:w-[40%] lg:w-[20%] xl:w-[20%] z-[-2]"/>
+      <CircleBg zindex={-1}/>
+      <img src="/cow-eating-grass-pencil-sketch.jpeg" alt="" className="absolute bottom-0 left-0 w-3/4 sm:w-[60%] md:w-[40%] lg:w-[20%] xl:w-[20%] z-[-2]"/>
       <div className="custom-container py-4 md:py-6 flex flex-col gap-6 z-[3]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="flex flex-col gap-4">
-            <img src="/vardaan-farms-logo-pencil-sketch-dark.png" alt="Vardaan Farms Logo" className="h-[30px] w-fit" height="30px"/>
+            <img src="/vardaan-farms-logo-pencil-sketch-dark.png" alt="Vardaan Farms Logo" className="h-[50px] md:h-[30px] w-fit" height="30px"/>
             <p className="text-black/70">
               Delivering fresh, pure, and natural dairy products directly from
               our farm to your home.
@@ -145,7 +145,7 @@ const Footer = () => {
           </NavLink>
         </p>
       </div>
-      <img src="/footer-img.png" alt="" className="absolute top-0 md:top-auto bottom-0 right-0 w-3/4 sm:w-[60%] md:w-[40%] lg:w-[20%] xl:w-[15%] z-[-2]"/>
+      <img src="/footer-img.jpeg" alt="" className="hidden sm:block absolute top-0 md:top-auto bottom-0 right-0 w-3/4 sm:w-[60%] md:w-[40%] lg:w-[20%] xl:w-[15%] z-[-2]"/>
     </div>
   );
 };

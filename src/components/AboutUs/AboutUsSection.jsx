@@ -1,10 +1,10 @@
 const AboutUsSection = () => {
   return (
     <div className="relative">
-      <img src="/three-cows-grazzing-pencil-sketch.png" alt="" className="absolute sm:w-3/4 md:w-1/2  bottom-0 right-0 z-[-1]" />
+      <img src="/three-cows-grazzing-pencil-sketch.webp" alt="" className="absolute sm:w-3/4 md:w-1/2  bottom-0 right-0 z-[-1]" />
       <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 md:items-center">
         <div className="w-full md:w-1/2 flex flex-col z-[1] relative">
-          <img src="/Our-mission.png" alt="" className="md:w-4/5 rounded-md" />
+          <img src="/Our-mission.jpeg" alt="" className="md:w-4/5 rounded-md" />
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <h4>ABOUT US</h4>

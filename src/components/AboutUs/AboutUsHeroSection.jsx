@@ -22,7 +22,7 @@ const AboutUsHeroSection = () => {
           </Link>
         </div>
         <div className="w-full md:w-1/2 flex justify-center order-1 md:order-2">
-          <img src="/buffalo-washing-pencil-sketch.png" alt="" className="" width="500px" />
+          <img src="/buffalo-washing-pencil-sketch.jpeg" alt="" className="" width="500px" height="333px"/>
         </div>
       </div>
     </div>

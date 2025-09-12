@@ -1,30 +1,30 @@
 export const HomeWhyUsSlidesData = [
   {
-    imgSrc: "/home-why-us-1.png",
+    imgSrc: "/home-why-us-1.jpeg",
     imgAlt: "Cow Eating Grass Hand Draw",
     heading: "Pure and Organic",
     pera: "Our milk is pure and organic, like at home. No mixing, no shortcuts. Cows eat clean feed, roam free. You get honest doodh with taste, straight from farm to kitchen.",
   },
   {
-    imgSrc: "/home-why-us-2.png",
+    imgSrc: "/home-why-us-2.jpeg",
     imgAlt: "",
     heading: "Fresh Daily",
     pera: "We deliver fresh milk morning, the way families prefer. Chilling and transport stay tight. No old stock. From udder to bottle quickly, so tea, dahi, and paneer taste better daily.",
   },
   {
-    imgSrc: "/home-why-us-3.png",
+    imgSrc: "/home-why-us-3.jpeg",
     imgAlt: "",
     heading: "Supports Farmers",
     pera: "We work with local farmers and pay fair rates on time. Training, vet care, and support given. When farmers grow, villages grow. Your purchase brings steady income to families nearby.",
   },
   {
-    imgSrc: "/home-why-us-4.png",
+    imgSrc: "/home-why-us-4.jpeg",
     imgAlt: "",
     heading: "Safe for Family",
     pera: "Every batch is tested. No antibiotics, no hormones, no powder, no water. Clean process, clean packing. Kids, elders can drink without worry. Taste reminds you of nani's home every day.",
   },
   {
-    imgSrc: "/home-why-us-5.png",
+    imgSrc: "/home-why-us-5.jpeg",
     imgAlt: "",
     heading: "Simple, Honest Service",
     pera: "We are easy to reach and fix issues. Simple subscription, pause anytime. Transparent pricing. We speak straight, keep promises, and treat customers like family. Service matters more than slogans here.",
@@ -302,25 +302,25 @@ export const faqData = [
 
 export const ourProcessData = [
   {
-    imgSrc: "/healthy-cow.png",
+    imgSrc: "/healthy-cow.jpeg",
     imgAlt: "Cow Grazing pencil Sketch",
     heading: "Healthy Cows",
     pera: "Our cows are fed natural fodder and cared for in open, stress-free spaces. Healthy cows give pure, rich milk that carries natural goodness to your family.",
   },
   {
-    imgSrc: "/fresh-milking.png",
+    imgSrc: "/fresh-milking.jpeg",
     imgAlt: "Cow Milking Pencil Sketch",
     heading: "Fresh Milking",
     pera: "We follow clean, hygienic milking every day to keep the milk fresh and full of natural flavor, so every sip brings nutrition and purity.",
   },
   {
-    imgSrc: "/safe-processing.png",
+    imgSrc: "/safe-processing.jpeg",
     imgAlt: "Milk Pouring Black and White",
     heading: "Safe Processing",
     pera: "Milk is gently handled without chemicals or preservatives. This keeps it pure, wholesome, and as close to nature as possible.",
   },
   {
-    imgSrc: "/quality-testing.png",
+    imgSrc: "/quality-testing.jpeg",
     imgAlt: "Milk Glass Black and White",
     heading: "Quality Testing",
     pera: "Every batch is checked for purity, freshness, and safety, so you always get dairy you can trust without compromise.",

@@ -1,12 +1,10 @@
-import React from "react";
-
 const MapAndForm = () => {
   return (
     <div className="">
       <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 items-center justify-between">
         {/* for img */}
         <div className="w-full md:w-4/10 relative z-[1]">
-          <img src="./map.png" alt="Map" className="w-full md:w-full z-[2]"/>
+          <img src="./map.webp" alt="Map" className="w-full md:w-full z-[2]"/>
           <i className="fa-solid fa-location-dot z-[3] top-1/2 left-1/2 text-black/50 text-2xl animate-ping absolute -translate-y-1/2"></i>
         </div>
         {/* for form */}
