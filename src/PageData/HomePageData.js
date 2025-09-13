@@ -329,39 +329,39 @@ export const ourProcessData = [
 
 export const HeroSectionSlidesData = [
   {
-    heading: "Pure Desi Goodness",
-    leftBoxes: [
-      { number: "5000+", text: "Daily Customers" },
-      { number: "100%", text: "Natural Feed" },
-    ],
-    pera: "Experience authentic A2 milk straight from our farms. No mixing, no shortcuts—just pure, nutrient-rich goodness you can trust for your family’s health, delivered fresh every single day.",
-    buttonText: "See Products",
-    buttonLInk:"/products",
-    imgSrc:"/hero-section-1.png",
-    imgAlt:""
-  },
-  {
-    heading: "Fresh Daily Delivery",
+    heading: ["Fresh", "Daily", "Delivery"],
     leftBoxes: [
       { number: "250+", text: "Local Villages" },
       { number: "12", text: "Hours Freshness" },
     ],
     pera: "From udder to packets within hours, our cold-chain system ensures unmatched freshness. No old stock—just wholesome milk that makes tea richer, dahi thicker, and paneer softer daily.",
     buttonText: "Lets Connect",
-    buttonLInk:"/contact-us",
-    imgSrc:"/hero-section-2.png",
-    imgAlt:""
+    buttonLink: "/contact-us",
+    imgSrc: "/Artboard4.webp",
+    imgAlt: "Women Holding Milk Packet",
   },
-    {
-    heading: "Trust That Lasts",
+  {
+    heading: ["Pure", "Desi", "Goodness"],
+    leftBoxes: [
+      { number: "5000+", text: "Daily Customers" },
+      { number: "100%", text: "Natural Feed" },
+    ],
+    pera: "Experience authentic A2 milk straight from our farms. No mixing, no shortcuts—just pure, nutrient-rich goodness you can trust for your family’s health, delivered fresh every single day.",
+    buttonText: "See Products",
+    buttonLink: "/products",
+    imgSrc: "/Artboard2.webp",
+    imgAlt: "Boy Drinking Milk",
+  },
+  {
+    heading: ["Trust", "That", "Lasts"],
     leftBoxes: [
       { number: "3300+", text: "Partner Farmers" },
       { number: "100%", text: "Natural Feed" },
     ],
     pera: "We empower farmers with fair pay, vet support, and training while delivering chemical-free milk to your kitchen. Every drop reflects honesty, care, and tradition—just like at nani’s home.",
     buttonText: "See Products",
-    buttonLInk:"/products",
-    imgSrc:"/hero-section-3.png",
-    imgAlt:""
-  }
+    buttonLink: "/products",
+    imgSrc: "/Artboard1.webp",
+    imgAlt: "Women Holding Milk Glass",
+  },
 ];

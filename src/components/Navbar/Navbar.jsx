@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useRef } from "react";
 
 const Navbar = () => {
@@ -17,7 +17,13 @@ const Navbar = () => {
       <div className="sticky top-[0px] z-[1000] bg-white/40">
         <div className="backdrop-blur-md">
           <div className="custom-container flex justify-between items-center">
-            <img src="/vardaan-farms-logo-pencil-sketch-dark.png" alt="Vardaan Farms Logo" className="h-[40px]"/>
+            <Link to="/" className="hover:scale-95 transition">
+              <img
+                src="/vardaan-farms-logo-pencil-sketch-dark.png"
+                alt="Vardaan Farms Logo"
+                className="h-[40px]"
+              />
+            </Link>
             <div className="hidden md:flex gap-3 md:gap-4">
               <NavLink
                 to="/"
@@ -80,12 +86,12 @@ const Navbar = () => {
                 Blogs
               </NavLink>
             </div>
-            <a
-              href=""
+            <Link
+              to="/contact-us"
               className="hidden md:block px-4 py-2 rounded-md cursor-pointer hover:scale-95 transition shadow-[3px_3px_1px_black] border-1 hover:border-1"
             >
               Lets Connect
-            </a>
+            </Link>
             <div className="block md:hidden">
               <i
                 className="fa-solid fa-bars text-xl cursor-pointer"

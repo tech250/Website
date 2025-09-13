@@ -21,7 +21,6 @@ const OurProcess = () => {
               <i className="fa-solid fa-phone"></i>
               Lets Connect
             </Link>
-            <img src="" alt="" className="" />
           </div>
           <div className="w-full md:-w-1/2">
             <Process data={ourProcessData} />

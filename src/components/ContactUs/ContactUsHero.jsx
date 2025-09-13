@@ -43,19 +43,19 @@ const ContactUsHero = () => {
             <div className="flex flex-col gap-1 md:gap-2">
               <h3 className="text-xl font-semibold">Social</h3>
               <div className="group w-fit text-sm">
-                <a href="" className="leading-none text-black/50">
+                <a href="https://www.facebook.com/vardaanfarms/" className="leading-none text-black/50">
                   Facebook
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="" className="leading-none text-black/50">
+                <a href="https://www.instagram.com/vardaanfarms/" className="leading-none text-black/50">
                   Instagream
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="" className="leading-none text-black/50">
+                <a href="https://www.youtube.com/@VardaanFarms" className="leading-none text-black/50">
                   Youtube
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
@@ -65,19 +65,19 @@ const ContactUsHero = () => {
             <div className="flex flex-col gap-2">
               <h3 className="text-xl font-semibold">Get in touch</h3>
               <div className="group w-fit text-sm">
-                <a href="" className="leading-none text-black/50">
+                <a href="mailto:hello@vardaanfarms.com" className="leading-none text-black/50">
                   hello@vardaanfarms.com
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="" className="leading-none text-black/50">
+                <a href="tel:+918816000082" className="leading-none text-black/50">
                   +91 8816000082
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="" className="leading-none text-black/50">
+                <a href="https://maps.app.goo.gl/bsPAvfkqSoWRbN7Y6" className="leading-none text-black/50">
                   Office No-19 Star Tower Sec 30 Gurugram, Jhajjar
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 2xl:group-hover:max-w-[1000px] group-hover:max-w-[150px] transition-all duration-500"></div>
