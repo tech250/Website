@@ -25,28 +25,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "rgba(167, 101, 58, 1)",
-    // seoData: {
-    //   title: "A2 Desi Cow Milk - Vardaan Farms",
-    //   description:
-    //     "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
-    //   keywords:
-    //     "A2 Desi cow milk, Vardaan Farms, organic milk, fresh milk, natural milk, nutrient-rich milk, sustainable dairy farming, easy to digest milk, healthy milk",
-    //   og: {
-    //     title: "A2 Desi Cow Milk - Vardaan Farms",
-    //     description:
-    //       "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
-    //     image: a2DesiCowMilk,
-    //     url: "https://www.vardaanfarms.com/product/a2DesiCowMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "A2 Desi Cow Milk - Vardaan Farms",
-    //     description:
-    //       "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
-    //     image: a2DesiCowMilk,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/a2DesiCowMilk",
-    // },
+    seoData: {
+      title: "A2 Desi Cow Milk - Vardaan Farms",
+      description:
+        "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
+      keywords:
+        "A2 Desi cow milk, Vardaan Farms, organic milk, fresh milk, natural milk, nutrient-rich milk, sustainable dairy farming, easy to digest milk, healthy milk",
+      og: {
+        title: "A2 Desi Cow Milk - Vardaan Farms",
+        description:
+          "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
+        // image: a2DesiCowMilk,
+        url: "https://www.vardaanfarms.com/product/a2DesiCowMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "A2 Desi Cow Milk - Vardaan Farms",
+        description:
+          "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
+        // image: a2DesiCowMilk,
+      },
+      canonical: "https://www.vardaanfarms.com/product/a2DesiCowMilk",
+    },
   },
   "full-cream-milk": {
     img: [
@@ -74,28 +74,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#8F1E1E",
-    // seoData: {
-    //   title: "Full Cream Milk - Vardaan Farms",
-    //   description:
-    //     "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
-    //   keywords:
-    //     "full cream milk, Vardaan Farms, rich milk, creamy milk, organic milk, fresh milk, natural milk, wholesome milk, nutritious milk, sustainable dairy farming",
-    //   og: {
-    //     title: "Full Cream Milk - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
-    //     image: fullCream,
-    //     url: "https://www.vardaanfarms.com/product/fullCreamMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Full Cream Milk - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
-    //     image: fullCream,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/fullCreamMilk",
-    // },
+    seoData: {
+      title: "Full Cream Milk - Vardaan Farms",
+      description:
+        "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
+      keywords:
+        "full cream milk, Vardaan Farms, rich milk, creamy milk, organic milk, fresh milk, natural milk, wholesome milk, nutritious milk, sustainable dairy farming",
+      og: {
+        title: "Full Cream Milk - Vardaan Farms",
+        description:
+          "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
+        // image: fullCream,
+        url: "https://www.vardaanfarms.com/product/fullCreamMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Full Cream Milk - Vardaan Farms",
+        description:
+          "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
+        // image: fullCream,
+      },
+      canonical: "https://www.vardaanfarms.com/product/fullCreamMilk",
+    },
   },
   "toned-milk": {
     img: ["/TM_500_1.png", "/TM_500_2.png", "/TM_500_3.png", "/TM_500_4.png"],
@@ -118,28 +118,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#4A7A87",
-    // seoData: {
-    //   title: "Toned Milk - Vardaan Farms",
-    //   description:
-    //     "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
-    //   keywords:
-    //     "toned milk, Vardaan Farms, lighter milk, low-fat milk, organic milk, fresh milk, natural milk, nutritious milk, sustainable dairy farming, healthy milk",
-    //   og: {
-    //     title: "Toned Milk - Vardaan Farms",
-    //     description:
-    //       "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
-    //     image: tonedMilk,
-    //     url: "https://www.vardaanfarms.com/product/tonedMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Toned Milk - Vardaan Farms",
-    //     description:
-    //       "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
-    //     image: tonedMilk,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/tonedMilk",
-    // },
+    seoData: {
+      title: "Toned Milk - Vardaan Farms",
+      description:
+        "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
+      keywords:
+        "toned milk, Vardaan Farms, lighter milk, low-fat milk, organic milk, fresh milk, natural milk, nutritious milk, sustainable dairy farming, healthy milk",
+      og: {
+        title: "Toned Milk - Vardaan Farms",
+        description:
+          "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
+        // image: tonedMilk,
+        url: "https://www.vardaanfarms.com/product/tonedMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Toned Milk - Vardaan Farms",
+        description:
+          "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
+        // image: tonedMilk,
+      },
+      canonical: "https://www.vardaanfarms.com/product/tonedMilk",
+    },
   },
   "double-toned-milk": {
     img: [
@@ -167,28 +167,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#2F1D5D",
-    // seoData: {
-    //   title: "Double Toned Milk - Vardaan Farms",
-    //   description:
-    //     "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
-    //   keywords:
-    //     "double toned milk, Vardaan Farms, low-fat milk, healthy milk, organic milk, fresh milk, natural milk, nutritious milk, sustainable dairy farming",
-    //   og: {
-    //     title: "Double Toned Milk - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
-    //     image: doubleTonedMilk,
-    //     url: "https://www.vardaanfarms.com/product/doubleTonedMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Double Toned Milk - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
-    //     image: doubleTonedMilk,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/doubleTonedMilk",
-    // },
+    seoData: {
+      title: "Double Toned Milk - Vardaan Farms",
+      description:
+        "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
+      keywords:
+        "double toned milk, Vardaan Farms, low-fat milk, healthy milk, organic milk, fresh milk, natural milk, nutritious milk, sustainable dairy farming",
+      og: {
+        title: "Double Toned Milk - Vardaan Farms",
+        description:
+          "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
+        // image: doubleTonedMilk,
+        url: "https://www.vardaanfarms.com/product/doubleTonedMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Double Toned Milk - Vardaan Farms",
+        description:
+          "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
+        // image: doubleTonedMilk,
+      },
+      canonical: "https://www.vardaanfarms.com/product/doubleTonedMilk",
+    },
   },
   "natural-cow-milk": {
     img: [
@@ -216,28 +216,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#184E77",
-    // seoData: {
-    //   title: "Natural Cow Milk - Vardaan Farms",
-    //   description:
-    //     "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
-    //   keywords:
-    //     "natural cow milk, Vardaan Farms, fresh milk, pure milk, organic milk, natural milk, nutrient-rich milk, sustainable dairy farming, healthy milk",
-    //   og: {
-    //     title: "Natural Cow Milk - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
-    //     image: naturalCowMilk,
-    //     url: "https://www.vardaanfarms.com/product/naturalCowMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Natural Cow Milk - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
-    //     image: naturalCowMilk,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/naturalCowMilk",
-    // },
+    seoData: {
+      title: "Natural Cow Milk - Vardaan Farms",
+      description:
+        "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
+      keywords:
+        "natural cow milk, Vardaan Farms, fresh milk, pure milk, organic milk, natural milk, nutrient-rich milk, sustainable dairy farming, healthy milk",
+      og: {
+        title: "Natural Cow Milk - Vardaan Farms",
+        description:
+          "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
+        // image: naturalCowMilk,
+        url: "https://www.vardaanfarms.com/product/naturalCowMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Natural Cow Milk - Vardaan Farms",
+        description:
+          "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
+        // image: naturalCowMilk,
+      },
+      canonical: "https://www.vardaanfarms.com/product/naturalCowMilk",
+    },
   },
   "buffalo-milk": {
     img: [
@@ -265,28 +265,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#0A0A0A",
-    // seoData: {
-    //   title: "Buffalo Milk - Vardaan Farms",
-    //   description:
-    //     "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
-    //   keywords:
-    //     "buffalo milk, Vardaan Farms, creamy milk, rich milk, organic milk, fresh milk, natural milk, nutrient-rich milk, sustainable dairy farming, healthy milk",
-    //   og: {
-    //     title: "Buffalo Milk - Vardaan Farms",
-    //     description:
-    //       "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
-    //     image: buffaloMilk,
-    //     url: "https://www.vardaanfarms.com/product/buffaloMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Buffalo Milk - Vardaan Farms",
-    //     description:
-    //       "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
-    //     image: buffaloMilk,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/buffaloMilk",
-    // },
+    seoData: {
+      title: "Buffalo Milk - Vardaan Farms",
+      description:
+        "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
+      keywords:
+        "buffalo milk, Vardaan Farms, creamy milk, rich milk, organic milk, fresh milk, natural milk, nutrient-rich milk, sustainable dairy farming, healthy milk",
+      og: {
+        title: "Buffalo Milk - Vardaan Farms",
+        description:
+          "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
+        // image: buffaloMilk,
+        url: "https://www.vardaanfarms.com/product/buffaloMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Buffalo Milk - Vardaan Farms",
+        description:
+          "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
+        // image: buffaloMilk,
+      },
+      canonical: "https://www.vardaanfarms.com/product/buffaloMilk",
+    },
   },
   "family-pack": {
     img: [
@@ -314,28 +314,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#9A0010",
-    // seoData: {
-    //   title: "Family Pack - Vardaan Farms",
-    //   description:
-    //     "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
-    //   keywords:
-    //     "family pack, Vardaan Farms, fresh milk, natural milk, organic milk, nutrient-rich milk, sustainable dairy farming, homogenized milk, healthy milk",
-    //   og: {
-    //     title: "Family Pack - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
-    //     image: familyPack,
-    //     url: "https://www.vardaanfarms.com/product/familyPack",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Family Pack - Vardaan Farms",
-    //     description:
-    //       "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
-    //     image: familyPack,
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/familyPack",
-    // },
+    seoData: {
+      title: "Family Pack - Vardaan Farms",
+      description:
+        "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
+      keywords:
+        "family pack, Vardaan Farms, fresh milk, natural milk, organic milk, nutrient-rich milk, sustainable dairy farming, homogenized milk, healthy milk",
+      og: {
+        title: "Family Pack - Vardaan Farms",
+        description:
+          "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
+        // image: familyPack,
+        url: "https://www.vardaanfarms.com/product/familyPack",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Family Pack - Vardaan Farms",
+        description:
+          "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
+        // image: familyPack,
+      },
+      canonical: "https://www.vardaanfarms.com/product/familyPack",
+    },
   },
   "butter-milk": {
     img: ["/Butter milk 1.png", "/Butter milk 2.png", "/Butter milk 3.png"],
@@ -358,28 +358,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#01321A",
-    // seoData: {
-    //   title: "Butter Milk - Refreshing and Tangy Drink | Vardaan Farms",
-    //   description:
-    //     "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
-    //   keywords:
-    //     "buttermilk, plain buttermilk, Vardaan Farms, refreshing drink, natural milk, healthy beverage",
-    //   og: {
-    //     title: "Butter Milk - Vardaan Farms",
-    //     description:
-    //       "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
-    //     image: "butterMilk",
-    //     url: "https://www.vardaanfarms.com/product/butterMilk",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Butter Milk - Vardaan Farms",
-    //     description:
-    //       "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
-    //     image: "butterMilk",
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/butterMilk",
-    // },
+    seoData: {
+      title: "Butter Milk - Refreshing and Tangy Drink | Vardaan Farms",
+      description:
+        "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
+      keywords:
+        "buttermilk, plain buttermilk, Vardaan Farms, refreshing drink, natural milk, healthy beverage",
+      og: {
+        title: "Butter Milk - Vardaan Farms",
+        description:
+          "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
+        // image: "butterMilk",
+        url: "https://www.vardaanfarms.com/product/butterMilk",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Butter Milk - Vardaan Farms",
+        description:
+          "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
+        // image: "butterMilk",
+      },
+      canonical: "https://www.vardaanfarms.com/product/butterMilk",
+    },
   },
   "masala-chach": {
     img: ["/Masala chach 1.png", "/Masala chach 2.png", "/Masala chach 3.png"],
@@ -402,28 +402,28 @@ export const specificProductData = {
     },
     measurmentUnit: "ml",
     bgColor: "#3B7210",
-    // seoData: {
-    //   title: "Masala Chach - Spiced Buttermilk | Vardaan Farms",
-    //   description:
-    //     "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
-    //   keywords:
-    //     "masala chach, spiced buttermilk, Vardaan Farms, refreshing drink, natural milk, digestive aid",
-    //   og: {
-    //     title: "Masala Chach - Vardaan Farms",
-    //     description:
-    //       "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
-    //     image: "masalaChach",
-    //     url: "https://www.vardaanfarms.com/product/masalaChach",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Masala Chach - Vardaan Farms",
-    //     description:
-    //       "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
-    //     image: "masalaChach",
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/masalaChach",
-    // },
+    seoData: {
+      title: "Masala Chach - Spiced Buttermilk | Vardaan Farms",
+      description:
+        "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
+      keywords:
+        "masala chach, spiced buttermilk, Vardaan Farms, refreshing drink, natural milk, digestive aid",
+      og: {
+        title: "Masala Chach - Vardaan Farms",
+        description:
+          "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
+        // image: "masalaChach",
+        url: "https://www.vardaanfarms.com/product/masalaChach",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Masala Chach - Vardaan Farms",
+        description:
+          "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
+        // image: "masalaChach",
+      },
+      canonical: "https://www.vardaanfarms.com/product/masalaChach",
+    },
   },
   "slim-curd": {
     img: ["/Curd 500_1.png", "/Curd 500_2.png", "/Curd 500_3.png"],
@@ -446,28 +446,28 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#6BAAB7",
-    // seoData: {
-    //   title: "Slim Curd - Low-Fat Nutritious Curd | Vardaan Farms",
-    //   description:
-    //     "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
-    //   keywords:
-    //     "slim curd, low-fat curd, nutritious curd, Vardaan Farms, natural milk, healthy snack",
-    //   og: {
-    //     title: "Slim Curd - Vardaan Farms",
-    //     description:
-    //       "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
-    //     image: "slimCurd",
-    //     url: "https://www.vardaanfarms.com/product/slimCurd",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Slim Curd - Vardaan Farms",
-    //     description:
-    //       "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
-    //     image: "slimCurd",
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/slimCurd",
-    // },
+    seoData: {
+      title: "Slim Curd - Low-Fat Nutritious Curd | Vardaan Farms",
+      description:
+        "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
+      keywords:
+        "slim curd, low-fat curd, nutritious curd, Vardaan Farms, natural milk, healthy snack",
+      og: {
+        title: "Slim Curd - Vardaan Farms",
+        description:
+          "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
+        // image: "slimCurd",
+        url: "https://www.vardaanfarms.com/product/slimCurd",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Slim Curd - Vardaan Farms",
+        description:
+          "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
+        // image: "slimCurd",
+      },
+      canonical: "https://www.vardaanfarms.com/product/slimCurd",
+    },
   },
   "curd": {
     img: ["/Fresh Curd 1.png", "/Fresh Curd 2.png", "/Fresh Curd 3.png"],
@@ -490,28 +490,28 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#B73700",
-    // seoData: {
-    //   title: "Curd - Rich and Creamy | Vardaan Farms",
-    //   description:
-    //     "Indulge in Vardaan Farms' rich and creamy curd, made from pure, natural milk. Packed with essential nutrients, perfect for enhancing any meal.",
-    //   keywords:
-    //     "curd, creamy curd, Vardaan Farms, natural milk, nutritious curd, meal enhancement",
-    //   og: {
-    //     title: "Curd - Vardaan Farms",
-    //     description:
-    //       "Indulge in Vardaan Farms' rich and creamy curd, made from pure, natural milk. Packed with essential nutrients, perfect for enhancing any meal.",
-    //     image: "Curd",
-    //     url: "https://www.vardaanfarms.com/product/curd",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Curd - Vardaan Farms",
-    //     description:
-    //       "Indulge in Vardaan Farms' rich and creamy curd, made from pure, natural milk. Packed with essential nutrients, perfect for enhancing any meal.",
-    //     image: "Curd",
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/curd",
-    // },
+    seoData: {
+      title: "Curd - Rich and Creamy | Vardaan Farms",
+      description:
+        "Indulge in Vardaan Farms' rich and creamy curd, made from pure, natural milk. Packed with essential nutrients, perfect for enhancing any meal.",
+      keywords:
+        "curd, creamy curd, Vardaan Farms, natural milk, nutritious curd, meal enhancement",
+      og: {
+        title: "Curd - Vardaan Farms",
+        description:
+          "Indulge in Vardaan Farms' rich and creamy curd, made from pure, natural milk. Packed with essential nutrients, perfect for enhancing any meal.",
+        // image: "Curd",
+        url: "https://www.vardaanfarms.com/product/curd",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Curd - Vardaan Farms",
+        description:
+          "Indulge in Vardaan Farms' rich and creamy curd, made from pure, natural milk. Packed with essential nutrients, perfect for enhancing any meal.",
+        // image: "Curd",
+      },
+      canonical: "https://www.vardaanfarms.com/product/curd",
+    },
   },
   "a2-desi-cow-ghee": {
     img: [
@@ -538,29 +538,29 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#B38E28",
-    // seoData: {
-    //   title:
-    //     "A2 Desi Cow Ghee - Traditional Flavor and Health Benefits | Vardaan Farms",
-    //   description:
-    //     "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
-    //   keywords:
-    //     "A2 Desi cow ghee, traditional ghee, Vardaan Farms, natural milk, cooking ghee, healthy ghee",
-    //   og: {
-    //     title: "A2 Desi Cow Ghee - Vardaan Farms",
-    //     description:
-    //       "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
-    //     image: "a2DesiCowGhee",
-    //     url: "https://www.vardaanfarms.com/product/a2DesiCowGhee",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "A2 Desi Cow Ghee - Vardaan Farms",
-    //     description:
-    //       "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
-    //     image: "a2DesiCowGhee",
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/a2DesiCowGhee",
-    // },
+    seoData: {
+      title:
+        "A2 Desi Cow Ghee - Traditional Flavor and Health Benefits | Vardaan Farms",
+      description:
+        "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
+      keywords:
+        "A2 Desi cow ghee, traditional ghee, Vardaan Farms, natural milk, cooking ghee, healthy ghee",
+      og: {
+        title: "A2 Desi Cow Ghee - Vardaan Farms",
+        description:
+          "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
+        // image: "a2DesiCowGhee",
+        url: "https://www.vardaanfarms.com/product/a2DesiCowGhee",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "A2 Desi Cow Ghee - Vardaan Farms",
+        description:
+          "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
+        // image: "a2DesiCowGhee",
+      },
+      canonical: "https://www.vardaanfarms.com/product/a2DesiCowGhee",
+    },
   },
   "a2-desi-buffalo-ghee": {
     img: [
@@ -587,27 +587,27 @@ export const specificProductData = {
     },
     measurmentUnit: "gm",
     bgColor: "#3A291A",
-    // seoData: {
-    //   title: "Buffalo Ghee - Rich and Flavorful | Vardaan Farms",
-    //   description:
-    //     "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
-    //   keywords:
-    //     "buffalo ghee, rich ghee, Vardaan Farms, natural milk, cooking ghee, flavorful ghee",
-    //   og: {
-    //     title: "Buffalo Ghee - Vardaan Farms",
-    //     description:
-    //       "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
-    //     image: "buffaloGhee",
-    //     url: "https://www.vardaanfarms.com/product/buffaloGhee",
-    //   },
-    //   twitter: {
-    //     card: "summary_large_image",
-    //     title: "Buffalo Ghee - Vardaan Farms",
-    //     description:
-    //       "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
-    //     image: "buffaloGhee",
-    //   },
-    //   canonical: "https://www.vardaanfarms.com/product/buffaloGhee",
-    // },
+    seoData: {
+      title: "Buffalo Ghee - Rich and Flavorful | Vardaan Farms",
+      description:
+        "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
+      keywords:
+        "buffalo ghee, rich ghee, Vardaan Farms, natural milk, cooking ghee, flavorful ghee",
+      og: {
+        title: "Buffalo Ghee - Vardaan Farms",
+        description:
+          "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
+        // image: "buffaloGhee",
+        url: "https://www.vardaanfarms.com/product/buffaloGhee",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: "Buffalo Ghee - Vardaan Farms",
+        description:
+          "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
+        // image: "buffaloGhee",
+      },
+      canonical: "https://www.vardaanfarms.com/product/buffaloGhee",
+    },
   },
 };
