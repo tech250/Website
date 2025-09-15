@@ -36,7 +36,7 @@ export const specificProductData = {
         description:
           "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
         // image: a2DesiCowMilk,
-        url: "https://www.vardaanfarms.com/product/a2DesiCowMilk",
+        url: "https://www.vardaanfarms.com/product/a2-desi-cow-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -45,8 +45,34 @@ export const specificProductData = {
           "A2 Desi cow milk from Vardaan Farms is pure, fresh, and natural. Our cows are well-cared for and graze on lush pastures. Easy to digest and packed with nutrients.",
         // image: a2DesiCowMilk,
       },
-      canonical: "https://www.vardaanfarms.com/product/a2DesiCowMilk",
+      canonical: "https://www.vardaanfarms.com/product/a2-desi-cow-milk",
     },
+    testimonialData: [
+      {
+        pera: "Switching to A2 Desi Cow Milk was the best choice for my family. The taste feels natural, and digestion is noticeably lighter compared to regular milk.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Neha Kapoor",
+      },
+      {
+        pera: "This milk reminds me of the fresh dairy we used to get in villages. Pure, creamy, and full of goodness. My kids love it every morning.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Rahul Sethi",
+      },
+      {
+        pera: "I use A2 Desi Cow Milk in tea and coffee daily. The flavor is richer and smoother, and I feel healthier since switching to it.",
+        imgSrc: "",
+        time: "9 Months",
+        name: "Anjali Deshmukh",
+      },
+      {
+        pera: "Being lactose-sensitive, I struggled with normal milk. This A2 milk is much easier on my stomach, and I can finally enjoy dairy again.",
+        imgSrc: "",
+        time: "6 Months",
+        name: "Vikram Bansal",
+      },
+    ],
   },
   "full-cream-milk": {
     img: [
@@ -85,7 +111,7 @@ export const specificProductData = {
         description:
           "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
         // image: fullCream,
-        url: "https://www.vardaanfarms.com/product/fullCreamMilk",
+        url: "https://www.vardaanfarms.com/product/full-cream-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -94,8 +120,34 @@ export const specificProductData = {
           "Vardaan Farms' full cream milk is rich and creamy, perfect for those who love a hearty taste. Our cows are fed a natural diet, ensuring the milk is wholesome. Use it to make delicious desserts, smoothies, or just enjoy a glass. Experience the quality and care in every sip from Vardaan Farms.",
         // image: fullCream,
       },
-      canonical: "https://www.vardaanfarms.com/product/fullCreamMilk",
+      canonical: "https://www.vardaanfarms.com/product/full-cream-milk",
     },
+    testimonialData: [
+      {
+        pera: "This full cream milk tastes just like the fresh milk I grew up drinking in my village. Rich, creamy, and so satisfying – my kids love it every morning.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Rajesh Chauhan",
+      },
+      {
+        pera: "I use Full Cream Milk from Vardaan Farms for making kheer and sweets, and the taste is unmatched. It adds that perfect richness to every recipe.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Shalini Gupta",
+      },
+      {
+        pera: "A glass of this milk keeps me full and energetic throughout the day. It’s thick, fresh, and feels so natural – truly worth switching from packet milk.",
+        imgSrc: "",
+        time: "7 Months",
+        name: "Deepak Malhotra",
+      },
+      {
+        pera: "Best milk I have ever had! I mainly buy it for my parents, and they say it reminds them of pure farm-fresh milk from their childhood days.",
+        imgSrc: "",
+        time: "3 Years",
+        name: "Neha Rathi",
+      },
+    ],
   },
   "toned-milk": {
     img: ["/TM_500_1.png", "/TM_500_2.png", "/TM_500_3.png", "/TM_500_4.png"],
@@ -129,7 +181,7 @@ export const specificProductData = {
         description:
           "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
         // image: tonedMilk,
-        url: "https://www.vardaanfarms.com/product/tonedMilk",
+        url: "https://www.vardaanfarms.com/product/toned-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -138,7 +190,33 @@ export const specificProductData = {
           "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
         // image: tonedMilk,
       },
-      canonical: "https://www.vardaanfarms.com/product/tonedMilk",
+      canonical: "https://www.vardaanfarms.com/product/toned-milk",
+      testimonialData: [
+        {
+          pera: "I switched to toned milk for my daily chai, and it tastes perfect without feeling heavy. It’s light yet wholesome – exactly what I needed for my mornings.",
+          imgSrc: "",
+          time: "9 Months",
+          name: "Pooja Bansal",
+        },
+        {
+          pera: "This milk has become a staple in our home. My children enjoy it with cereal, and I feel good knowing they get the nutrition without excess fat.",
+          imgSrc: "",
+          time: "2 Years",
+          name: "Manoj Sethi",
+        },
+        {
+          pera: "I love adding toned milk to my smoothies. It blends so well, keeping the drink healthy and creamy at the same time. Truly a balanced choice.",
+          imgSrc: "",
+          time: "1 Year",
+          name: "Ananya Kapoor",
+        },
+        {
+          pera: "Toned milk from Vardaan Farms tastes so fresh and natural. It’s light on the stomach and works perfectly for my tea and coffee every day.",
+          imgSrc: "",
+          time: "6 Months",
+          name: "Rohit Aggarwal",
+        },
+      ],
     },
   },
   "double-toned-milk": {
@@ -178,7 +256,7 @@ export const specificProductData = {
         description:
           "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
         // image: doubleTonedMilk,
-        url: "https://www.vardaanfarms.com/product/doubleTonedMilk",
+        url: "https://www.vardaanfarms.com/product/double-toned-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -187,8 +265,34 @@ export const specificProductData = {
           "Vardaan Farms' double toned milk offers a healthy option for those watching their fat intake. It has all the essential nutrients while being light and refreshing. Perfect for making tea, coffee, or enjoying a chilled glass. Bring the freshness and quality of Vardaan Farms into your home.",
         // image: doubleTonedMilk,
       },
-      canonical: "https://www.vardaanfarms.com/product/doubleTonedMilk",
+      canonical: "https://www.vardaanfarms.com/product/double-toned-milk",
     },
+    testimonialData: [
+      {
+        pera: "I started drinking double toned milk to cut down on fat, and it’s been perfect. Light, refreshing, and still full of taste – I don’t miss full cream at all.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Suman Joshi",
+      },
+      {
+        pera: "This milk is great for tea and coffee. It doesn’t feel heavy but still gives that rich dairy flavor. A very smart option for everyday use.",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Arvind Nair",
+      },
+      {
+        pera: "I use Vardaan Farms’ double toned milk for my diet plan. It’s healthy, low in fat, and yet provides enough protein to keep me energized throughout the day.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Megha Kapoor",
+      },
+      {
+        pera: "Finding a milk that’s both nutritious and light is tough, but this one checks all the boxes. My family enjoys it chilled in summers – truly refreshing!",
+        imgSrc: "",
+        time: "6 Months",
+        name: "Nikhil Batra",
+      },
+    ],
   },
   "natural-cow-milk": {
     img: [
@@ -227,7 +331,7 @@ export const specificProductData = {
         description:
           "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
         // image: naturalCowMilk,
-        url: "https://www.vardaanfarms.com/product/naturalCowMilk",
+        url: "https://www.vardaanfarms.com/product/natural-cow-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -236,7 +340,33 @@ export const specificProductData = {
           "Vardaan Farms' natural cow milk is fresh and pure, straight from our well-cared-for cows. This milk is packed with natural nutrients and has a rich, authentic taste. Perfect for your daily needs, it can be enjoyed in many ways, from drinking a glass to using it in recipes. Trust in the quality and care of Vardaan Farms.",
         // image: naturalCowMilk,
       },
-      canonical: "https://www.vardaanfarms.com/product/naturalCowMilk",
+      canonical: "https://www.vardaanfarms.com/product/natural-cow-milk",
+      testimonialData: [
+        {
+          pera: "This natural cow milk tastes so pure and fresh, just like the milk we used to get from farms years ago. My family enjoys it every morning with breakfast.",
+          imgSrc: "",
+          time: "2 Years",
+          name: "Vivek Ahlawat",
+        },
+        {
+          pera: "I prefer using natural cow milk for my children. It feels safe, healthy, and full of nutrition. They love drinking it chilled after school.",
+          imgSrc: "",
+          time: "1 Year",
+          name: "Renu Sharma",
+        },
+        {
+          pera: "Perfect milk for making homemade dahi and paneer. It’s fresh, thick, and gives that authentic taste which is hard to find in packet milk.",
+          imgSrc: "",
+          time: "7 Months",
+          name: "Prakash Singh",
+        },
+        {
+          pera: "I was searching for pure, chemical-free milk, and this is exactly that. Light yet full of nutrients – I trust it completely for my daily use.",
+          imgSrc: "",
+          time: "3 Years",
+          name: "Meena Yadav",
+        },
+      ],
     },
   },
   "buffalo-milk": {
@@ -276,7 +406,7 @@ export const specificProductData = {
         description:
           "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
         // image: buffaloMilk,
-        url: "https://www.vardaanfarms.com/product/buffaloMilk",
+        url: "https://www.vardaanfarms.com/product/buffalo-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -285,8 +415,34 @@ export const specificProductData = {
           "Buffalo milk from Vardaan Farms is thick, creamy, and full of essential nutrients. Ideal for making rich and delicious dairy products, it adds a special touch to your recipes. Our buffaloes are raised with care, ensuring high-quality milk. Experience the richness of buffalo milk from Vardaan Farms in every glass.",
         // image: buffaloMilk,
       },
-      canonical: "https://www.vardaanfarms.com/product/buffaloMilk",
+      canonical: "https://www.vardaanfarms.com/product/buffalo-milk",
     },
+    testimonialData: [
+      {
+        pera: "Buffalo Milk from Vardaan Farms is thick, creamy, and perfect for making homemade sweets. My kheer and paneer taste much better now.",
+        imgSrc: "",
+        time: "3 Years",
+        name: "Priya Malhotra",
+      },
+      {
+        pera: "This milk gives me the energy I need for long workdays. It’s richer than cow milk and feels more satisfying with breakfast.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Suresh Kumar",
+      },
+      {
+        pera: "We’ve been using Buffalo Milk for tea and coffee. It adds a natural creaminess without needing extra cream or sugar.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Meena Choudhary",
+      },
+      {
+        pera: "I use this milk for my toddler as it’s nutrient-rich and filling. He enjoys it without any fuss, which is rare for him.",
+        imgSrc: "",
+        time: "7 Months",
+        name: "Deepak Jain",
+      },
+    ],
   },
   "family-pack": {
     img: [
@@ -325,7 +481,7 @@ export const specificProductData = {
         description:
           "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
         // image: familyPack,
-        url: "https://www.vardaanfarms.com/product/familyPack",
+        url: "https://www.vardaanfarms.com/product/family-pack",
       },
       twitter: {
         card: "summary_large_image",
@@ -334,8 +490,34 @@ export const specificProductData = {
           "Vardaan Farms' family pack offers 100% fresh and natural milk, specially homogenized for your family's needs. It's perfect for daily use, ensuring everyone gets the essential nutrients in each glass. Enjoy the quality and purity of Vardaan Farms' milk in a convenient family pack.",
         // image: familyPack,
       },
-      canonical: "https://www.vardaanfarms.com/product/familyPack",
+      canonical: "https://www.vardaanfarms.com/product/family-pack",
     },
+    testimonialData: [
+      {
+        pera: "The Family Pack is convenient and the milk tastes fresh every time. Perfect for my daily morning tea and breakfast.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Rohit Verma",
+      },
+      {
+        pera: "I like that it’s homogenized and consistent. The quality is always the same, making it easy to use in recipes or drinks.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Anjali Sharma",
+      },
+      {
+        pera: "Our household prefers the Family Pack. It’s reliable, fresh, and nutritious, and everyone enjoys it without any fuss.",
+        imgSrc: "",
+        time: "6 Months",
+        name: "Manish Kapoor",
+      },
+      {
+        pera: "Good quality milk in a convenient pack. We always keep it stocked, as it’s fresh and tastes great with coffee or cereal.",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Pooja Singh",
+      },
+    ],
   },
   "butter-milk": {
     img: ["/Butter milk 1.png", "/Butter milk 2.png", "/Butter milk 3.png"],
@@ -369,7 +551,7 @@ export const specificProductData = {
         description:
           "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
         // image: "butterMilk",
-        url: "https://www.vardaanfarms.com/product/butterMilk",
+        url: "https://www.vardaanfarms.com/product/butter-milk",
       },
       twitter: {
         card: "summary_large_image",
@@ -378,8 +560,34 @@ export const specificProductData = {
           "Discover Vardaan Farms' plain buttermilk, a light and refreshing drink made from pure, natural milk. Perfect for staying cool and hydrated. Try it now!",
         // image: "butterMilk",
       },
-      canonical: "https://www.vardaanfarms.com/product/butterMilk",
+      canonical: "https://www.vardaanfarms.com/product/butter-milk",
     },
+    testimonialData: [
+      {
+        pera: "The butter milk is so refreshing and tangy! Perfect after a long day, and it tastes natural, just like homemade.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Neha Gupta",
+      },
+      {
+        pera: "I love having Vardaan Farms' buttermilk with meals. It’s light, healthy, and helps with digestion.",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Rakesh Mehra",
+      },
+      {
+        pera: "This buttermilk is my go-to drink in summer. Fresh, tangy, and keeps me hydrated. Highly recommend it!",
+        imgSrc: "",
+        time: "6 Months",
+        name: "Pooja Verma",
+      },
+      {
+        pera: "I use this buttermilk in cooking and smoothies. Consistently fresh and has a natural taste that everyone in my family enjoys.",
+        imgSrc: "",
+        time: "9 Months",
+        name: "Amit Kumar",
+      },
+    ],
   },
   "masala-chach": {
     img: ["/Masala chach 1.png", "/Masala chach 2.png", "/Masala chach 3.png"],
@@ -413,7 +621,7 @@ export const specificProductData = {
         description:
           "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
         // image: "masalaChach",
-        url: "https://www.vardaanfarms.com/product/masalaChach",
+        url: "https://www.vardaanfarms.com/product/masala-chach",
       },
       twitter: {
         card: "summary_large_image",
@@ -422,8 +630,34 @@ export const specificProductData = {
           "Enjoy Vardaan Farms' masala chach, a refreshing and flavorful drink made from natural milk and a blend of spices. Perfect for cooling down and aiding digestion.",
         // image: "masalaChach",
       },
-      canonical: "https://www.vardaanfarms.com/product/masalaChach",
+      canonical: "https://www.vardaanfarms.com/product/masala-chach",
     },
+    testimonialData: [
+      {
+        pera: "Masala Chach from Vardaan Farms is my favorite summer drink. Refreshing, flavorful, and just the right spice, it keeps me hydrated and satisfied.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Ritika Sharma",
+      },
+      {
+        pera: "I love having this spiced buttermilk after lunch. It tastes natural, aids digestion, and has the perfect tangy flavor.",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Vikram Singh",
+      },
+      {
+        pera: "Refreshing and healthy! Vardaan Farms’ Masala Chach is a great alternative to sugary drinks and makes a perfect post-workout beverage.",
+        imgSrc: "",
+        time: "6 Months",
+        name: "Shalini Gupta",
+      },
+      {
+        pera: "The spices are well balanced, not too overpowering. This chach is ideal for cooling down in summer and feels wholesome.",
+        imgSrc: "",
+        time: "9 Months",
+        name: "Aman Verma",
+      },
+    ],
   },
   "slim-curd": {
     img: ["/Curd 500_1.png", "/Curd 500_2.png", "/Curd 500_3.png"],
@@ -457,7 +691,7 @@ export const specificProductData = {
         description:
           "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
         // image: "slimCurd",
-        url: "https://www.vardaanfarms.com/product/slimCurd",
+        url: "https://www.vardaanfarms.com/product/slim-curd",
       },
       twitter: {
         card: "summary_large_image",
@@ -466,10 +700,36 @@ export const specificProductData = {
           "Try Vardaan Farms' slim curd, a low-fat, nutritious option made from pure, natural milk. Light, creamy, and packed with essential nutrients. Perfect for a healthy snack!",
         // image: "slimCurd",
       },
-      canonical: "https://www.vardaanfarms.com/product/slimCurd",
+      canonical: "https://www.vardaanfarms.com/product/slim-curd",
     },
+    testimonialData: [
+      {
+        pera: "I started using Slim Curd during my weight loss journey, and it’s been amazing. Light on the stomach yet full of nutrition. Perfect for my daily meals.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Ritika Sharma",
+      },
+      {
+        pera: "This curd has the perfect balance of taste and health. Even though it’s low-fat, it still feels creamy and fresh. My family enjoys it with every meal.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Amit Verma",
+      },
+      {
+        pera: "As someone with cholesterol concerns, Slim Curd has been a blessing. I can enjoy curd guilt-free while still taking care of my health. Highly recommended!",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Sunita Yadav",
+      },
+      {
+        pera: "I prefer adding Slim Curd to my smoothies and snacks. It’s light, refreshing, and gives me the right energy boost without feeling heavy afterward.",
+        imgSrc: "",
+        time: "3 Years",
+        name: "Karan Mehta",
+      },
+    ],
   },
-  "curd": {
+  curd: {
     img: ["/Fresh Curd 1.png", "/Fresh Curd 2.png", "/Fresh Curd 3.png"],
     category: "Curd",
     heading: "Curd",
@@ -512,6 +772,32 @@ export const specificProductData = {
       },
       canonical: "https://www.vardaanfarms.com/product/curd",
     },
+    testimonialData: [
+      {
+        pera: "Vardaan Farms' curd is wonderfully creamy and enhances every meal. I love having it as a snack or mixing it into my recipes for that perfect smooth texture.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Anjali Verma",
+      },
+      {
+        pera: "The curd has a natural freshness and richness that you can taste in every spoon. It’s my go-to choice for a healthy and satisfying snack.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Rahul Mehta",
+      },
+      {
+        pera: "I use this curd in my morning smoothie and it adds the perfect creaminess without being heavy. Truly a nutritious and delicious product from Vardaan Farms.",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Sonal Gupta",
+      },
+      {
+        pera: "This curd is smooth, creamy, and fresh. My whole family enjoys it daily, and it never fails to enhance our meals with natural goodness.",
+        imgSrc: "",
+        time: "3 Years",
+        name: "Vikram Singh",
+      },
+    ],
   },
   "a2-desi-cow-ghee": {
     img: [
@@ -550,7 +836,7 @@ export const specificProductData = {
         description:
           "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
         // image: "a2DesiCowGhee",
-        url: "https://www.vardaanfarms.com/product/a2DesiCowGhee",
+        url: "https://www.vardaanfarms.com/product/a2-desi-cow-ghee",
       },
       twitter: {
         card: "summary_large_image",
@@ -559,8 +845,34 @@ export const specificProductData = {
           "Experience the pure, traditional taste and health benefits of Vardaan Farms' A2 Desi cow ghee, made from the milk of well-cared-for cows. Perfect for cooking or adding to meals.",
         // image: "a2DesiCowGhee",
       },
-      canonical: "https://www.vardaanfarms.com/product/a2DesiCowGhee",
+      canonical: "https://www.vardaanfarms.com/product/a2-desi-cow-ghee",
     },
+    testimonialData: [
+      {
+        pera: "The aroma of this A2 Desi Cow Ghee is incredible. It feels just like the homemade ghee my grandmother used to make.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Shalini Arora",
+      },
+      {
+        pera: "I add a spoon of this ghee to my dal and rotis daily. The flavor is unmatched and digestion feels smoother.",
+        imgSrc: "",
+        time: "1 Year",
+        name: "Manoj Bhardwaj",
+      },
+      {
+        pera: "This ghee has become a staple in my kitchen. I use it for cooking, frying, and even on parathas. Pure and authentic.",
+        imgSrc: "",
+        time: "3 Years",
+        name: "Kavita Reddy",
+      },
+      {
+        pera: "Compared to store ghee, this one is lighter yet tastier. My family insists only on Vardaan Farms’ A2 ghee now.",
+        imgSrc: "",
+        time: "8 Months",
+        name: "Rohit Sharma",
+      },
+    ],
   },
   "a2-desi-buffalo-ghee": {
     img: [
@@ -598,7 +910,7 @@ export const specificProductData = {
         description:
           "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
         // image: "buffaloGhee",
-        url: "https://www.vardaanfarms.com/product/buffaloGhee",
+        url: "https://www.vardaanfarms.com/product/a2-desi-buffalo-ghee",
       },
       twitter: {
         card: "summary_large_image",
@@ -607,7 +919,33 @@ export const specificProductData = {
           "Discover the rich and flavorful buffalo ghee from Vardaan Farms, made from the milk of well-cared-for buffaloes. Perfect for adding depth to your cooking.",
         // image: "buffaloGhee",
       },
-      canonical: "https://www.vardaanfarms.com/product/buffaloGhee",
+      canonical: "https://www.vardaanfarms.com/product/a2-desi-buffalo-ghee",
     },
+    testimonialData: [
+      {
+        pera: "Buffalo Ghee from Vardaan Farms is rich and flavorful. It enhances every dish, especially halwa and puris. Truly authentic taste.",
+        imgSrc: "",
+        time: "4 Years",
+        name: "Savita Nair",
+      },
+      {
+        pera: "I use this ghee for cooking traditional dishes. The thickness and aroma are exactly what I wanted for my recipes.",
+        imgSrc: "",
+        time: "2 Years",
+        name: "Ashok Tiwari",
+      },
+      {
+        pera: "Buffalo Ghee is perfect for winters. It keeps my family warm and healthy, and the quality is far better than supermarket brands.",
+        imgSrc: "",
+        time: "1.5 Years",
+        name: "Poonam Aggarwal",
+      },
+      {
+        pera: "I love spreading this ghee on hot chapatis. It melts instantly and gives a rich, homely taste that feels authentic.",
+        imgSrc: "",
+        time: "10 Months",
+        name: "Arjun Singh",
+      },
+    ],
   },
 };

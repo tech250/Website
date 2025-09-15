@@ -37,7 +37,7 @@ const SpecificProductPage = () => {
       <link rel="canonical" href={pageData.seoData.canonical} />
       <div className="layout-container bg-[url('/about-us-our-aproach-bg.jpg')]">
         <ProductHeroSection data={pageData} />
-        <ProductTestimonials />
+        <ProductTestimonials data={pageData.testimonialData}/>
       </div>
     </>
   );
