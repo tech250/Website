@@ -1,6 +1,5 @@
 import Product from "../components/Products/Product";
 import { productsData } from "../PageData/ProductsPageData";
-import { Helmet } from "@vuer-ai/react-helmet-async";
 
 const Products = () => {
   const schemaData = {
@@ -184,7 +183,6 @@ const Products = () => {
   };
   return (
     <>
-      <Helmet>
         <title>Best Fresh, 100% Natural and Chemical Free Dairy products</title>
         <meta
           name="description"
@@ -202,7 +200,7 @@ const Products = () => {
         />
         <meta
           property="og:image"
-          content="https://vardaanfarms.com/assets/ourVission-BnlmFmqI.jpg"
+          content=""
         />
         <meta property="og:url" content="https://vardaanfarms.com/products" />
         <meta property="og:type" content="website" />
@@ -219,7 +217,7 @@ const Products = () => {
         />
         <meta
           name="twitter:image"
-          content="https://vardaanfarms.com/assets/clientCow2-BOVJgFh3.jpg"
+          content=""
         />
         <meta name="twitter:url" content="https://vardaanfarms.com/products" />
 
@@ -230,7 +228,6 @@ const Products = () => {
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
-      </Helmet>
       <div>
         {productsData.map((productData, id) => (
           <Product

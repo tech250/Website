@@ -4,7 +4,6 @@ import MissionAndVission from "../components/AboutUs/MissionAndVission";
 import OurBestVardaanServices from "../components/AboutUs/OurBestVardaanServices";
 import Testimonials from "../components/AboutUs/Testimonials";
 import Cta from "../components/common/CTA/Cta";
-import { Helmet } from "@vuer-ai/react-helmet-async";
 
 const AboutUs = () => {
   const faqData = {
@@ -95,7 +94,6 @@ const AboutUs = () => {
 
   return (
     <>
-      <Helmet>
         <title>
           Vardaan Farms - Ethical And Grass Fed Dairy Farming In India
         </title>
@@ -114,7 +112,7 @@ const AboutUs = () => {
         />
         <meta
           property="og:image"
-          content="https://vardaanfarms.com/assets/ourVission-BnlmFmqI.jpg"
+          content=""
         />
         <meta property="og:url" content="https://vardaanfarms.com/about-us" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -128,14 +126,13 @@ const AboutUs = () => {
         />
         <meta
           name="twitter:image"
-          content="https://vardaanfarms.com/assets/ourVission-BnlmFmqI.jpg"
+          content=""
         />
         <link rel="canonical" href="https://www.vardaanfarms.com/about-us" />
         <script type="application/ld+json">{JSON.stringify(faqData)}</script>
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
-      </Helmet>
       <div className="layout-container">
         <AboutUsHeroSection />
         <AboutUsSection />

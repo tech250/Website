@@ -1,6 +1,5 @@
 import ContactUsHero from "../components/ContactUs/ContactUsHero";
 import MapAndForm from "../components/ContactUs/MapAndForm";
-import { Helmet } from "@vuer-ai/react-helmet-async";
 const ContactUs = () => {
   const faqData = {
     "@context": "https://schema.org",
@@ -66,7 +65,6 @@ const ContactUs = () => {
 
   return (
     <>
-      <Helmet>
         <title>
           Get in Touch with Vardaan Farms, Contact Us at (+91)881600082
         </title>
@@ -80,14 +78,14 @@ const ContactUs = () => {
         <meta
           property="og:title"
           content="Get in Touch with Vardaan Farms, Contact Us at (+91)881600082"
-        />
+        /> 
         <meta
           property="og:description"
           content="Have a Question or Need Fresh Dairy Products? We'd Love To Hear From You! Reach Out to Vardaan Farms via call, email, or Visit us for farm-fresh Goodness."
         />
         <meta
           property="og:image"
-          content="https://vardaanfarms.com/assets/clientCow2-BOVJgFh3.jpg"
+          content=""
         />
         <meta
           property="og:url"
@@ -104,13 +102,12 @@ const ContactUs = () => {
         />
         <meta
           name="twitter:image"
-          content="https://vardaanfarms.com/assets/clientCow2-BOVJgFh3.jpg"
+          content=""
         />
         <script type="application/ld+json">{JSON.stringify(faqData)}</script>
         <script type="application/ld+json">
           {JSON.stringify(articleSchema)}
         </script>
-      </Helmet>
       <div className="layout-container pb-6 bg-[url('/crumbled-paper.png')]">
         <ContactUsHero />
         <p className="custom-container text-black/50 text-center sm:text-lg">

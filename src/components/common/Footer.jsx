@@ -15,19 +15,19 @@ const Footer = () => {
             </p>
             <div className="flex gap-2">
               <a
-                href=""
+                href="https://www.facebook.com/vardaanfarms/"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
               >
                 <i className="fa-brands fa-facebook-f text-black/70 group-hover:text-black duration-700 transition"></i>
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/vardaanfarms/"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
               >
                 <i className="fa-brands fa-square-instagram text-black/70 group-hover:text-black duration-700 transition"></i>
               </a>
               <a
-                href=""
+                href="https://www.youtube.com/@VardaanFarms"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
               >
                 <i className="fa-brands fa-youtube text-black/70 group-hover:text-black duration-700 transition"></i>
@@ -40,7 +40,7 @@ const Footer = () => {
             </h4>
             <div className="flex flex-col grow justify-between gap-4">
               <a
-                href=""
+                href="https://maps.app.goo.gl/ifmf6TihwVTFM9Go9"
                 className="flex gap-2 items-center text-black/70 hover:text-black transition duration-700"
               >
                 <i className="fa-solid fa-location-dot"></i>
@@ -49,14 +49,14 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href=""
+                href="tel:+918816000082"
                 className="flex gap-2 items-center text-black/70 hover:text-black transition duration-700"
               >
                 <i className="fa-solid fa-phone"></i>
                 <p className="text-sm">(+91) 8816000082</p>
               </a>
               <a
-                href=""
+                href="mailto:hello@vardaanfarms.com"
                 className="flex gap-2 items-center text-black/70 hover:text-black transition duration-700"
               >
                 <i className="fa-solid fa-location-dot"></i>

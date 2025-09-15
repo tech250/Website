@@ -8,14 +8,14 @@ const Product = ({ data }) => {
       id={data.productPageLink?.split("/")[1]}
     >
       <div
-        className={`w-1/3 flex items-center justify-center`}
-        style={{ backgroundColor: `${data.bgColor}` }}
+        className={`w-1/3 flex items-center justify-center bg-black/10`}
+        // style={{ backgroundColor: `${data.bgColor}` }}
       >
         <h2
-          className={`text-[100px] font-bold text-transparent drop-shadow-[2px_2px_3px_black] bg-clip-text keyWord ${
+          className={`text-[100px] font-bold text-transparent drop-shadow-[2px_2px_3px_black] bg-clip-text keyWord bg-black/30 ${
             data.side == "left" ? "rotate-[90deg]" : "rotate-[270deg]"
           }`}
-          style={{ backgroundColor: `${data.bgColor}` }}
+          // style={{ backgroundColor: `${data.bgColor}` }}
         >
           {data.bgkeyword}
         </h2>
@@ -47,8 +47,8 @@ const Product = ({ data }) => {
             }`}
           >
             <h2
-              className={`text-transparent w-fit bg-clip-text  drop-shadow-[1px_1px_1px_black] text-[30px] md:text-[50px] font-bold leading-none`}
-              style={{ backgroundColor: `${data.bgColor}` }}
+              className={`text-transparent w-fit bg-clip-text  drop-shadow-[1px_1px_1px_black] text-[30px] md:text-[50px] font-bold leading-none bg-black/30`}
+              // style={{ backgroundColor: `${data.bgColor}` }}
             >
               {data.name}
             </h2>
@@ -82,8 +82,8 @@ const Product = ({ data }) => {
             </div>
             <div>
               <h2
-                className="text-[30px] sm:text-[40px] md:text-[80px] font-bold text-transparent  drop-shadow-[1px_1px_1px_black] bg-clip-text leading-none"
-                style={{ backgroundColor: `${data.bgColor}` }}
+                className="text-[30px] sm:text-[40px] md:text-[80px] font-bold text-transparent  drop-shadow-[1px_1px_1px_black] bg-clip-text leading-none bg-black/30"
+                // style={{ backgroundColor: `${data.bgColor}` }}
               >
                 100 %
               </h2>

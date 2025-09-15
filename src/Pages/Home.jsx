@@ -1,4 +1,3 @@
-import { Helmet } from "@vuer-ai/react-helmet-async";
 import Cta from "../components/common/CTA/Cta";
 import FAQSection from "../components/common/Faq/FAQSection";
 import HomeAboutUs from "../components/Home/AboutUsSection/HomeAboutUs";
@@ -12,7 +11,6 @@ import { HeroSectionSlidesData } from "../PageData/HomePageData";
 const Home = () => {
   return (
     <>
-      <Helmet>
         <title>Vardaan Farms - Farm Fresh Best Organic Milk In Haryana</title>
         <meta
           name="description"
@@ -28,7 +26,7 @@ const Home = () => {
         />
         <meta
           property="og:image"
-          content="https://vardaanfarms.com/assets/ourFarmCowMilking-DkrKgpGU.jpg"
+          content="/Our-farm.jpeg"
         />
         <meta property="og:url" content="https://www.vardaanfarms.com/" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +40,7 @@ const Home = () => {
         />
         <meta
           name="twitter:image"
-          content="https://vardaanfarms.com/assets/ourFarmCowMilking-DkrKgpGU.jpg"
+          content="/Our-farm.jpeg"
         />
         <link rel="canonical" href="https://www.vardaanfarms.com/" />
         <meta
@@ -211,7 +209,6 @@ const Home = () => {
             dateModified: "2025-09-13",
           })}
         </script>
-      </Helmet>
       <div className="layout-container">
         <HeroSection data={HeroSectionSlidesData} />
         <HomeAboutUs />

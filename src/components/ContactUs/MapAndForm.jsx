@@ -1,6 +1,5 @@
 import { ToastContainer, toast } from "react-toastify";
 import { Bounce } from "react-toastify";
-import { Helmet } from "@vuer-ai/react-helmet-async";
 import { getDatabase, ref, set } from "firebase/database";
 import { useRef } from "react";
 import { useEffect, useState } from "react";
@@ -122,51 +121,6 @@ const MapAndForm = () => {
         theme="light"
         transition={Bounce}
       />
-      <Helmet>
-        <title>
-          Get in Touch with Vardaan Farms, Contact Us at (+91)881600082
-        </title>
-        <meta
-          name="description"
-          content="Have a Question or Need Fresh Dairy Products? We'd Love To Hear From You! Reach Out to Vardaan Farms via call, email, or Visit us for farm-fresh Goodness."
-        />
-        <meta name="keywords" content="" />
-        <meta name="author" content="Vardaan Farms" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Get in Touch with Vardaan Farms, Contact Us at (+91)881600082"
-        />
-        <meta
-          property="og:description"
-          content="Have a Question or Need Fresh Dairy Products? We'd Love To Hear From You! Reach Out to Vardaan Farms via call, email, or Visit us for farm-fresh Goodness."
-        />
-        <meta
-          property="og:image"
-          content="https://vardaanfarms.com/assets/clientCow2-BOVJgFh3.jpg"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vardaanfarms.com/contact-us"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Get in Touch with Vardaan Farms, Contact Us at (+91)881600082"
-        />
-        <meta
-          name="twitter:description"
-          content="Have a Question or Need Fresh Dairy Products? We'd Love To Hear From You! Reach Out to Vardaan Farms via call, email, or Visit us for farm-fresh Goodness."
-        />
-        <meta
-          name="twitter:image"
-          content="https://vardaanfarms.com/assets/clientCow2-BOVJgFh3.jpg"
-        />
-        <script type="application/ld+json">{JSON.stringify(faqData)}</script>
-        <script type="application/ld+json">
-          {JSON.stringify(articleSchema)}
-        </script>
-      </Helmet>
       <div className="">
         <div className="custom-container flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 items-center justify-between">
           {/* for img */}
