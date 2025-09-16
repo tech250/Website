@@ -50,25 +50,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "Switching to A2 Desi Cow Milk was the best choice for my family. The taste feels natural, and digestion is noticeably lighter compared to regular milk.",
-        imgSrc: "",
+        imgSrc: "/neha-rathi2.webp",
         time: "2 Years",
         name: "Neha Kapoor",
       },
       {
         pera: "This milk reminds me of the fresh dairy we used to get in villages. Pure, creamy, and full of goodness. My kids love it every morning.",
-        imgSrc: "",
+        imgSrc: "/rahul-sethi.webp",
         time: "1 Year",
         name: "Rahul Sethi",
       },
       {
         pera: "I use A2 Desi Cow Milk in tea and coffee daily. The flavor is richer and smoother, and I feel healthier since switching to it.",
-        imgSrc: "",
+        imgSrc: "/anjali-deshmukh.webp",
         time: "9 Months",
         name: "Anjali Deshmukh",
       },
       {
         pera: "Being lactose-sensitive, I struggled with normal milk. This A2 milk is much easier on my stomach, and I can finally enjoy dairy again.",
-        imgSrc: "",
+        imgSrc: "/vikram-bansal.webp",
         time: "6 Months",
         name: "Vikram Bansal",
       },
@@ -125,25 +125,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "This full cream milk tastes just like the fresh milk I grew up drinking in my village. Rich, creamy, and so satisfying – my kids love it every morning.",
-        imgSrc: "",
+        imgSrc: "/rajesh-chauhan.webp",
         time: "2 Years",
         name: "Rajesh Chauhan",
       },
       {
         pera: "I use Full Cream Milk from Vardaan Farms for making kheer and sweets, and the taste is unmatched. It adds that perfect richness to every recipe.",
-        imgSrc: "",
+        imgSrc: "/shalini-gupta.webp",
         time: "1 Year",
         name: "Shalini Gupta",
       },
       {
         pera: "A glass of this milk keeps me full and energetic throughout the day. It’s thick, fresh, and feels so natural – truly worth switching from packet milk.",
-        imgSrc: "",
+        imgSrc: "/deepak-jain.webp",
         time: "7 Months",
         name: "Deepak Malhotra",
       },
       {
         pera: "Best milk I have ever had! I mainly buy it for my parents, and they say it reminds them of pure farm-fresh milk from their childhood days.",
-        imgSrc: "",
+        imgSrc: "/neha-rathi.webp",
         time: "3 Years",
         name: "Neha Rathi",
       },
@@ -191,33 +191,33 @@ export const specificProductData = {
         // image: tonedMilk,
       },
       canonical: "https://www.vardaanfarms.com/product/toned-milk",
-      testimonialData: [
-        {
-          pera: "I switched to toned milk for my daily chai, and it tastes perfect without feeling heavy. It’s light yet wholesome – exactly what I needed for my mornings.",
-          imgSrc: "",
-          time: "9 Months",
-          name: "Pooja Bansal",
-        },
-        {
-          pera: "This milk has become a staple in our home. My children enjoy it with cereal, and I feel good knowing they get the nutrition without excess fat.",
-          imgSrc: "",
-          time: "2 Years",
-          name: "Manoj Sethi",
-        },
-        {
-          pera: "I love adding toned milk to my smoothies. It blends so well, keeping the drink healthy and creamy at the same time. Truly a balanced choice.",
-          imgSrc: "",
-          time: "1 Year",
-          name: "Ananya Kapoor",
-        },
-        {
-          pera: "Toned milk from Vardaan Farms tastes so fresh and natural. It’s light on the stomach and works perfectly for my tea and coffee every day.",
-          imgSrc: "",
-          time: "6 Months",
-          name: "Rohit Aggarwal",
-        },
-      ],
     },
+    testimonialData: [
+      {
+        pera: "I switched to toned milk for my daily chai, and it tastes perfect without feeling heavy. It’s light yet wholesome – exactly what I needed for my mornings.",
+        imgSrc: "/pooja-bansal.webp",
+        time: "9 Months",
+        name: "Pooja Bansal",
+      },
+      {
+        pera: "This milk has become a staple in our home. My children enjoy it with cereal, and I feel good knowing they get the nutrition without excess fat.",
+        imgSrc: "/manoj-sethi.webp",
+        time: "2 Years",
+        name: "Manoj Sethi",
+      },
+      {
+        pera: "I love adding toned milk to my smoothies. It blends so well, keeping the drink healthy and creamy at the same time. Truly a balanced choice.",
+        imgSrc: "/ananya-kapoor.webp",
+        time: "1 Year",
+        name: "Ananya Kapoor",
+      },
+      {
+        pera: "Toned milk from Vardaan Farms tastes so fresh and natural. It’s light on the stomach and works perfectly for my tea and coffee every day.",
+        imgSrc: "/rohit-agarwal.webp",
+        time: "6 Months",
+        name: "Rohit Aggarwal",
+      },
+    ],
   },
   "double-toned-milk": {
     img: [
@@ -270,25 +270,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "I started drinking double toned milk to cut down on fat, and it’s been perfect. Light, refreshing, and still full of taste – I don’t miss full cream at all.",
-        imgSrc: "",
+        imgSrc: "/sonal-gupta.webp",
         time: "1 Year",
         name: "Suman Joshi",
       },
       {
         pera: "This milk is great for tea and coffee. It doesn’t feel heavy but still gives that rich dairy flavor. A very smart option for everyday use.",
-        imgSrc: "",
+        imgSrc: "/arvind-nair.webp",
         time: "8 Months",
         name: "Arvind Nair",
       },
       {
         pera: "I use Vardaan Farms’ double toned milk for my diet plan. It’s healthy, low in fat, and yet provides enough protein to keep me energized throughout the day.",
-        imgSrc: "",
+        imgSrc: "/megha-kapoor.webp",
         time: "2 Years",
         name: "Megha Kapoor",
       },
       {
         pera: "Finding a milk that’s both nutritious and light is tough, but this one checks all the boxes. My family enjoys it chilled in summers – truly refreshing!",
-        imgSrc: "",
+        imgSrc: "/nikhil-batra.webp",
         time: "6 Months",
         name: "Nikhil Batra",
       },
@@ -341,33 +341,33 @@ export const specificProductData = {
         // image: naturalCowMilk,
       },
       canonical: "https://www.vardaanfarms.com/product/natural-cow-milk",
-      testimonialData: [
-        {
-          pera: "This natural cow milk tastes so pure and fresh, just like the milk we used to get from farms years ago. My family enjoys it every morning with breakfast.",
-          imgSrc: "",
-          time: "2 Years",
-          name: "Vivek Ahlawat",
-        },
-        {
-          pera: "I prefer using natural cow milk for my children. It feels safe, healthy, and full of nutrition. They love drinking it chilled after school.",
-          imgSrc: "",
-          time: "1 Year",
-          name: "Renu Sharma",
-        },
-        {
-          pera: "Perfect milk for making homemade dahi and paneer. It’s fresh, thick, and gives that authentic taste which is hard to find in packet milk.",
-          imgSrc: "",
-          time: "7 Months",
-          name: "Prakash Singh",
-        },
-        {
-          pera: "I was searching for pure, chemical-free milk, and this is exactly that. Light yet full of nutrients – I trust it completely for my daily use.",
-          imgSrc: "",
-          time: "3 Years",
-          name: "Meena Yadav",
-        },
-      ],
     },
+    testimonialData: [
+      {
+        pera: "This natural cow milk tastes so pure and fresh, just like the milk we used to get from farms years ago. My family enjoys it every morning with breakfast.",
+        imgSrc: "/vivek-ahlawat.webp",
+        time: "2 Years",
+        name: "Vivek Ahlawat",
+      },
+      {
+        pera: "I prefer using natural cow milk for my children. It feels safe, healthy, and full of nutrition. They love drinking it chilled after school.",
+        imgSrc: "/renu-sharma.webp",
+        time: "1 Year",
+        name: "Renu Sharma",
+      },
+      {
+        pera: "Perfect milk for making homemade dahi and paneer. It’s fresh, thick, and gives that authentic taste which is hard to find in packet milk.",
+        imgSrc: "/prakash-singh.webp",
+        time: "7 Months",
+        name: "Prakash Singh",
+      },
+      {
+        pera: "I was searching for pure, chemical-free milk, and this is exactly that. Light yet full of nutrients – I trust it completely for my daily use.",
+        imgSrc: "/meena-yadav.webp",
+        time: "3 Years",
+        name: "Meena Yadav",
+      },
+    ],
   },
   "buffalo-milk": {
     img: [
@@ -420,25 +420,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "Buffalo Milk from Vardaan Farms is thick, creamy, and perfect for making homemade sweets. My kheer and paneer taste much better now.",
-        imgSrc: "",
+        imgSrc: "/priya-malhotra.webp",
         time: "3 Years",
         name: "Priya Malhotra",
       },
       {
         pera: "This milk gives me the energy I need for long workdays. It’s richer than cow milk and feels more satisfying with breakfast.",
-        imgSrc: "",
+        imgSrc: "/suresh-kumar.webp",
         time: "1 Year",
         name: "Suresh Kumar",
       },
       {
         pera: "We’ve been using Buffalo Milk for tea and coffee. It adds a natural creaminess without needing extra cream or sugar.",
-        imgSrc: "",
+        imgSrc: "/meena-chaudhary.webp",
         time: "2 Years",
         name: "Meena Choudhary",
       },
       {
         pera: "I use this milk for my toddler as it’s nutrient-rich and filling. He enjoys it without any fuss, which is rare for him.",
-        imgSrc: "",
+        imgSrc: "/deepak-jain.webp",
         time: "7 Months",
         name: "Deepak Jain",
       },
@@ -495,25 +495,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "The Family Pack is convenient and the milk tastes fresh every time. Perfect for my daily morning tea and breakfast.",
-        imgSrc: "",
+        imgSrc: "/rohit-verma.webp",
         time: "2 Years",
         name: "Rohit Verma",
       },
       {
         pera: "I like that it’s homogenized and consistent. The quality is always the same, making it easy to use in recipes or drinks.",
-        imgSrc: "",
+        imgSrc: "/meena-kapoor.webp",
         time: "1 Year",
         name: "Anjali Sharma",
       },
       {
         pera: "Our household prefers the Family Pack. It’s reliable, fresh, and nutritious, and everyone enjoys it without any fuss.",
-        imgSrc: "",
+        imgSrc: "/manish-kapoor.webp",
         time: "6 Months",
         name: "Manish Kapoor",
       },
       {
         pera: "Good quality milk in a convenient pack. We always keep it stocked, as it’s fresh and tastes great with coffee or cereal.",
-        imgSrc: "",
+        imgSrc: "/pooja-singh.webp",
         time: "8 Months",
         name: "Pooja Singh",
       },
@@ -565,25 +565,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "The butter milk is so refreshing and tangy! Perfect after a long day, and it tastes natural, just like homemade.",
-        imgSrc: "",
+        imgSrc: "/neha-gupta.webp",
         time: "1 Year",
         name: "Neha Gupta",
       },
       {
         pera: "I love having Vardaan Farms' buttermilk with meals. It’s light, healthy, and helps with digestion.",
-        imgSrc: "",
+        imgSrc: "/rakesh-mehra.webp",
         time: "8 Months",
         name: "Rakesh Mehra",
       },
       {
         pera: "This buttermilk is my go-to drink in summer. Fresh, tangy, and keeps me hydrated. Highly recommend it!",
-        imgSrc: "",
+        imgSrc: "/pooja-verma.webp",
         time: "6 Months",
         name: "Pooja Verma",
       },
       {
         pera: "I use this buttermilk in cooking and smoothies. Consistently fresh and has a natural taste that everyone in my family enjoys.",
-        imgSrc: "",
+        imgSrc: "/amit-kumar.webp",
         time: "9 Months",
         name: "Amit Kumar",
       },
@@ -635,25 +635,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "Masala Chach from Vardaan Farms is my favorite summer drink. Refreshing, flavorful, and just the right spice, it keeps me hydrated and satisfied.",
-        imgSrc: "",
+        imgSrc: "/ritika-sharma.webp",
         time: "1 Year",
         name: "Ritika Sharma",
       },
       {
         pera: "I love having this spiced buttermilk after lunch. It tastes natural, aids digestion, and has the perfect tangy flavor.",
-        imgSrc: "",
+        imgSrc: "/vikram-singh.webp",
         time: "8 Months",
         name: "Vikram Singh",
       },
       {
         pera: "Refreshing and healthy! Vardaan Farms’ Masala Chach is a great alternative to sugary drinks and makes a perfect post-workout beverage.",
-        imgSrc: "",
+        imgSrc: "/shalini-gupta2.webp",
         time: "6 Months",
         name: "Shalini Gupta",
       },
       {
         pera: "The spices are well balanced, not too overpowering. This chach is ideal for cooling down in summer and feels wholesome.",
-        imgSrc: "",
+        imgSrc: "/aman-verma.webp",
         time: "9 Months",
         name: "Aman Verma",
       },
@@ -705,25 +705,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "I started using Slim Curd during my weight loss journey, and it’s been amazing. Light on the stomach yet full of nutrition. Perfect for my daily meals.",
-        imgSrc: "",
+        imgSrc: "/ritika-sharma2.webp",
         time: "1 Year",
         name: "Ritika Sharma",
       },
       {
         pera: "This curd has the perfect balance of taste and health. Even though it’s low-fat, it still feels creamy and fresh. My family enjoys it with every meal.",
-        imgSrc: "",
+        imgSrc: "/amit-verma.webp",
         time: "2 Years",
         name: "Amit Verma",
       },
       {
         pera: "As someone with cholesterol concerns, Slim Curd has been a blessing. I can enjoy curd guilt-free while still taking care of my health. Highly recommended!",
-        imgSrc: "",
+        imgSrc: "/sunita-yadav.webp",
         time: "8 Months",
         name: "Sunita Yadav",
       },
       {
         pera: "I prefer adding Slim Curd to my smoothies and snacks. It’s light, refreshing, and gives me the right energy boost without feeling heavy afterward.",
-        imgSrc: "",
+        imgSrc: "/karan-mehta.webp",
         time: "3 Years",
         name: "Karan Mehta",
       },
@@ -775,25 +775,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "Vardaan Farms' curd is wonderfully creamy and enhances every meal. I love having it as a snack or mixing it into my recipes for that perfect smooth texture.",
-        imgSrc: "",
+        imgSrc: "/anjali-verma.webp",
         time: "2 Years",
         name: "Anjali Verma",
       },
       {
         pera: "The curd has a natural freshness and richness that you can taste in every spoon. It’s my go-to choice for a healthy and satisfying snack.",
-        imgSrc: "",
+        imgSrc: "/rahul-mehta.webp",
         time: "1 Year",
         name: "Rahul Mehta",
       },
       {
         pera: "I use this curd in my morning smoothie and it adds the perfect creaminess without being heavy. Truly a nutritious and delicious product from Vardaan Farms.",
-        imgSrc: "",
+        imgSrc: "/sonal-gupta.webp",
         time: "8 Months",
         name: "Sonal Gupta",
       },
       {
         pera: "This curd is smooth, creamy, and fresh. My whole family enjoys it daily, and it never fails to enhance our meals with natural goodness.",
-        imgSrc: "",
+        imgSrc: "/vikram-singh.webp",
         time: "3 Years",
         name: "Vikram Singh",
       },
@@ -850,25 +850,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "The aroma of this A2 Desi Cow Ghee is incredible. It feels just like the homemade ghee my grandmother used to make.",
-        imgSrc: "",
+        imgSrc: "/suresh-kumar.webp",
         time: "2 Years",
-        name: "Shalini Arora",
+        name: "Suresh Kumar",
       },
       {
         pera: "I add a spoon of this ghee to my dal and rotis daily. The flavor is unmatched and digestion feels smoother.",
-        imgSrc: "",
+        imgSrc: "/manoj-sethi.webp",
         time: "1 Year",
         name: "Manoj Bhardwaj",
       },
       {
         pera: "This ghee has become a staple in my kitchen. I use it for cooking, frying, and even on parathas. Pure and authentic.",
-        imgSrc: "",
+        imgSrc: "/pooja-singh.webp",
         time: "3 Years",
         name: "Kavita Reddy",
       },
       {
         pera: "Compared to store ghee, this one is lighter yet tastier. My family insists only on Vardaan Farms’ A2 ghee now.",
-        imgSrc: "",
+        imgSrc: "/prakash-singh.webp",
         time: "8 Months",
         name: "Rohit Sharma",
       },
@@ -924,25 +924,25 @@ export const specificProductData = {
     testimonialData: [
       {
         pera: "Buffalo Ghee from Vardaan Farms is rich and flavorful. It enhances every dish, especially halwa and puris. Truly authentic taste.",
-        imgSrc: "",
+        imgSrc: "/ananya-verma-image.webp",
         time: "4 Years",
         name: "Savita Nair",
       },
       {
         pera: "I use this ghee for cooking traditional dishes. The thickness and aroma are exactly what I wanted for my recipes.",
-        imgSrc: "",
+        imgSrc: "/karan-mehta.webp",
         time: "2 Years",
         name: "Ashok Tiwari",
       },
       {
         pera: "Buffalo Ghee is perfect for winters. It keeps my family warm and healthy, and the quality is far better than supermarket brands.",
-        imgSrc: "",
+        imgSrc: "/ananya-kapoor.webp",
         time: "1.5 Years",
         name: "Poonam Aggarwal",
       },
       {
         pera: "I love spreading this ghee on hot chapatis. It melts instantly and gives a rich, homely taste that feels authentic.",
-        imgSrc: "",
+        imgSrc: "/vivek-ahlawat.webp",
         time: "10 Months",
         name: "Arjun Singh",
       },

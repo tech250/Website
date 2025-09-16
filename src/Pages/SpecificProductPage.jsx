@@ -10,7 +10,6 @@ const SpecificProductPage = () => {
 
   useEffect(() => {
     setPageData(specificProductData[`${name}`]);
-    console.log(pageData?.seoData);
   }, [pageData]);
 
   return pageData == null ? (
