@@ -211,68 +211,48 @@ export const productSlidesData = [
 
 export const testimonialCards = [
   {
-    starcolor: "yellow-600",
     description:
       "I have been purchasing from Vardaan Farms for months now, and the freshness of their dairy products always reminds me of home. The ghee tastes pure, and the milk feels natural every single day.",
     name: "Amit Joshi",
     designation: "Business Owner",
-    textcolor: "text-white/80",
-    bgColor: "bg-slate-700",
     specificCss:
       "relative md:translate-x-[20%] z-[2] rotate-[-8deg] mt-[80px] sm:mt-[60px] md:mt-[120px]",
-    lineColor: "white/80",
     imgSrc: "/amitJoshi.jpeg",
   },
   {
-    starcolor: "white",
     description:
       "As a mother, I always worry about giving my children safe food. Vardaan Farms delivers milk and ghee that I can trust completely. Their service is timely, and the taste never disappoints us.",
     name: "Anil Kumar",
     designation: "Homemaker",
-    textcolor: "text-white/80",
-    bgColor: "bg-blue-500",
     specificCss:
       "z-[4] rotate-[-9deg] mt-[20px] -translate-x-[20%] sm:-translate-x-[40%] md:translate-x-0",
-    lineColor: "white/80",
     imgSrc: "/anilKumar.jpeg",
   },
   {
-    starcolor: "yellow-600",
     description:
       "From packaging to taste, Vardaan Farms maintains excellent quality. I no longer worry about artificial additives in dairy. Their products bring back the authentic village flavor I grew up with.",
     name: "Pooja Singh",
     designation: "Software Engineer",
-    textcolor: "text-black/80",
-    bgColor: "bg-slate-100",
     specificCss:
       "z-[3] rotate-[12deg] -translate-x-[60%] md:translate-x-[-20%]",
-    lineColor: "black/80",
     imgSrc: "/poojaSingh.jpg",
   },
   {
-    starcolor: "yellow-600",
     description:
       "I love cooking with their desi cow ghee. The aroma fills my kitchen, and my family notices the authentic taste in every meal. Truly feels like traditional homemade goodness in every spoonful.",
     name: "Rahul Mehta",
     designation: "Teacher",
-    textcolor: "text-black/80",
-    bgColor: "bg-green-200",
     specificCss:
       "z-[5] md:translate-x-[80%] rotate-[5deg] -mt-[60px] md:-mt-[120px]",
-    lineColor: "black/80",
     imgSrc: "/rahulMehta.jpg",
   },
   {
-    starcolor: "yellow-600",
     description:
       "Being in fitness, I always seek natural nutrition. Vardaan Farms’ buffalo ghee and fresh milk keep me energized. I recommend them to anyone looking for authentic, chemical-free dairy products every day.",
     name: "Priya Sharma",
     designation: "Fitness Trainer",
-    textcolor: "text-white/80",
-    bgColor: "bg-black",
     specificCss:
       "z-[6] rotate-[10deg] -mt-[120px] md:-mt-[150px] -translate-x-[80px] md:translate-x-[40%]",
-    lineColor: "white/80",
     imgSrc: "/priyaSharma.jpg",
   },
 ];

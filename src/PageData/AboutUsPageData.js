@@ -6,7 +6,7 @@ export const ourServicesCardaData = [
     pera: "We use advanced cooling techniques to lock in the freshness and nutrition of grass-fed milk commercial, preserving its rich taste and essential nutrients.",
   },
   {
-    imgSrc: "/high-production.png",
+    imgSrc: "/high-production.webp",
     imgAlt: "",
     heading: "High Production",
     pera: "Our modern dairy facilities ensure efficient production of grass-fed milk commercial, meeting demand while maintaining superior quality and freshness.",

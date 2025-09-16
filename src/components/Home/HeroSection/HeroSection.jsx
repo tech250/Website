@@ -5,7 +5,7 @@ import HeroSectionSlide from "./HeroSectionSlide";
 
 const HeroSection = ({ data }) => {
   return (
-    <div className="layout-container bg-center bg-[url(/home-hero-bg.jpg)]">
+    <div className="layout-container bg-center bg-[url(/home-hero-bg.jpg)] bg-no-repeat bg-cover">
       <div className="bg-white/40 backdrop-blur-sm">
         <Swiper
           modules={[Autoplay]}

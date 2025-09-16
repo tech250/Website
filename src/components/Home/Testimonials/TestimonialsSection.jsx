@@ -22,14 +22,10 @@ const TestimonialsSection = () => {
             {testimonialCards.map((obj, id) => (
               <RatingCard
                 key={id}
-                starcolor={obj.starcolor}
                 name={obj.name}
                 description={obj.description}
                 designation={obj.designation}
-                textcolor={obj.textcolor}
-                bgColor={obj.bgColor}
                 specificCss={obj.specificCss}
-                lineColor={obj.lineColor}
                 imgSrc={obj.imgSrc}
               />
             ))}
