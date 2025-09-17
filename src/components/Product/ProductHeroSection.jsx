@@ -1,10 +1,8 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
 import SwiperWithImagePreviewsAtBottom from "../common/SwiperWithImagePreviewsAtBottom";
 
 const ProductHeroSection = ({ data }) => {
-  const { name } = useParams();
   const plusIcon = useRef(null);
   const nutritionalTable = useRef(null);
 

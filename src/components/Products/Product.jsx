@@ -94,6 +94,7 @@ const Product = ({ data }) => {
             <Link
               className="border w-fit px-3 py-1 md:px-4 md:py-2 rounded-md shadow-[3px_3px_1px_black] hover:scale-95 transition"
               to={`/product${data.productPageLink}`}
+              aria-label={`Read More About ${data.name}`}
             >
               Read More
             </Link>
