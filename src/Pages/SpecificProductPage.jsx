@@ -1,20 +1,33 @@
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { specificProductData } from "../PageData/SpecificProductPageData.js";
 import ProductHeroSection from "../components/Product/ProductHeroSection.jsx";
 import ProductTestimonials from "../components/Product/ProductTestimonials.jsx";
 
 const SpecificProductPage = () => {
+  console.log('rendered');
   const { name } = useParams();
   const [pageData, setPageData] = useState(null);
-
+  
+  console.log(pageData);
+  
   useEffect(() => {
-    setPageData(specificProductData[`${name}`]);
-  }, [pageData]);
+    if (specificProductData[`${name}`]) {
+      setPageData(specificProductData[`${name}`]);
+    } else {
+      setPageData(undefined);
+    }
+  }, [name]);
 
-  return pageData == null ? (
-    <div className="min-h-screen"></div>
-  ) : (
+  if (pageData === null) {
+    return <div className="min-h-screen"></div>;
+  }
+
+  if (pageData === undefined) {
+    return <Navigate to="/404" replace/>
+  }
+
+  return (
     <>
       <title>{pageData.seoData.title}</title>
       <meta name="description" content={pageData.seoData.description} />
@@ -36,7 +49,7 @@ const SpecificProductPage = () => {
       <link rel="canonical" href={pageData.seoData.canonical} />
       <div className="layout-container bg-[url('/about-us-our-aproach-bg.jpg')]">
         <ProductHeroSection data={pageData} />
-        <ProductTestimonials data={pageData.testimonialData}/>
+        <ProductTestimonials data={pageData.testimonialData} />
       </div>
     </>
   );

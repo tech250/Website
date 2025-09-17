@@ -6,22 +6,22 @@ import { Suspense, lazy } from "react";
 import NavStrip from "./components/common/NavStrip";
 import MoveUpArrow from "./components/common/MoveUpArrow";
 import Whatsapp from "./components/common/Whatsapp";
-const  Home= lazy(()=> import("./Pages/Home"));
-const  AboutUs= lazy(()=> import("./Pages/AboutUs"));
-const  ContactUs= lazy(()=> import("./Pages/ContactUs"));
-const  Blogs= lazy(()=> import("./Pages/Blogs"));
-const  Products= lazy(()=> import("./Pages/Products"));
-const  PageNotFound= lazy(()=> import("./Pages/PageNotFound"));
-const  PrivacyPolicy= lazy(()=> import("./Pages/PrivacyPolicy"));
-const  TermsAndConditions= lazy(()=> import("./Pages/TermsAndConditions"));
-const  SpecificProductPage= lazy(()=> import("./Pages/SpecificProductPage"));
+const Home = lazy(() => import("./Pages/Home"));
+const AboutUs = lazy(() => import("./Pages/AboutUs"));
+const ContactUs = lazy(() => import("./Pages/ContactUs"));
+const Blogs = lazy(() => import("./Pages/Blogs"));
+const Products = lazy(() => import("./Pages/Products"));
+const PageNotFound = lazy(() => import("./Pages/PageNotFound"));
+const PrivacyPolicy = lazy(() => import("./Pages/PrivacyPolicy"));
+const TermsAndConditions = lazy(() => import("./Pages/TermsAndConditions"));
+const SpecificProductPage = lazy(() => import("./Pages/SpecificProductPage"));
 
 const App = () => {
   return (
     <div className="relative">
       <NavStrip />
       <Navbar />
-      <Whatsapp/>
+      <Whatsapp />
       <ScrollToTop behaviour="smooth" />
       <div className="overflow-x-hidden">
         <Suspense fallback={<div className="min-h-screen"></div>}>
@@ -37,11 +37,12 @@ const App = () => {
               path="/terms-and-conditions"
               element={<TermsAndConditions />}
             />
+            <Route path="/404" element={<PageNotFound />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Suspense>
       </div>
-      <MoveUpArrow/>
+      <MoveUpArrow />
       <Footer />
     </div>
   );

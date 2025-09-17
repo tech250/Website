@@ -17,18 +17,21 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/vardaanfarms/"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
+                aria-label="Visit Vardaan Farms on Facebook"
               >
                 <i className="fa-brands fa-facebook-f text-black/70 group-hover:text-black duration-700 transition"></i>
               </a>
               <a
                 href="https://www.instagram.com/vardaanfarms/"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
+                aria-label="Visit Vardaan Farms on Instagram"
               >
                 <i className="fa-brands fa-square-instagram text-black/70 group-hover:text-black duration-700 transition"></i>
               </a>
               <a
                 href="https://www.youtube.com/@VardaanFarms"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
+                aria-label="Visit Vardaan Farms on Youtube"
               >
                 <i className="fa-brands fa-youtube text-black/70 group-hover:text-black duration-700 transition"></i>
               </a>
