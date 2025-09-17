@@ -7,6 +7,7 @@ import OurProcess from "../components/Home/OurProcess/OurProcess";
 import OurProducts from "../components/Home/OurProducts/OurProducts";
 import TestimonialsSection from "../components/Home/Testimonials/TestimonialsSection";
 import { HeroSectionSlidesData } from "../PageData/HomePageData";
+import { faqData } from "../PageData/HomePageData";
 
 const Home = () => {
   return (
@@ -216,7 +217,7 @@ const Home = () => {
         <OurProducts />
         <OurProcess />
         <TestimonialsSection />
-        <FAQSection />
+        <FAQSection data={faqData} imgLeftSide={true}/>
         <Cta />
       </div>
     </>

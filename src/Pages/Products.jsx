@@ -183,52 +183,46 @@ const Products = () => {
   };
   return (
     <>
-        <title>Best Fresh, 100% Natural and Chemical Free Dairy products</title>
-        <meta
-          name="description"
-          content="Explore Our Range Of 100% Pure, Farm-Fresh Dairy Products, Including A2 Cow Milk, Buffalo Milk, Curd, and more. No Preservatives Just Natural Goodness!."
-        />
-        <meta name="keywords" content="Milk, Paneer, Ghee, Curd, Chach" />
+      <title>Best Fresh, 100% Natural and Chemical Free Dairy products</title>
+      <meta
+        name="description"
+        content="Explore Our Range Of 100% Pure, Farm-Fresh Dairy Products, Including A2 Cow Milk, Buffalo Milk, Curd, and more. No Preservatives Just Natural Goodness!."
+      />
+      <meta name="keywords" content="Milk, Paneer, Ghee, Curd, Chach" />
 
-        <meta
-          property="og:title"
-          content="Vardaan Farms: Best Fresh, 100% Natural and Chemical Free Dairy products"
-        />
-        <meta
-          property="og:description"
-          content="Explore Our Range Of 100% Pure, Farm-Fresh Dairy Products, Including A2 Cow Milk, Buffalo Milk, Curd, and more. No Preservatives Just Natural Goodness!."
-        />
-        <meta
-          property="og:image"
-          content=""
-        />
-        <meta property="og:url" content="https://vardaanfarms.com/products" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Vardaan Farms" />
+      <meta
+        property="og:title"
+        content="Vardaan Farms: Best Fresh, 100% Natural and Chemical Free Dairy products"
+      />
+      <meta
+        property="og:description"
+        content="Explore Our Range Of 100% Pure, Farm-Fresh Dairy Products, Including A2 Cow Milk, Buffalo Milk, Curd, and more. No Preservatives Just Natural Goodness!."
+      />
+      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://vardaanfarms.com/products" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Vardaan Farms" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twiter:title"
-          content="Best Fresh, 100% Natural and Chemical Free Dairy products"
-        />
-        <meta
-          name="twitter:description"
-          content="Explore Our Range Of 100% Pure, Farm-Fresh Dairy Products, Including A2 Cow Milk, Buffalo Milk, Curd, and more. No Preservatives Just Natural Goodness!."
-        />
-        <meta
-          name="twitter:image"
-          content=""
-        />
-        <meta name="twitter:url" content="https://vardaanfarms.com/products" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twiter:title"
+        content="Best Fresh, 100% Natural and Chemical Free Dairy products"
+      />
+      <meta
+        name="twitter:description"
+        content="Explore Our Range Of 100% Pure, Farm-Fresh Dairy Products, Including A2 Cow Milk, Buffalo Milk, Curd, and more. No Preservatives Just Natural Goodness!."
+      />
+      <meta name="twitter:image" content="" />
+      <meta name="twitter:url" content="https://vardaanfarms.com/products" />
 
-        <meta />
-        <link rel="canonical" href="https://vardaanfarms.com/products" />
-        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
-        <script type="application/ld+json">{JSON.stringify(faqData)}</script>
-        <script type="application/ld+json">
-          {JSON.stringify(articleSchema)}
-        </script>
-      <div>
+      <meta />
+      <link rel="canonical" href="https://vardaanfarms.com/products" />
+      <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+      <script type="application/ld+json">{JSON.stringify(faqData)}</script>
+      <script type="application/ld+json">
+        {JSON.stringify(articleSchema)}
+      </script>
+      <div className="">
         {productsData.map((productData, id) => (
           <Product
             key={id}

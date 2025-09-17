@@ -37,29 +37,6 @@ export const ourServicesCardaData = [
   },
 ];
 
-export const faqData = [
-  {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-  },
-  {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-  },
-  {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-  },
-  {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-  },
-  {
-    ques: "Lorem ipsum dolor sit amet.",
-    ans: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Offici assumenda ducimus dolorem possimus provident vero itaque ipsa nulla necessitatibus neque fugit aliquid, quas voluptates temporibus facere! Odit numquam mollitia voluptate!",
-  },
-];
-
 export const testimonialData = [
   {
     imgSrc: "/aarav-singh-image.webp",
@@ -110,3 +87,25 @@ export const testimonialData = [
     designation: "With Us Since 7 years"
   }
 ];
+
+export const faqData = {
+  img: "/women-pouring-milk-pencil-sketch.jpeg",
+  quesData: [
+    {
+      ques: "What makes Vardaan Farms different from other dairy brands?",
+      ans: "Vardaan Farms focuses on natural, sustainable, and ethical dairy farming. Vardaan Farms ensure fresh, high-quality dairy without artificial preservatives or hormones.",
+    },
+    {
+      ques: "How does Vardaan Farms ensure the purity of its milk?",
+      ans: "Vardaan Farms follow strict hygiene and safety protocols, from milking to packaging. Their advanced processing retains the milk’s natural nutrients while ensuring it meets the highest quality standards."
+    },
+    {
+      ques: "Where does vardaan Farms source its milk from?",
+      ans: "Vardaan Farms produce milk from their own farms, where cows are raised in a natural, stress-free environment and fed a balanced diet, ensuring superior taste and nutrition.",
+    },
+    {
+      ques: "Is Vardaan Farms milk suitable for children and elderly individuals?",
+      ans: "Yes, Vardaan Farms milk is rich in essential vitamins and minerals, making it an excellent choice for all age groups, including children and seniors.",
+    }
+  ],
+};

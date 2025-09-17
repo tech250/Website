@@ -257,28 +257,27 @@ export const testimonialCards = [
   },
 ];
 
-export const faqData = [
-  {
-    ques: "What makes Vardaan Farms’ milk the best organic milk?",
-    ans: "Our best organic milk comes from grass-fed cows, free from artificial hormones and preservatives. It’s 100% natural, ensuring maximum nutrition and purity for your family.",
-  },
-  {
-    ques: "Is Vardaan Farms' fresh milk pasteurized?",
-    ans: "Yes, our fresh milk is gently pasteurized to maintain safety while preserving its natural taste and nutrients—no preservatives, no chemicals, just pure dairy goodness.",
-  },
-  {
-    ques: "Who should drink high-protein milk?",
-    ans: "Our high-protein milk is ideal for athletes, gym-goers, growing children, and health-conscious individuals. It provides essential proteins & nutrients to support an active lifestyle.",
-  },
-  {
-    ques: "What are the benefits of cultured milk?",
-    ans: "Our cultured milk is rich in probiotics, which help with digestion, gut health, and immunity. It’s a great choice for anyone looking for a natural source of healthy bacteria.",
-  },
-  {
-    ques: "Do you offer bulk orders for businesses?",
-    ans: "Yes, we specialize in bulk dairy supply for retailers, distributors, and businesses. Contact us for customized pricing and delivery options.",
-  },
-];
+export const faqData = {
+  img: "/women-pouring-milk-pencil-sketch.jpeg",
+  quesData: [
+    {
+      ques: "What makes Vardaan Farms’ milk the best organic milk?",
+      ans: "Our best organic milk comes from grass-fed cows, free from artificial hormones and preservatives. It’s 100% natural, ensuring maximum nutrition and purity for your family.",
+    },
+    {
+      ques: "Is Vardaan Farms' fresh milk pasteurized?",
+      ans: "Yes, our fresh milk is gently pasteurized to maintain safety while preserving its natural taste and nutrients—no preservatives, no chemicals, just pure dairy goodness.",
+    },
+    {
+      ques: "What are the benefits of cultured milk?",
+      ans: "Our cultured milk is rich in probiotics, which help with digestion, gut health, and immunity. It’s a great choice for anyone looking for a natural source of healthy bacteria.",
+    },
+    {
+      ques: "Do you offer bulk orders for businesses?",
+      ans: "Yes, we specialize in bulk dairy supply for retailers, distributors, and businesses. Contact us for customized pricing and delivery options.",
+    },
+  ],
+};
 
 export const ourProcessData = [
   {

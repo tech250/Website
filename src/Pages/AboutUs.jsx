@@ -4,9 +4,11 @@ import MissionAndVission from "../components/AboutUs/MissionAndVission";
 import OurBestVardaanServices from "../components/AboutUs/OurBestVardaanServices";
 import Testimonials from "../components/AboutUs/Testimonials";
 import Cta from "../components/common/CTA/Cta";
+import FAQSection from "../components/common/Faq/FAQSection";
+import { faqData } from "../PageData/AboutUsPageData";
 
 const AboutUs = () => {
-  const faqData = {
+  const faqData2 = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
@@ -94,51 +96,46 @@ const AboutUs = () => {
 
   return (
     <>
-        <title>
-          Vardaan Farms - Ethical And Grass Fed Dairy Farming In India
-        </title>
-        <meta
-          name="description"
-          content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
-        />
-        <meta name="keywords" content="Grass Fed" />
-        <meta
-          property="og:title"
-          content="Vardaan Farms - Ethical And Grass Fed Dairy Farming In India"
-        />
-        <meta
-          property="og:description"
-          content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
-        />
-        <meta
-          property="og:image"
-          content=""
-        />
-        <meta property="og:url" content="https://vardaanfarms.com/about-us" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Vardaan Farms - Ethical And Grass Fed Dairy Farming In India"
-        />
-        <meta
-          name="twitter:description"
-          content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
-        />
-        <meta
-          name="twitter:image"
-          content=""
-        />
-        <link rel="canonical" href="https://www.vardaanfarms.com/about-us" />
-        <script type="application/ld+json">{JSON.stringify(faqData)}</script>
-        <script type="application/ld+json">
-          {JSON.stringify(articleSchema)}
-        </script>
+      <title>
+        Vardaan Farms - Ethical And Grass Fed Dairy Farming In India
+      </title>
+      <meta
+        name="description"
+        content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
+      />
+      <meta name="keywords" content="Grass Fed" />
+      <meta
+        property="og:title"
+        content="Vardaan Farms - Ethical And Grass Fed Dairy Farming In India"
+      />
+      <meta
+        property="og:description"
+        content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
+      />
+      <meta property="og:image" content="" />
+      <meta property="og:url" content="https://vardaanfarms.com/about-us" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="Vardaan Farms - Ethical And Grass Fed Dairy Farming In India"
+      />
+      <meta
+        name="twitter:description"
+        content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
+      />
+      <meta name="twitter:image" content="" />
+      <link rel="canonical" href="https://www.vardaanfarms.com/about-us" />
+      <script type="application/ld+json">{JSON.stringify(faqData2)}</script>
+      <script type="application/ld+json">
+        {JSON.stringify(articleSchema)}
+      </script>
       <div className="layout-container">
         <AboutUsHeroSection />
         <AboutUsSection />
         <OurBestVardaanServices />
         <MissionAndVission />
         <Testimonials />
+        <FAQSection data={faqData} imgLeftSide={true}/>
         <Cta />
       </div>
     </>

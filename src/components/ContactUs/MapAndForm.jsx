@@ -196,10 +196,10 @@ const MapAndForm = () => {
               ></textarea>
               <button
                 type="submit"
-                className="p-2 bg-black/50 text-white/70 cursor-pointer"
+                className={`p-2 bg-black/50 text-white/70 cursor-pointer transition ${loading? "cursor-pointer":"cursor-not-allowed hover:scale-[98%]"}`}
               >
                 {loading ? (
-                  <p className="p-3 rounded-full border-1 border-t-0 border-l-0 w-fit mx-auto border-white/80 animate-spin"></p>
+                  <p className={`p-3 rounded-full border-1 border-t-0 border-l-0 w-fit mx-auto border-white/80 animate-spin`}></p>
                 ) : (
                   "Send Message"
                 )}
