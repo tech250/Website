@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
-import { EffectCards } from "swiper/modules";
+import { EffectCards, Autoplay } from "swiper/modules";
 
 export default function CardSwiper({ data }) {
   return (
@@ -9,7 +9,11 @@ export default function CardSwiper({ data }) {
       <Swiper
         effect={"cards"}
         grabCursor={true}
-        modules={[EffectCards]}
+        modules={[EffectCards, Autoplay]}
+        autoplay={{
+          delay:2500,
+          disableOnInteraction:true
+        }}
         className="mySwiper w-[70%] md:w-4/5 xl:w-[70%] 2xl:w-1/2 h-fit"
       >
         {data.map((obj, id) => (
