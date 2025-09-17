@@ -79,7 +79,7 @@ const ProductHeroSection = ({ data }) => {
         </div>
         <div className="pt-4">
           <Link
-            to={`/products#${name}`}
+            to={`/products`}
             className="border border-black text-white bg-black px-4 py-3"
           >
             More Products

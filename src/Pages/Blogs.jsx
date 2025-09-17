@@ -2,10 +2,9 @@ import { Link } from "react-router-dom";
 const Blogs = () => {
   return (
     <>
-
       <div className="custom-container min-h-screen sm:min-h-auto flex justify-center items-center bg-[url('/about-us-our-aproach-bg.jpg')]">
         <div className="flex flex-col gap-6 py-6 md:py-8 items-center">
-          <div className="aspect-square w-full md:w-4/5 lg:w-[50%] ">
+          <div className="aspect-square w-full md:w-4/5 lg:w-[50%] border">
             <img src="/hay-role-pencil-sketch.png" alt="" />
           </div>
           <p className="text-xl text-center text-black/50">

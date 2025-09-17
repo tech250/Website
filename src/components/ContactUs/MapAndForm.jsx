@@ -5,6 +5,42 @@ import { useRef } from "react";
 import { useEffect, useState } from "react";
 const MapAndForm = () => {
   const [database, setDatabase] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const form = useRef(null);
+
+  function handleSubmit(e) {
+    setLoading(true);
+    const dataToSend = {};
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    for (const [key, value] of formData.entries()) {
+      dataToSend[`${key}`] = value;
+    }
+    console.log(dataToSend);
+    if (
+      dataToSend.name == "" ||
+      dataToSend.phoneNumber == "" ||
+      dataToSend.email == "" ||
+      dataToSend.subject == ""
+    ) {
+      toast.error("Fields Can't Be Empty");
+      setLoading(false);
+    } else {
+      const db = getDatabase();
+      const useRef = ref(db, "users/" + new Date().getTime());
+      set(useRef, dataToSend)
+        .then(() => {
+          toast.success("Your Response is Recorded");
+          form.current.reset();
+          setLoading(false);
+        })
+        .catch((err) => {
+          toast.error("Something Went Wrong");
+          console.log(err);
+          setLoading(false);
+        });
+    }
+  }
 
   useEffect(() => {
     const loadDB = async () => {
@@ -15,35 +51,6 @@ const MapAndForm = () => {
     };
     loadDB();
   }, []);
-
-  const form = useRef(null);
-  function handleSubmit(e) {
-    const dataToSend = {};
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    for (const [key, value] of formData.entries()) {
-      dataToSend[`${key}`] = value;
-    }
-    if (
-      dataToSend.name == "" ||
-      dataToSend.phoneNumber == "" ||
-      dataToSend.email == ""
-    ) {
-      toast.error("Fields Can't Be Empty");
-    } else {
-      const db = getDatabase();
-      const useRef = ref(db, "users/" + new Date().getTime());
-      set(useRef, dataToSend)
-        .then(() => {
-          toast.success("Your Response is Recorded");
-          form.current.reset();
-        })
-        .catch((err) => {
-          toast.error("Something Went Wrong");
-          console.log(err);
-        });
-    }
-  }
 
   const faqData = {
     "@context": "https://schema.org",
@@ -83,7 +90,6 @@ const MapAndForm = () => {
       },
     ],
   };
-
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -106,6 +112,7 @@ const MapAndForm = () => {
     datePublished: "2025-03-26",
     dateModified: "2025-03-26",
   };
+
   return (
     <>
       <ToastContainer
@@ -137,7 +144,11 @@ const MapAndForm = () => {
           </a>
           {/* for form */}
           <div className="w-full md:w-1/2">
-            <form className="flex flex-col gap-2">
+            <form
+              className="flex flex-col gap-2"
+              onSubmit={handleSubmit}
+              ref={form}
+            >
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black/80">
                 Leave A Message
               </h2>
@@ -148,28 +159,37 @@ const MapAndForm = () => {
               </p>
               <div className="grid gap-2 grid-cols-2">
                 <input
+                  required
+                  name="name"
                   type="text"
                   placeholder="Name *"
                   className="outline-none border p-2 border-black/50 text-black/50"
                 />
                 <input
+                  required
+                  name="phoneNumber"
                   type="tel"
                   placeholder="Phone Number *"
                   className="outline-none border p-2 border-black/50 text-black/50"
                 />
                 <input
+                  required
+                  name="email"
                   type="email"
                   placeholder="Email *"
                   className="outline-none border p-2 border-black/50 text-black/50"
                 />
                 <input
-                  type="subject"
+                  required
+                  name="subject"
+                  type="text"
                   placeholder="Subject *"
                   className="outline-none border p-2 border-black/50 text-black/50"
                 />
               </div>
               <textarea
-                name=""
+                type="text"
+                name="Message"
                 id=""
                 placeholder="Message"
                 className="p-2 border text-black/50 border-black/50 resize-none h-[250px] outline-none"
@@ -178,7 +198,11 @@ const MapAndForm = () => {
                 type="submit"
                 className="p-2 bg-black/50 text-white/70 cursor-pointer"
               >
-                Send Message
+                {loading ? (
+                  <p className="p-3 rounded-full border-1 border-t-0 border-l-0 w-fit mx-auto border-white/80 animate-spin"></p>
+                ) : (
+                  "Send Message"
+                )}
               </button>
             </form>
           </div>
