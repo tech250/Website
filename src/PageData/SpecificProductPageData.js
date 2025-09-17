@@ -1,10 +1,10 @@
 export const specificProductData = {
   "a2-desi-cow-milk": {
     img: [
-      "/A2 desi cow milk_1.png",
-      "/A2 desi cow milk_2.png",
-      "/A2 desi cow milk_3.png",
-      "/A2 desi cow milk_4.png",
+      "/A2 desi cow milk_1.webp",
+      "/A2 desi cow milk_2.webp",
+      "/A2 desi cow milk_3.webp",
+      "/A2 desi cow milk_4.webp",
     ],
     category: "Milk",
     heading: "A2 Desi Cow Milk",
@@ -76,10 +76,10 @@ export const specificProductData = {
   },
   "full-cream-milk": {
     img: [
-      "/Full Cream 500ml milk_1.png",
-      "/Full Cream 500ml milk_2.png",
-      "/Full Cream 500ml milk_3.png",
-      "/Full Cream 500ml milk_4.png",
+      "/Full Cream 500ml milk_1.webp",
+      "/Full Cream 500ml milk_2.webp",
+      "/Full Cream 500ml milk_3.webp",
+      "/Full Cream 500ml milk_4.webp",
     ],
     category: "Milk",
     heading: "Full Cream Milk",
@@ -150,7 +150,7 @@ export const specificProductData = {
     ],
   },
   "toned-milk": {
-    img: ["/TM_500_1.png", "/TM_500_2.png", "/TM_500_3.png", "/TM_500_4.png"],
+    img: ["/TM_500_1.webp", "/TM_500_2.webp", "/TM_500_3.webp", "/TM_500_4.webp"],
     category: "Milk",
     heading: "Toned Milk",
     info: "Toned milk from Vardaan Farms is a great choice for those who want a lighter option. It retains all the essential nutrients while being lower in fat. Ideal for making your morning cereal, coffee, or tea, it also works well in various recipes. Taste the balance of health and flavor with every drop from Vardaan Farms.",
@@ -221,10 +221,10 @@ export const specificProductData = {
   },
   "double-toned-milk": {
     img: [
-      "/Dtm 500 1.png",
-      "/Dtm 500 2.png",
-      "/Dtm 500 3.png",
-      "/Dtm 500 4.png",
+      "/Dtm 500 1.webp",
+      "/Dtm 500 2.webp",
+      "/Dtm 500 3.webp",
+      "/Dtm 500 4.webp",
     ],
     category: "Milk",
     heading: "Double Toned Milk",
@@ -296,10 +296,10 @@ export const specificProductData = {
   },
   "natural-cow-milk": {
     img: [
-      "/Natural cow milk500_1.png",
-      "/Natural cow milk500_2.png",
-      "/Natural cow milk500_3.png",
-      "/Natural cow milk500_4.png",
+      "/Natural cow milk500_1.webp",
+      "/Natural cow milk500_2.webp",
+      "/Natural cow milk500_3.webp",
+      "/Natural cow milk500_4.webp",
     ],
     category: "Milk",
     heading: "Natural Cow Milk",
@@ -371,10 +371,10 @@ export const specificProductData = {
   },
   "buffalo-milk": {
     img: [
-      "/Buffalo milk_500ml_1.png",
-      "/Buffalo milk_500ml_2.png",
-      "/Buffalo milk_500ml_3.png",
-      "/Buffalo milk_500ml_4.png",
+      "/Buffalo milk_500ml_1.webp",
+      "/Buffalo milk_500ml_2.webp",
+      "/Buffalo milk_500ml_3.webp",
+      "/Buffalo milk_500ml_4.webp",
     ],
     category: "Milk",
     heading: "Buffalo Milk",
@@ -446,10 +446,10 @@ export const specificProductData = {
   },
   "family-pack": {
     img: [
-      "/Family pack _1.png",
-      "/Family pack _2.png",
-      "/Family pack _3.png",
-      "/Family pack _4.png",
+      "/Family pack _1.webp",
+      "/Family pack _2.webp",
+      "/Family pack _3.webp",
+      "/Family pack _4.webp",
     ],
     category: "Milk",
     heading: "Family Pack",
@@ -520,7 +520,7 @@ export const specificProductData = {
     ],
   },
   "butter-milk": {
-    img: ["/Butter milk 1.png", "/Butter milk 2.png", "/Butter milk 3.png"],
+    img: ["/Butter milk 1.webp", "/Butter milk 2.webp", "/Butter milk 3.webp"],
     category: "Chach",
     heading: "Butter Milk",
     info: "Vardaan Farms' plain buttermilk is light and refreshing, perfect for staying cool and hydrated. It's made from our pure, natural milk and has a tangy taste that's delightful on its own or used in cooking. Enjoy this healthy and tasty drink, knowing it's made with care at Vardaan Farms.",
@@ -590,7 +590,7 @@ export const specificProductData = {
     ],
   },
   "masala-chach": {
-    img: ["/Masala chach 1.png", "/Masala chach 2.png", "/Masala chach 3.png"],
+    img: ["/Masala chach 1.webp", "/Masala chach 2.webp", "/Masala chach 3.webp"],
     category: "Chach",
     heading: "Masala Chach",
     info: "Masala chach from Vardaan Farms is a refreshing and flavorful drink, made from our natural milk and a blend of spices. It's perfect for cooling down on hot days and aiding digestion. Enjoy it as a tasty and healthy beverage option, crafted with care and quality at Vardaan Farms.",
@@ -660,7 +660,7 @@ export const specificProductData = {
     ],
   },
   "slim-curd": {
-    img: ["/Curd 500_1.png", "/Curd 500_2.png", "/Curd 500_3.png"],
+    img: ["/Curd 500_1.webp", "/Curd 500_2.webp", "/Curd 500_3.webp"],
     category: "Curd",
     heading: "Slim Curd",
     info: "Vardaan Farms' slim curd is perfect for those seeking a low-fat, nutritious option. Made from our pure, natural milk, this curd is light and creamy, yet packed with essential nutrients. Enjoy it as a healthy snack or add it to your meals for a delicious touch. Taste the care and quality in every spoonful from Vardaan Farms.",
@@ -730,7 +730,7 @@ export const specificProductData = {
     ],
   },
   curd: {
-    img: ["/Fresh Curd 1.png", "/Fresh Curd 2.png", "/Fresh Curd 3.png"],
+    img: ["/Fresh Curd 1.webp", "/Fresh Curd 2.webp", "/Fresh Curd 3.webp"],
     category: "Curd",
     heading: "Curd",
     info: "Vardaan Farms' curd is rich, creamy, and made from our pure, natural milk. It's packed with essential nutrients and has a smooth texture that enhances any meal. Enjoy it as a refreshing snack or add it to your recipes for a delightful touch. Experience the quality and care in every spoonful from Vardaan Farms.",
@@ -801,10 +801,10 @@ export const specificProductData = {
   },
   "a2-desi-cow-ghee": {
     img: [
-      "/A2 Desi cow ghee 500_1.png",
-      "/A2 Desi cow ghee 500_2.png",
-      "/A2 Desi cow ghee 500_3.png",
-      "/A2 Desi cow ghee 500_4.png",
+      "/A2 Desi cow ghee 500_1.webp",
+      "/A2 Desi cow ghee 500_2.webp",
+      "/A2 Desi cow ghee 500_3.webp",
+      "/A2 Desi cow ghee 500_4.webp",
     ],
     category: "Ghee",
     heading: "A2 Desi Cow Ghee",
@@ -876,10 +876,10 @@ export const specificProductData = {
   },
   "a2-desi-buffalo-ghee": {
     img: [
-      "/Buffalo ghee 500_1.png",
-      "/Buffalo ghee 500_2.png",
-      "/Buffalo ghee 500_3.png",
-      "/Buffalo ghee 500_4.png",
+      "/Buffalo ghee 500_1.webp",
+      "/Buffalo ghee 500_2.webp",
+      "/Buffalo ghee 500_3.webp",
+      "/Buffalo ghee 500_4.webp",
     ],
     category: "Ghee",
     heading: "Buffalo Ghee",

@@ -84,7 +84,7 @@ export const randomKeywordsObj = {
     "slowCooked",
     "🔥",
     "healthyBones",
-    "🦴",
+    "💛",
     "energyBoost",
     "💪",
     "pureTaste",
