@@ -24,7 +24,7 @@ export default function SwiperWithImagePreviewsAtBottom({ data }) {
         loop={true}
         pagination={true}
         modules={[EffectCube, Pagination, Autoplay]}
-        className="grayscale-50 shadow-2xl bg-transparent"
+        className="grayscale-50 bg-transparent"
       >
         {data.map((imgSrc, id) => (
           <SwiperSlide key={id}>
