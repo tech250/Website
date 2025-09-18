@@ -4,7 +4,7 @@ const OurBestVardaanServices = () => {
   return (
     <div className="p-6 bg-[url('/about-us-our-aproach-bg.jpg')] bg-no-repeat bg-center bg-cover">
       <div className="custom-container flex flex-col gap-6">
-        <h2 className="text-center text-2xl md:text-3xl  lg:text-4xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto p-1">
+        <h2 className="text-center text-2xl md:text-3xl  lg:text-4xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto p-1 px-4">
           Our Best Vardaan Service
         </h2>
         <p className="text-center text-black/50">

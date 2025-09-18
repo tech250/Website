@@ -8,14 +8,14 @@ const Product = ({ data }) => {
       id={data.productPageLink?.split("/")[1]}
     >
       <div
-        className={`w-1/3 flex items-center justify-center`}
-        style={{ backgroundColor: `${data.bgColor}` }}
+        className={`w-1/3 flex items-center justify-center bg-[#dfdace]`}
+        // style={{ backgroundColor: `${data.bgColor}` }}
       >
         <h2
           className={`text-[100px] font-bold text-transparent drop-shadow-[2px_2px_3px_black] bg-clip-text keyWord ${
             data.side == "left" ? "rotate-[90deg]" : "rotate-[270deg]"
           }`}
-          style={{ backgroundColor: `${data.bgColor}` }}
+          style={{ backgroundColor: `#dfdace` }}
         >
           {data.bgkeyword}
         </h2>
@@ -31,7 +31,7 @@ const Product = ({ data }) => {
           <img
             src={data.imgSrc}
             alt={data.imgAlt}
-            className={`w-fit h-[250px] sm:w-1/2 md:w-[60%] sm:h-fit transition hover:scale-95 cursor-pointer drop-shadow-2xl drop-shadow-black `}
+            className={`w-fit h-[250px] sm:w-1/2 md:w-[60%] sm:h-fit transition hover:scale-95 cursor-pointer drop-shadow-2xl drop-shadow-black grayscale-50 duration-700`}
             height="550px"
             width="550px"
           />
@@ -48,7 +48,7 @@ const Product = ({ data }) => {
           >
             <h2
               className={`text-transparent  bg-clip-text  drop-shadow-[1px_1px_1px_black] text-[30px] md:text-[50px] font-bold leading-none w-2/3 md:w-full`}
-              style={{ backgroundColor: `${data.bgColor}` }}
+              style={{ backgroundColor: `#dfdace` }}
             >
               {data.name}
             </h2>
@@ -83,7 +83,7 @@ const Product = ({ data }) => {
             <div>
               <h2
                 className="text-[30px] sm:text-[40px] md:text-[80px] font-bold text-transparent  drop-shadow-[1px_1px_1px_black] bg-clip-text leading-none"
-                style={{ backgroundColor: `${data.bgColor}` }}
+                style={{ backgroundColor: `#dfdace` }}
               >
                 100 %
               </h2>

@@ -8,7 +8,7 @@ const AboutUsSection = () => {
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <h4>ABOUT US</h4>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 p-1 w-fit">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 p-1 w-fit px-4">
             Crafting Dairy Excellence
           </h2>
           <div className="flex flex-col gap-2 text-black/50">

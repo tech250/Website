@@ -12,7 +12,7 @@ const HomeAboutUs = () => {
           <img src="/cow-grasing-and-milking.jpeg" alt="Milk man Milking cow pencil Sketch" className="" loading="lazy"/>
         </div>
         <div className="flex flex-col gap-2 md:gap-4 w-full md:w-1/2 justify-center order-1 md:order-2">
-          <h2 className="text-2xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit p-1">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit p-1 px-4">
             ABOUT VARDAAN FARMS ?
           </h2>
           <p className="text-black/50">

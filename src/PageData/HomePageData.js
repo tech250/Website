@@ -322,7 +322,7 @@ export const HeroSectionSlidesData = [
   {
     heading: ["Pure", "Desi", "Goodness"],
     leftBoxes: [
-      { number: "5000+", text: "Daily Customers" },
+      { number: "50000+", text: "Daily Customers" },
       { number: "100%", text: "Natural Feed" },
     ],
     pera: "Experience authentic A2 milk straight from our farms. No mixing, no shortcuts—just pure, nutrient-rich goodness you can trust for your family’s health, delivered fresh every single day.",

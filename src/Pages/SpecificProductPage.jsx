@@ -47,9 +47,10 @@ const SpecificProductPage = () => {
       />
       <meta name="twitter:image" content={pageData.seoData.twitter.image} />
       <link rel="canonical" href={pageData.seoData.canonical} />
-      <div className="layout-container bg-[url('/about-us-our-aproach-bg.jpg')]">
+      <div className="relative layout-container z-[0] bg-[url('/about-us-our-aproach-bg.jpg')] overflow-hidden">
         <ProductHeroSection data={pageData} />
         <ProductTestimonials data={pageData.testimonialData} />
+        <img src="/grass-pencil-sketch.png" alt="Grass" className="absolute z-[-1] bottom-[-17px] w-[180px] sm:w-[250px] md:w-[300px] lg:w-[350px]"/>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ const OurProcess = () => {
   return (
     <div className="">
       <div className="flex flex-col gap-6 custom-container ">
-        <h2 className="text-4xl font-bold p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit">
+        <h2 className="text-4xl font-bold p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit px-4">
           OurProcess
         </h2>
         <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 md:flex-row items-center">

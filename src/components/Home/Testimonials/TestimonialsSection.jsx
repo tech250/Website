@@ -5,7 +5,7 @@ const TestimonialsSection = () => {
   return (
     <div className="relative">
       <div className="custom-container flex flex-col gap-6 cursor-pointer select-none">
-        <h2 className="text-4xl font-bold p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto">
+        <h2 className="text-4xl font-bold p-1 px-4 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto">
           Testimonials
         </h2>
         <p className="text-center text-black/50">
