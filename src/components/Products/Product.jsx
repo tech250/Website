@@ -96,7 +96,7 @@ const Product = ({ data }) => {
               to={`/product${data.productPageLink}`}
               aria-label={`Read More About ${data.name}`}
             >
-              Read More
+            Read More <p className="w-0 h-0 overflow-hidden border">About {data.name}</p>
             </Link>
           </div>
         </div>

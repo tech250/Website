@@ -20,7 +20,7 @@ export default function SwiperWithImagePreviewsAtBottom({ data }) {
       >
         {data.map((imgSrc, id) => (
           <SwiperSlide key={id}>
-            <img src={imgSrc} />
+            <img src={imgSrc} alt="Vardaan Farms Products Image"/>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -36,7 +36,7 @@ export default function SwiperWithImagePreviewsAtBottom({ data }) {
       >
         {data.map((imgSrc, id) => (
           <SwiperSlide key={id}>
-            <img src={imgSrc} alt="Vardaan Farms Product Image"/>
+            <img src={imgSrc} alt="vardaan Farms Products Images"/>
           </SwiperSlide>
         ))}
       </Swiper>
