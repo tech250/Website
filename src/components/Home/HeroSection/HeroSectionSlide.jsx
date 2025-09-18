@@ -12,18 +12,18 @@ const HeroSectionSlide = ({ data, slideIndex }) => {
         <span>{data.heading[2]}</span>
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full justify-between">
-        <div className="flex md:flex-col gap-4 md:gap-6 order-2 md:order-1">
+        <div className="flex md:flex-col gap-4 md:gap-6 order-2 md:order-1 self-center">
           {data.leftBoxes.map((obj, index) => (
             <div
               key={index}
               className="p-4 flex flex-col gap-2 md:gap-4 rounded-2xl text-center w-3/5 mx-auto bg-white border shadow-[3px_3px_1px_black]"
             >
-              <h2 className="text-2xl md:text-4xl font-bold">{obj.number}</h2>
-              <p className="">{obj.text}</p>
+              <h2 className="text-2xl lg:text-4xl font-bold">{obj.number}</h2>
+              <p className="md:text-sm lg:text-base">{obj.text}</p>
             </div>
           ))}
         </div>
-        <div className="md:order-2">
+        <div className="md:order-2 h-fit self-end">
           <img
             src={data.imgSrc}
             alt={data.imgAlt}
