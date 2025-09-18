@@ -12,13 +12,13 @@ const AboutUsHeroSection = () => {
           </p>
           <span className="flex items-center gap-2">
             <img src="/heart-solid-full.svg" alt="Heart Icon Dark Yellow Color" width="22px" height="22px"/>
-            <p className="text-black/50"><span className="text-black font-semibold">700 + new customers</span>{" "}in last 30 Days</p>
+            <p className="text-black/50"><span className="text-black font-semibold">7000 + new customers</span>{" "}in last 30 Days</p>
           </span>
           <Link
             className="px-4 py-2 border w-fit rounded-md shadow-[3px_3px_1px_black] cursor-pointer hover:scale-95 transition"
-            to="/contact-us"
+            to="/products"
           >
-            Get In Touch
+            View Products
           </Link>
         </div>
         <div className="w-full md:w-1/2 flex justify-center order-1 md:order-2">

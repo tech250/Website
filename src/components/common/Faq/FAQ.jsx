@@ -29,12 +29,10 @@ const FAQ = ({ data }) => {
         >
           <div className="flex gap-2 items-center justify-between">
             <h4 className="text-sm sm:text-base font-semibold text-black/60">{obj.ques}</h4>
-            <i
-              className={`fa-solid fa-chevron-down cursor-pointer transition arrow-down text-black/50 ${
+            <img src="/chevron-down-solid-full.svg" alt="Arrow Down Icon" width="20px" height="20px" className={`cursor-pointer transition arrow-down text-black/50 ${
                 id == 0 ? "rotate-[180deg]" : ""
               }`}
-              id={`arrow-${id}`}
-            ></i>
+              id={`arrow-${id}`}/>
           </div>
           <p
             className={`text-[13px] sm:text-sm text-black/50 overflow-y-hidden FaqAnswers transition-all duration-500 ease-in-out ${

@@ -116,7 +116,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-2 justify-end">
             <h2 className="font-semibold text-2xl text-black/70">
-              VardaanFarms
+              Vardaan Farms
             </h2>
             <p className="text-sm text-black/70">
               Bringing you the goodness of farm-fresh milk, ghee, and dairy products made with honesty and care. Trust us for purity that nourishes families across Gurgaon, Jhajjar, and nearby areas.
@@ -148,7 +148,6 @@ const Footer = () => {
           </NavLink>
         </p>
       </div>
-      <img src="/footer-img.jpeg" alt="" className="hidden sm:block absolute top-0 md:top-auto bottom-0 right-0 w-3/4 sm:w-[60%] md:w-[40%] lg:w-[20%] xl:w-[15%] z-[-2]"/>
     </div>
   );
 };

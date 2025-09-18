@@ -44,10 +44,7 @@ const ProductHeroSection = ({ data }) => {
               Nutritional Facts Per <span className="text-black">(100)</span>{" "}
               <span>{`${data.measurmentUnit}`}</span>
             </p>
-            <i
-              className="fa-solid fa-minus cursor-pointer"
-              onClick={closeTab}
-            ></i>
+            <img src="/minus-solid-full.svg" alt="Minus Icon" className="cursor-pointer" onClick={closeTab} width="30px"/>
           </div>
           <div className=" flex flex-col gap-2 border p-2 border-t-0">
             {Object.keys(data.nutritionalFact).map((key, id) => (

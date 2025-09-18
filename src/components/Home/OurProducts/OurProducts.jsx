@@ -5,7 +5,7 @@ const OurProducts = () => {
   return (
     <div className="relative bg-[url('/about-us-our-aproach-bg.jpg')] bg-no-repeat bg-center bg-cover">
       <div className="custom-container flex flex-col gap-6 md:gap-8">
-        <h2 className="text-center text-4xl font-bold p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto">
+        <h2 className="text-center text-4xl font-bold px-4 p-1 bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-500 w-fit mx-auto">
           Our Products
         </h2>
         <div className="">
