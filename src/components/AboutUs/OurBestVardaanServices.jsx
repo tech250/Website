@@ -22,7 +22,8 @@ const OurBestVardaanServices = () => {
           />
           <div className="flex flex-col gap-2">
             <h4 className="flex items-center gap-2">
-              <i className="fa-solid fa-star text-yellow-600"></i>OUR GOALS
+              <img src="/star-solid-full.svg" alt="Star Icons" width="20px" height="20px"/>
+              OUR GOALS
             </h4>
             <p className="text-black/80">
               Delivering pure, fresh milk with honesty, care, health, and trust.

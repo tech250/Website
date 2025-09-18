@@ -16,9 +16,9 @@ const OurProcess = () => {
             </p>
             <Link
               to="/contact-us"
-              className="px-4 py-2 border w-fit rounded-md shadow-[3px_3px_1px_black] hover:scale-95 transition gap-2 flex items-center"
+              className="px-4 py-2 border w-fit rounded-md shadow-[3px_3px_1px_black] hover:scale-95 transition gap-2 flex items-center text-black/70"
             >
-              <i className="fa-solid fa-phone"></i>
+              <img src="/phone-solid-full.svg" alt="Phone Icon" width="20px" height="20px"/>
               Lets Connect
             </Link>
           </div>

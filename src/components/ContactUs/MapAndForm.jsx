@@ -140,7 +140,7 @@ const MapAndForm = () => {
               alt="Map"
               className="w-full md:w-full z-[2]"
             />
-            <i className="fa-solid fa-location-dot z-[3] top-1/2 left-1/2 text-black/50 text-2xl animate-ping absolute -translate-y-1/2"></i>
+            <img src="/location-dot-solid-full.svg" alt="Location icon" className="z-[3] top-1/2 left-1/2 text-2xl animate-ping absolute -translate-y-1/2" width="20px" height="20px"/>
           </a>
           {/* for form */}
           <div className="w-full md:w-1/2">

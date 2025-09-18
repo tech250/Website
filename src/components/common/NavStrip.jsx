@@ -7,20 +7,20 @@ const NavStrip = () => {
             href="mailto:hello@vardaanfarms.com"
             className="flex items-center gap-2 hover:scale-[102%] transition"
           >
-            <i className="fa-solid fa-envelope text-white/80"></i>
+            <img src="/envelope-solid-full-white.svg" alt="Envelope Icon" width="20px" height="20px"/>
             <p>hello@vardaanfarms.com</p>
           </a>
           <a
             href="tel:+918816000082"
             className="flex items-center gap-2 hover:scale-[102%] transition"
           >
-            <i className="fa-solid fa-phone text-white/80"></i>
+            <img src="/phone-solid-full-white.svg" alt="Envelope Icon" width="20px" height="20px"/>
             <p>+91 8816000082</p>
           </a>
         </div>
         <div className="flex items-center">
           <a href="https://maps.app.goo.gl/bsPAvfkqSoWRbN7Y6" className="flex gap-2 items-center pr-4 border-r-2">
-            <i className="fa-solid fa-clock text-white/80"></i>
+          <img src="/clock-solid-full.svg" alt="Clock Icon" width="20px" height="20px"/>
             <p>08:00 am - 6:00 pm</p>
           </a>
           <div className="flex gap-2 pl-4">

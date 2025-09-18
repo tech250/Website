@@ -11,11 +11,11 @@ const RatingCard = ({
       className={`p-4 sm:p-6 flex flex-col gap-6 sm:gap-4 w-[300px] rounded-2xl  ${specificCss} h-fit hover:scale-[101%] transition ratingCard bg-neutral-100 text-black/50 drop-shadow-[1px_1px_1px_black]`}
     >
       <div className={`flex gap-1 sm:gap-2 text-yellow-600`}>
-        <i className="fa-solid fa-star"></i>
-        <i className="fa-solid fa-star"></i>
-        <i className="fa-solid fa-star"></i>
-        <i className="fa-solid fa-star"></i>
-        <i className="fa-solid fa-star"></i>
+        <img src="/star-solid-full.svg" alt="Star Icon Yellow" width="20px" height="20px"/>
+        <img src="/star-solid-full.svg" alt="Star Icon Yellow" width="20px" height="20px"/>
+        <img src="/star-solid-full.svg" alt="Star Icon Yellow" width="20px" height="20px"/>
+        <img src="/star-solid-full.svg" alt="Star Icon Yellow" width="20px" height="20px"/>
+        <img src="/star-solid-full.svg" alt="Star Icon Yellow" width="20px" height="20px"/>
       </div>
       <p className={`text-[13px] sm:text-sm`}>{description}</p>
       <span className={`h-[1px] w-1/2 bg-black/50`}></span>

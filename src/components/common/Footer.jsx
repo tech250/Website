@@ -19,21 +19,21 @@ const Footer = () => {
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
                 aria-label="Visit Vardaan Farms on Facebook"
               >
-                <i className="fa-brands fa-facebook-f text-black/70 group-hover:text-black duration-700 transition"></i>
+                <img src="/facebook-f-brands-solid-full.svg" alt="" className="fa-brands fa-facebook-f group-hover:text-black duration-700 transition" width="22px" height="22px"/>
               </a>
               <a
                 href="https://www.instagram.com/vardaanfarms/"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
                 aria-label="Visit Vardaan Farms on Instagram"
               >
-                <i className="fa-brands fa-square-instagram text-black/70 group-hover:text-black duration-700 transition"></i>
+                <img src="/square-instagram-brands-solid-full.svg" alt="Instagram Logo" className="group-hover:text-black duration-700 transition" width="22px" height="22px"/>
               </a>
               <a
                 href="https://www.youtube.com/@VardaanFarms"
                 className="group cursor-pointer px-2 py-1 rounded-md shadow-[2px_2px_1px_black] hover:scale-95 border border-black/70 hover:border-black transition duration-700"
                 aria-label="Visit Vardaan Farms on Youtube"
               >
-                <i className="fa-brands fa-youtube text-black/70 group-hover:text-black duration-700 transition"></i>
+               <img src="/youtube-brands-solid-full.svg" alt="Youtube Logo" className="group-hover:text-black duration-700 transition" width="22px" height="22px"/>
               </a>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                 href="https://maps.app.goo.gl/ifmf6TihwVTFM9Go9"
                 className="flex gap-2 items-center text-black/70 hover:text-black transition duration-700"
               >
-                <i className="fa-solid fa-location-dot"></i>
+                <img src="/location-dot-solid-full.svg" alt="Location Icon" width="20px" height="20px"/>
                 <p className="text-sm">
                   Office No-19 Star Tower Sec 30 Gurugram Jhajjar
                 </p>
@@ -55,14 +55,14 @@ const Footer = () => {
                 href="tel:+918816000082"
                 className="flex gap-2 items-center text-black/70 hover:text-black transition duration-700"
               >
-                <i className="fa-solid fa-phone"></i>
+                <img src="/phone-solid-full.svg" alt="Location Icon" width="20px" height="20px"/>
                 <p className="text-sm">(+91) 8816000082</p>
               </a>
               <a
                 href="mailto:hello@vardaanfarms.com"
                 className="flex gap-2 items-center text-black/70 hover:text-black transition duration-700"
               >
-                <i className="fa-solid fa-location-dot"></i>
+                <img src="/envelope-solid-full.svg" alt="Envelope Logo"  width="20px" height="20px"/>
                 <p className="text-sm">hello@vardaanfarms.com</p>
               </a>
             </div>
@@ -80,7 +80,7 @@ const Footer = () => {
                   } hover:text-black transition duration-700`;
                 }}
               >
-                <i className="fa-solid fa-chevron-right"></i>Home
+                <img src="/chevron-right-solid-full.svg" alt="arrow right icon" width="20px" height="20px"/>Home
               </NavLink>
               <NavLink
                 to="/about-us"
@@ -90,7 +90,7 @@ const Footer = () => {
                   } hover:text-black transition duration-700`;
                 }}
               >
-                <i className="fa-solid fa-chevron-right"></i>About Us
+                <img src="/chevron-right-solid-full.svg" alt="arrow right icon" width="20px" height="20px"/>About Us
               </NavLink>
               <NavLink
                 to="/products"
@@ -100,7 +100,7 @@ const Footer = () => {
                   } hover:text-black transition duration-700`;
                 }}
               >
-                <i className="fa-solid fa-chevron-right"></i>Our Products
+                <img src="/chevron-right-solid-full.svg" alt="arrow right icon" width="20px" height="20px"/>Our Products
               </NavLink>
               <NavLink
                 to="/blogs"
@@ -110,7 +110,7 @@ const Footer = () => {
                   } hover:text-black transition duration-700`;
                 }}
               >
-                <i className="fa-solid fa-chevron-right"></i>Blogs
+                <img src="/chevron-right-solid-full.svg" alt="arrow right icon" width="20px" height="20px"/>Blogs
               </NavLink>
             </div>
           </div>

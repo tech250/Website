@@ -24,7 +24,7 @@ const MoveUpArrow = () => {
       className="w-fit fixed right-[30px] sm:right-[80px] bottom-[20px] z-[35] text-2xl rounded-full text-black/40 py-2 px-2 cursor-pointer border border-black/40 bg-white/70"
       onClick={scrollToTop}
     >
-      <i className="fa-solid fa-arrow-up"></i>
+      <img src="/arrow-up-solid-full.svg" alt="Arrow Up Icon" width="30px" height="30px"/>
     </div>
   ) : (
     ""

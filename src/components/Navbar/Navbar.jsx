@@ -121,7 +121,7 @@ const Navbar = () => {
               }}
               onClick={closeMobileNav}
             >
-              <i className="fa-solid fa-house"></i>
+              <img src="/house-solid-full.svg" alt="House Icon" width="22px" height="22px"/>
               Home
             </NavLink>
             <NavLink
@@ -135,7 +135,7 @@ const Navbar = () => {
               }}
               onClick={closeMobileNav}
             >
-              <i className="fa-solid fa-users"></i>
+              <img src="/user-solid-full.svg" alt="User Icon" width="22px" height="22px"/>
               About
             </NavLink>
             <NavLink
@@ -149,7 +149,7 @@ const Navbar = () => {
               }}
               onClick={closeMobileNav}
             >
-              <i className="fa-solid fa-phone"></i>
+              <img src="/phone-solid-full-black.svg" alt="Phone Icon" width="22px" height="22px"/>
               Contact Us
             </NavLink>
             <NavLink
@@ -163,7 +163,7 @@ const Navbar = () => {
               }}
               onClick={closeMobileNav}
             >
-              <i className="fa-solid fa-cow"></i>
+              <img src="/cow-solid-full.svg" alt="Cow Icon" width="22px" height="22px"/>
               Our Products
             </NavLink>
             <NavLink
@@ -177,7 +177,7 @@ const Navbar = () => {
               }}
               onClick={closeMobileNav}
             >
-              <i className="fa-solid fa-pen-nib"></i>
+              <img src="/pen-nib-solid-full.svg" alt="Ink Pen Icon" width="22px" height="22px"/>
               Blogs
             </NavLink>
           </div>

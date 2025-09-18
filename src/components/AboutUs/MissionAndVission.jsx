@@ -11,7 +11,7 @@ const MissionAndVission = () => {
           />
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-4 relative">
-          <i className="fa-solid fa-quote-left text-6xl absolute text-black/20 -translate-y-1/2 left-0"></i>
+           <img src="/quote-left-solid-full.svg" width="75" height="75" alt="Quote Left" className="text-6xl absolute text-black/20 -translate-y-1/2 left-0 z-[-1]"/>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
             Our Mission
           </h2>
@@ -34,7 +34,7 @@ const MissionAndVission = () => {
       </div>
       <div className="custom-container flex flex-col gap-8 lg:gap-12 md:flex-row md:items-center">
         <div className="w-full md:w-1/2 flex flex-col gap-4 relative">
-          <i className="fa-solid fa-quote-left text-6xl absolute text-black/20 -translate-y-1/2 left-0"></i>
+        <img src="/quote-left-solid-full.svg" width="75" height="75" alt="Quote Left" className="text-6xl absolute text-black/20 -translate-y-1/2 left-0 z-[-1]"/>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
             Our Vission
           </h2>

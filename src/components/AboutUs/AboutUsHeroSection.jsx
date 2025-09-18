@@ -11,7 +11,7 @@ const AboutUsHeroSection = () => {
             At Vardaan Farms, we care for our cows and buffaloes like family. They eat clean, roam free, and give fresh, natural milk. Every bottle we deliver is pure, safe, and filled with honesty.
           </p>
           <span className="flex items-center gap-2">
-            <i className="fa-solid fa-heart text-yellow-600"></i>
+            <img src="/heart-solid-full.svg" alt="Heart Icon Dark Yellow Color" width="22px" height="22px"/>
             <p className="text-black/50"><span className="text-black font-semibold">700 + new customers</span>{" "}in last 30 Days</p>
           </span>
           <Link
