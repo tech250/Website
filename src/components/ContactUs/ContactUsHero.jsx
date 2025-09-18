@@ -43,41 +43,45 @@ const ContactUsHero = () => {
             <div className="flex flex-col gap-1 md:gap-2">
               <h3 className="text-xl font-semibold">Social</h3>
               <div className="group w-fit text-sm">
-                <a href="https://www.facebook.com/vardaanfarms/" className="leading-none text-black/50">
-                  Facebook
+                <a href="https://www.facebook.com/vardaanfarms/" className="flex gap-2 leading-none text-black/50 items-center">
+                  <img src="/facebook-f-brands-solid-full.svg" alt="Facebook Logo" width="20px" height="20px"/>Facebook
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="https://www.instagram.com/vardaanfarms/" className="leading-none text-black/50">
-                  Instagream
+                <a href="https://www.instagram.com/vardaanfarms/" className="flex items-center leading-none text-black/50 gap-2">
+                <img src="/square-instagram-brands-solid-full.svg" alt="Instagram Logo" width="20px" height="20px"/>
+                  Instagram
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="https://www.youtube.com/@VardaanFarms" className="leading-none text-black/50">
+                <a href="https://www.youtube.com/@VardaanFarms" className="flex items-center leading-none text-black/50 gap-2">
+                <img src="/youtube-brands-solid-full.svg" alt="Youtube Logo" width="20px" height="20px"/>
                   Youtube
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
             </div>
-
             <div className="flex flex-col gap-2">
               <h3 className="text-xl font-semibold">Get in touch</h3>
               <div className="group w-fit text-sm">
-                <a href="mailto:hello@vardaanfarms.com" className="leading-none text-black/50">
+                <a href="mailto:hello@vardaanfarms.com" className="flex items-center gap-2 leading-none text-black/50">
+                <img src="/envelope-solid-full.svg" alt="Enveloppe Logo" height="20px" width="20px"/>
                   hello@vardaanfarms.com
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="tel:+918816000082" className="leading-none text-black/50">
+                <a href="tel:+918816000082" className="flex items-center gap-2 leading-none text-black/50">
+                  <img src="/phone-solid-full.svg" alt="Phone Logo" height="20px" width="20px"/>
                   +91 8816000082
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 group-hover:max-w-[200px] transition-all duration-500"></div>
               </div>
               <div className="group w-fit text-sm">
-                <a href="https://maps.app.goo.gl/bsPAvfkqSoWRbN7Y6" className="leading-none text-black/50">
+                <a href="https://maps.app.goo.gl/bsPAvfkqSoWRbN7Y6" className="flex items-center gap-2 leading-none text-black/50">
+                <img src="/location-dot-solid-full.svg" alt="Location Logo" height="20px" width="20px"/>
                   Office No-19 Star Tower Sec 30 Gurugram, Jhajjar
                 </a>
                 <div className="max-w-[0px] h-[2px] bg-black/50 2xl:group-hover:max-w-[1000px] group-hover:max-w-[150px] transition-all duration-500"></div>
