@@ -77,7 +77,7 @@ const AboutUs = () => {
     headline: "Vardaan Farms - Ethical And Grass Fed Dairy Farming In India",
     description:
       "We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free.",
-    image: "https://vardaanfarms.com/assets/ourFarmCowMilking-DkrKgpGU.jpg",
+    image: "https://vardaanfarms.com/5-cows-grazzing-in-field.jpg",
     author: {
       "@type": "Person",
       name: "Mayank Behl",
@@ -87,7 +87,7 @@ const AboutUs = () => {
       name: "Vardaan Farms",
       logo: {
         "@type": "ImageObject",
-        url: "https://vardaanfarms.com/assets/ourFarmCowMilking-DkrKgpGU.jpg",
+        url: "https://vardaanfarms.com/5-cows-grazzing-in-field.jpg",
       },
     },
     datePublished: "2025-09-13",
@@ -112,7 +112,12 @@ const AboutUs = () => {
         property="og:description"
         content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
       />
-      <meta property="og:image" content="" />
+      <meta
+        property="og:image"
+        content="https://vardaanfarms.com/5-cows-grazzing-in-field.jpg"
+      />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:url" content="https://vardaanfarms.com/about-us" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
@@ -123,7 +128,10 @@ const AboutUs = () => {
         name="twitter:description"
         content="We Deliver Pure, high-quality Dairy Products From Grass-fed Cows That Freely Roam In Sunlight. Our Dairy Products are Natural, and Artificial Additives Free."
       />
-      <meta name="twitter:image" content="" />
+      <meta
+        name="twitter:image"
+        content="https://vardaanfarms.com/5-cows-grazzing-in-field.jpg"
+      />
       <link rel="canonical" href="https://www.vardaanfarms.com/about-us" />
       <script type="application/ld+json">{JSON.stringify(faqData2)}</script>
       <script type="application/ld+json">
@@ -135,7 +143,7 @@ const AboutUs = () => {
         <OurBestVardaanServices />
         <MissionAndVission />
         <Testimonials />
-        <FAQSection data={faqData} imgLeftSide={true}/>
+        <FAQSection data={faqData} imgLeftSide={true} />
         <Cta />
       </div>
     </>
