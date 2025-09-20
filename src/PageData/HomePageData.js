@@ -9,7 +9,7 @@ export const HomeWhyUsSlidesData = [
     imgSrc: "/home-why-us-2.jpeg",
     imgAlt: "",
     heading: "Fresh Daily",
-    pera: "We deliver fresh milk morning, the way families prefer. Chilling and transport stay tight. No old stock. From udder to bottle quickly, so tea, dahi, and paneer taste better daily.",
+    pera: "We deliver fresh milk morning, the way families prefer. Chilling and transport stay tight. No old stock. From udder to Packets quickly, so tea, dahi, and paneer taste better daily.",
   },
   {
     imgSrc: "/home-why-us-3.jpeg",
@@ -27,7 +27,7 @@ export const HomeWhyUsSlidesData = [
     imgSrc: "/home-why-us-5.jpeg",
     imgAlt: "",
     heading: "Simple, Honest Service",
-    pera: "We are easy to reach and fix issues. Simple subscription, pause anytime. Transparent pricing. We speak straight, keep promises, and treat customers like family. Service matters more than slogans here.",
+    pera: "We are easy to reach and quick to resolve concerns. Fair pricing, no hidden surprises. We speak clearly, keep promises, and treat customers like family. Service here is about trust, care, and real commitment.",
   },
 ];
 
@@ -222,24 +222,24 @@ export const testimonialCards = [
   {
     description:
       "As a mother, I always worry about giving my children safe food. Vardaan Farms delivers milk and ghee that I can trust completely. Their service is timely, and the taste never disappoints us.",
-    name: "Anil Kumar",
-    designation: "Homemaker",
-    specificCss:
-      "z-[4] rotate-[-9deg] mt-[20px] -translate-x-[20%] sm:-translate-x-[40%] md:translate-x-0",
-    imgSrc: "/anilKumar.jpeg",
-  },
-  {
-    description:
-      "From packaging to taste, Vardaan Farms maintains excellent quality. I no longer worry about artificial additives in dairy. Their products bring back the authentic village flavor I grew up with.",
     name: "Pooja Singh",
     designation: "Software Engineer",
     specificCss:
-      "z-[3] rotate-[12deg] -translate-x-[60%] md:translate-x-[-20%]",
+      "z-[4] rotate-[-9deg] mt-[20px] -translate-x-[20%] sm:-translate-x-[40%] md:translate-x-0",
     imgSrc: "/poojaSingh.jpg",
   },
   {
     description:
-      "I love cooking with their desi cow ghee. The aroma fills my kitchen, and my family notices the authentic taste in every meal. Truly feels like traditional homemade goodness in every spoonful.",
+      "From packaging to taste, Vardaan Farms maintains excellent quality. I no longer worry about artificial additives in dairy. Their products bring back the authentic village flavor I grew up with.",
+    name: "Anil Kumar",
+    designation: "Homemaker",
+    specificCss:
+      "z-[3] rotate-[12deg] -translate-x-[60%] md:translate-x-[-20%]",
+    imgSrc: "/anilKumar.jpeg",
+  },
+  {
+    description:
+      "Being in fitness, I always seek natural nutrition. Vardaan Farms’ buffalo ghee and fresh milk keep me energized. I recommend them to anyone looking for authentic, chemical-free dairy products every day.",
     name: "Rahul Mehta",
     designation: "Teacher",
     specificCss:
@@ -248,7 +248,7 @@ export const testimonialCards = [
   },
   {
     description:
-      "Being in fitness, I always seek natural nutrition. Vardaan Farms’ buffalo ghee and fresh milk keep me energized. I recommend them to anyone looking for authentic, chemical-free dairy products every day.",
+      "I love cooking with their desi cow ghee. The aroma fills my kitchen, and my family notices the authentic taste in every meal. Truly feels like traditional homemade goodness in every spoonful.",
     name: "Priya Sharma",
     designation: "Fitness Trainer",
     specificCss:

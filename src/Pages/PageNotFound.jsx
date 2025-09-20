@@ -15,7 +15,6 @@ const PageNotFound = () => {
               className=""
             />
           </div>
-
           <div className="flex flex-col gap-2 items-center">
             <h2 className="text-4xl text-black/80">Page Not Found !</h2>
             <p className="text-black/50 text-center">
