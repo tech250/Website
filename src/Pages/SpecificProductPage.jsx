@@ -5,11 +5,8 @@ import ProductHeroSection from "../components/Product/ProductHeroSection.jsx";
 import ProductTestimonials from "../components/Product/ProductTestimonials.jsx";
 
 const SpecificProductPage = () => {
-  console.log('rendered');
   const { name } = useParams();
   const [pageData, setPageData] = useState(null);
-  
-  console.log(pageData);
   
   useEffect(() => {
     if (specificProductData[`${name}`]) {
