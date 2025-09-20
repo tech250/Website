@@ -8,32 +8,8 @@
   }
 }
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/poppins-v22-latin-regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/poppins-v22-latin-500.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/poppins-v22-latin-700.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif, 'Segoe UI';
 }
 
 html {

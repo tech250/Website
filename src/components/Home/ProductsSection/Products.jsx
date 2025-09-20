@@ -94,6 +94,7 @@ const Products = ({ data }) => {
                 closeSlide(obj.productName, i);
               }}
             >
+              <img src="/xmark-solid-full.svg" alt="Cross Icon" className="absolute right-0 mr-4 cursor-pointer" width="20px" height="20px" onClick={()=>{closeSlide(obj.productName, i)}}/>
               <h4 className="text-xl">{obj.productName}</h4>
               <p className="grow">{obj.productDescription}</p>
               <Link
