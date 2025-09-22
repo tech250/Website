@@ -21,8 +21,8 @@ const ContactUsHero = () => {
   return (
     <div>
       <div className="custom-container flex gap-6 md:gap-8 lg:gap-12 items-center flex-col md:flex-row">
-        <div className="w-full md:w-2/5 flex flex-col gap-2">
-          <h1 className="text-[80px] font-bold leading-none text-black/80">
+        <div className="w-full md:w-2/5 flex flex-col gap-2 ">
+          <h1 className="text-[80px] md:text-[70px] lg:text-[80px] font-bold leading-none text-black/80">
             Contact
           </h1>
           <p className="text-black/50">
