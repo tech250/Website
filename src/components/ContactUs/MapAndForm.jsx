@@ -1,117 +1,39 @@
 import { ToastContainer, toast } from "react-toastify";
 import { Bounce } from "react-toastify";
-import { getDatabase, ref, set } from "firebase/database";
-import { useRef } from "react";
-import { useEffect, useState } from "react";
+import db from "../../firebase/firebase"; // ✅ static import
+import { ref, set } from "firebase/database";
+import { useRef, useState } from "react";
+
 const MapAndForm = () => {
-  const [database, setDatabase] = useState(null);
   const [loading, setLoading] = useState(false);
   const form = useRef(null);
 
   function handleSubmit(e) {
-    setLoading(true);
-    const dataToSend = {};
     e.preventDefault();
+    setLoading(true);
+
     const formData = new FormData(e.target);
-    for (const [key, value] of formData.entries()) {
-      dataToSend[`${key}`] = value;
-    }
-    console.log(dataToSend);
-    if (
-      dataToSend.name == "" ||
-      dataToSend.phoneNumber == "" ||
-      dataToSend.email == "" ||
-      dataToSend.subject == ""
-    ) {
+    const dataToSend = Object.fromEntries(formData.entries());
+
+    if (!dataToSend.name || !dataToSend.phoneNumber || !dataToSend.email || !dataToSend.subject) {
       toast.error("Fields Can't Be Empty");
       setLoading(false);
-    } else {
-      const db = getDatabase();
-      const useRef = ref(db, "users/" + new Date().getTime());
-      set(useRef, dataToSend)
-        .then(() => {
-          toast.success("Your Response is Recorded");
-          form.current.reset();
-          setLoading(false);
-        })
-        .catch((err) => {
-          toast.error("Something Went Wrong");
-          console.log(err);
-          setLoading(false);
-        });
+      return;
     }
+
+    const userRef = ref(db, "users/" + Date.now());
+
+    set(userRef, dataToSend)
+      .then(() => {
+        toast.success("Your Response is Recorded");
+        form.current.reset();
+      })
+      .catch((err) => {
+        console.error(err);
+        toast.error("Something Went Wrong");
+      })
+      .finally(() => setLoading(false));
   }
-
-  useEffect(() => {
-    const loadDB = async () => {
-      const db = await (
-        await import("../../firebase/firebase.js")
-      ).loadFirebase();
-      setDatabase(db);
-    };
-    loadDB();
-  }, []);
-
-  const faqData = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How can i contact Vardaan Farms?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "You can easily reach out to Vardaan Farms by calling us at +91 8816000082. We're happy to assist you with any queries about our dairy products and services!",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What's the Official mail of Vardaan Farms?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The Official mail of Vardaan Farms is hello@vardaanfarms.com",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Where is Vardaan Farms Office?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Vardaan Farms office is located in Star Tower, Block A, Sector 30, Gurugram, Office No 19, You can also Checkout on Google maps.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Is Vardaan Farms office open on Sunday?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "No, but you can still visit their Manufacturing Plant (Green Field Organc farming) in Jhajjar, checkout on google maps.",
-        },
-      },
-    ],
-  };
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: "Get in Touch with Vardaan Farms, Contact Us at (+91)881600082",
-    description:
-      "Have a Question or Need Fresh Dairy Products? We'd Love To Hear From You! Reach Out to Vardaan Farms via call, email, or Visit us for farm-fresh Goodness.",
-    image: "https://vardaanfarms.com/assets/ourFarmCowMilking-DkrKgpGU.jpg",
-    author: {
-      "@type": "Person",
-      name: "Mayank Behl",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Vardaan Farms",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://vardaanfarms.com/assets/ourFarmCowMilking-DkrKgpGU.jpg",
-      },
-    },
-    datePublished: "2025-03-26",
-    dateModified: "2025-03-26",
-  };
 
   return (
     <>
@@ -140,7 +62,13 @@ const MapAndForm = () => {
               alt="Map"
               className="w-full md:w-full z-[2]"
             />
-            <img src="/location-dot-solid-full.svg" alt="Location icon" className="z-[3] top-1/2 left-1/2 text-2xl animate-ping absolute -translate-y-1/2" width="20px" height="20px"/>
+            <img
+              src="/location-dot-solid-full.svg"
+              alt="Location icon"
+              className="z-[3] top-1/2 left-1/2 text-2xl animate-ping absolute -translate-y-1/2"
+              width="20px"
+              height="20px"
+            />
           </a>
           {/* for form */}
           <div className="w-full md:w-1/2">
@@ -196,10 +124,10 @@ const MapAndForm = () => {
               ></textarea>
               <button
                 type="submit"
-                className={`p-2 bg-black/50 text-white/70 cursor-pointer transition ${loading? "cursor-pointer":"cursor-not-allowed hover:scale-[98%]"}`}
+                className={`p-2 bg-black/50 text-white/70 cursor-pointer transition ${loading ? "cursor-not-allowed hover:scale-[98%]" : ""}`}
               >
                 {loading ? (
-                  <p className={`p-3 rounded-full border-1 border-t-0 border-l-0 w-fit mx-auto border-white/80 animate-spin`}></p>
+                  <p className="p-3 rounded-full border-1 border-t-0 border-l-0 w-fit mx-auto border-white/80 animate-spin"></p>
                 ) : (
                   "Send Message"
                 )}

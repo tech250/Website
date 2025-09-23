@@ -104,7 +104,7 @@ const ContactUs = () => {
       <script type="application/ld+json">
         {JSON.stringify(articleSchema)}
       </script>
-      <div className="layout-container pb-6 bg-[url('/crumbled-paper.png')] gap-6 md:gap-8">
+      <div className="layout-container pb-6 gap-6 md:gap-8">
         <ContactUsHero />
         <p className="custom-container text-black/50 text-center sm:text-lg">
           We’d love to hear from you! Whether you have a question about our
