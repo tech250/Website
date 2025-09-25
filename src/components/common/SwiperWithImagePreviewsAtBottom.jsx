@@ -28,7 +28,7 @@ export default function SwiperWithImagePreviewsAtBottom({ data }) {
       >
         {data.map((imgSrc, id) => (
           <SwiperSlide key={id} className="border border-black/5 rounded-md">
-            <img src={imgSrc} alt="Vardaan Farms Products Image" className="rounded-md" />
+            <img src={imgSrc} alt="Vardaan Farms Products Image" className="rounded-md" loading={`${id==0? "eager":"lazy"}`}/>
           </SwiperSlide>
         ))}
       </Swiper>
